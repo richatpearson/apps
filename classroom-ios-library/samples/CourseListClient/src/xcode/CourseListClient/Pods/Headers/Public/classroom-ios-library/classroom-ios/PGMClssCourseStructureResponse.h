@@ -1,0 +1,1 @@
+../../../../classroom-ios-library/framework/src/xcode/classroom-ios/PGMClssCourseStructureResponse.h

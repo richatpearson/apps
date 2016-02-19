@@ -1,0 +1,16 @@
+PODS:
+  - classroom-ios-library (0.1.0-SNAPSHOT)
+  - core-ios-sdk (1.2.0)
+  - pi-ios-sdk (1.2.0)
+
+DEPENDENCIES:
+  - classroom-ios-library (= 0.1.0-SNAPSHOT)
+  - core-ios-sdk (= 1.2.0)
+  - pi-ios-sdk (= 1.2.0)
+
+SPEC CHECKSUMS:
+  classroom-ios-library: 56016e1cbe18369b7703a2ec4217d7c1eded6145
+  core-ios-sdk: a71823fa0da8738d439997994f8a40d9b5282061
+  pi-ios-sdk: c52e4e867bc23dcf58435208e97f7383677d10ae
+
+COCOAPODS: 0.34.4

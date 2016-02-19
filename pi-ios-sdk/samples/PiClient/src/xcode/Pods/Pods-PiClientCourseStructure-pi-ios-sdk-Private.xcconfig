@@ -1,0 +1,5 @@
+#include "Pods-PiClientCourseStructure-pi-ios-sdk.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/pi-ios-sdk" "${PODS_ROOT}/BuildHeaders/pi-ios-sdk/Pi-ios-client" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/pi-ios-sdk" "${PODS_ROOT}/Headers/pi-ios-sdk/Pi-ios-client"
+OTHER_LDFLAGS = -ObjC ${PODS_PICLIENTCOURSESTRUCTURE_PI_IOS_SDK_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

@@ -1,0 +1,1232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F2D031F625EA3D6D63825 /* PGMPiTokenOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D96CF52829838BBEA3F52395 /* PGMPiTokenOperation.h */; };
+		01F9B86163559052396C6DFB /* PGMPiTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FF445FB2B121328EA1C10A /* PGMPiTokenRefreshOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		03575B7F335681E56F7BAF26 /* PGMPiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B3783E5AA1C074DAA36CD /* PGMPiClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0372C830527120E1490668E2 /* PGMClssEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A1797FC391377A9C1CB89284 /* PGMClssEnvironment.h */; };
+		0E7537B954759198948A7DD5 /* PGMPiConsentPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76E6FCB8CAED8DE3508148 /* PGMPiConsentPolicy.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1153B0AD83C4F9F08B4E45A9 /* PGMClssCourseStructureResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D504535915849B53BB169 /* PGMClssCourseStructureResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		124EC51F7EAE6A7E08AF98C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */; };
+		12D9260F64BCDC91E3B614AC /* PGMClssAssignmentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAAD1835D6BAF31E02C4216 /* PGMClssAssignmentResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		156ABE9335698D1E35D429A2 /* PGMClssCourseListConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DA875B0176ECD685ED01B /* PGMClssCourseListConnector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1589ADF1B56E42EE68D6A58D /* PGMPiClientLoginOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD64468B568811730FBE6EF2 /* PGMPiClientLoginOptions.h */; };
+		1D2B5BF580252A4DDF0C4ACF /* PGMPiForgotUsername.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F2D7342BBA33B26859677 /* PGMPiForgotUsername.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1DEFD54857F4A394A4E03B1E /* PGMCoreAccessibilityData.m in Sources */ = {isa = PBXBuildFile; fileRef = C05335CBA02B861E04FD2C75 /* PGMCoreAccessibilityData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		20A962AFC89C0E7640E15428 /* PGMCoreDeviceAbstraction.h in Headers */ = {isa = PBXBuildFile; fileRef = C69024F6ACA0173DFB24AADB /* PGMCoreDeviceAbstraction.h */; };
+		23A5F1B4D6A956F9810E436F /* PGMClssAssignment.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA01747789F69C3FB1971 /* PGMClssAssignment.h */; };
+		26A229C6B4BC6AE171354FC8 /* PGMClssCourseStructureConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 54779899372B852FF4844E77 /* PGMClssCourseStructureConnector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		27B0CA554123B70619E8DEB6 /* PGMCoreServiceProviderData.h in Headers */ = {isa = PBXBuildFile; fileRef = F8646A42E6A79118C8F1B39D /* PGMCoreServiceProviderData.h */; };
+		28D4E03008BB33C0ED35CE34 /* PGMPiConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C399E6FA6E7C944D51586E /* PGMPiConsent.h */; };
+		29ABC3919AA9B6FF293BFBD6 /* PGMCoreReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2469B3823014432AE46573 /* PGMCoreReachability.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2B6E33FE8E4150096E1F74A8 /* PGMCoreReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D162C16BDA4386BB75A95BAF /* PGMCoreReachability.h */; };
+		2F20B0A27D7FC94336E95478 /* PGMPiAlternateId.h in Headers */ = {isa = PBXBuildFile; fileRef = 368D94AEE6649F84E3D11629 /* PGMPiAlternateId.h */; };
+		3041F0F4F0CF3E17F3761A2B /* PGMClssError.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6C45670C98E5356ACDAF4 /* PGMClssError.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		33E7DAB9DFA73CD4FD2126BB /* PGMPiToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D34EE24CAB2DA914CFE53EA /* PGMPiToken.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		36B47435D187424B7497839A /* PGMPiTokenRefreshOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C392FAC4FED8344AE6A2A21 /* PGMPiTokenRefreshOperation.h */; };
+		3F4D83A426C517EDDB801220 /* PGMCoreSessionDataTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B92E99532594B1372E478493 /* PGMCoreSessionDataTaskOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		40A236977FD332013523F55E /* PGMCoreSessionTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A221AC27296B57BAABF8B42 /* PGMCoreSessionTaskOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		410ADA52DE0A35F6EC5DC841 /* PGMCoreDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7118A4A3E2E8D07451D1FA /* PGMCoreDeviceData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4BD883540F4161EA36C52EA5 /* PGMClssCourseStructureSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F257CDCF8361DF5D0B4C9D99 /* PGMClssCourseStructureSerializer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4BE8647418DA3873F926CA4C /* PGMCoreNetworkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F477FDD9C887ECA92ECB704 /* PGMCoreNetworkData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5297EFFE0DC0F4A5F3F9F524 /* PGMCoreSessionDownloadTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C666DC011748758C18FE959 /* PGMCoreSessionDownloadTaskOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		536A21A4A6D4398E157B3344 /* PGMClssCourseListSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3B1B455F841ADC90D7CD66 /* PGMClssCourseListSerializer.h */; };
+		54FA49E470112F3360FD87F9 /* PGMPiForgotUsername.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A5A6F68E0D56F400932755 /* PGMPiForgotUsername.h */; };
+		55C0B43426A36E66F136AEB0 /* PGMPiError.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AE5648BD10ABC72E019330 /* PGMPiError.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		57F92B75DE887B2A6AF86A06 /* PGMClssCourseListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83C86DF7F522E24C8FB903 /* PGMClssCourseListItem.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		58678118324CAA87B8693903 /* PGMPiForgotPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D63F813B132B0F139FC121 /* PGMPiForgotPassword.h */; };
+		5911888181C8A2B42BB7E738 /* PGMCoreLocalizationData.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0A71F7C302881085B832EF /* PGMCoreLocalizationData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5BAF6D25E66C04560EB8E2BC /* PGMCoreFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC268D48D34FABA9E60B0EB /* PGMCoreFileRequest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5C6E609CDB88BB5FFEBAD180 /* PGMClssAssignmentSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9F28D226B9BC13800F23F /* PGMClssAssignmentSerializer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DCE6E53C73205C771A1961A /* PGMPiSecureStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3D293741F76D0C4CE0F9A7 /* PGMPiSecureStorage.h */; };
+		5E415D56F2BB7ADD9FEAC2EA /* PGMPiUserConsents.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C8E5EABCD0ABDBEF4822C6 /* PGMPiUserConsents.h */; };
+		5FF4BDDDBA487CDB33FB4BC7 /* PGMPiConsent.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD804FA053E319D16CF1A8 /* PGMPiConsent.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		61EF263267AE27B2905C3CAE /* PGMPiClientLoginOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C783CEFA24E8581E3493B2F9 /* PGMPiClientLoginOptions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		64A4C0C994D58FCE0E21DCF3 /* PGMCoreSessionDataTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D45F25A05C5B69FF305D4818 /* PGMCoreSessionDataTaskOperation.h */; };
+		65075D195FEEA98D13B8FE62 /* PGMPiUserConsents.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF76B2B6A6FFE67C9C7AF08 /* PGMPiUserConsents.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6525B3C1AEFED25539EB67FC /* PGMClssError.h in Headers */ = {isa = PBXBuildFile; fileRef = 23580C6A57DCCD902120870B /* PGMClssError.h */; };
+		65C0B06EF63208A857474D4F /* Pods-CourseListClient-pi-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A7DE31E16F9743619B2EB2 /* Pods-CourseListClient-pi-ios-sdk-dummy.m */; };
+		6757688F8B8AF24427647309 /* PGMPiOperationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD4E5B696E35EDD6CB555EF /* PGMPiOperationConstants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6B0D5D87D4CE2FCDD63E34A9 /* PGMClssAssignmentActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A363110375D84BDD0552DAA6 /* PGMClssAssignmentActivity.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6D92BF3095F1FDF283F18A82 /* PGMCoreDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40A3E2BAFC23233A37A08F /* PGMCoreDeviceData.h */; };
+		70C64298729348AFD9189AFD /* PGMCoreApplicationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B7100CB4C42E716FBB256C /* PGMCoreApplicationData.h */; };
+		718C8C68B61D733CEC8F1CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */; };
+		764E4E8878D93005A3EBBB2F /* PGMCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3BA526D7E55DD0BE49B398 /* PGMCore.h */; };
+		766B2D1DC2D11F1F41D3DA40 /* PGMClssAssignmentSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = F671B4DC06F2599EC898215B /* PGMClssAssignmentSorting.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7699C68885CA594105541BB0 /* PGMPiEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8677192DC6E587020720EE /* PGMPiEnvironment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		76FFA9F4E5E3B4C3EAEE4B99 /* PGMCoreApplicationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA10FFA20121DE1BC99E29 /* PGMCoreApplicationData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		77CAB5164241A26FF63A8D9C /* PGMPiIdentityProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = B49DECF0A55BBF52ADB6E0E4 /* PGMPiIdentityProfile.h */; };
+		783AB2A8B64360D2C7C5BD72 /* PGMPiError.h in Headers */ = {isa = PBXBuildFile; fileRef = B735167CFD71AC75F0C417FF /* PGMPiError.h */; };
+		7B54DADB675CC0F4849FF462 /* PGMCoreSessionTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0D42F51710BD07A6DD9D9B /* PGMCoreSessionTaskOperation.h */; };
+		7F67E6B18C97D53018916D2E /* PGMPiSecureStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E47711C9C15D80029CECA3 /* PGMPiSecureStorage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		81F394991DB4CA9C833803E1 /* PGMClssAssignmentActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3125004432F91B6E199AC5 /* PGMClssAssignmentActivity.h */; };
+		8A49303B9E456630599D0105 /* PGMClssValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F0F8673BB62673F3BCFA4D /* PGMClssValidator.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8C64D781EF8479311671946A /* PGMClssCourseListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD96B8611B2C42CD81FDD3E /* PGMClssCourseListResponse.h */; };
+		901367A1267E873AF45614A7 /* PGMClssCourseStructureSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 310470F0533E72789E99F2DE /* PGMClssCourseStructureSerializer.h */; };
+		90904A9488225F543F7A8EC4 /* PGMCoreSessionUploadTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F838878547BA6648423430 /* PGMCoreSessionUploadTaskOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		924AB7D21710390C66CDF7C4 /* Pods-CourseListClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA8F0C67E1093341802E73 /* Pods-CourseListClient-dummy.m */; };
+		9526F11EBD36287AD0B08717 /* PGMClssDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4191A8C56027D8C7659B9C /* PGMClssDateUtil.h */; };
+		965D18DC6E312696CAED251E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */; };
+		969D6BCF83EA9A3E1D01A652 /* PGMCoreErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E255127A22B756843E964D3 /* PGMCoreErrors.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		96B4745AB190A8EDE064E368 /* PGMPiAlternateId.m in Sources */ = {isa = PBXBuildFile; fileRef = 033122BFBDB87617D57920A7 /* PGMPiAlternateId.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9A1599BD6CF954D825161161 /* PGMPiUserComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C6955A667133568B1501E /* PGMPiUserComposite.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9B9E091FC6BF4530FCAB8EC6 /* PGMPiCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CAD924A8F2C3E0EE4021D6 /* PGMPiCredentials.h */; };
+		9BEB794603B51944EADE6CD4 /* PGMPiEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = C5054E3E2E3EB516EE8EFA91 /* PGMPiEnvironment.h */; };
+		9E19A7E885EA34D329D18B44 /* PGMClssAssignmentSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 288ABD31E1827C84D0B12418 /* PGMClssAssignmentSerializer.h */; };
+		9E369DF1F93642A272C60B4E /* PGMClssAssignmentConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F1E62DA5D35D18FEEC7086 /* PGMClssAssignmentConnector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A3BDB9A74EFC22C05F7865E0 /* PGMClssValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7B6D86BE26F381868C1058 /* PGMClssValidator.h */; };
+		A4BC3BBBFBE48AC76C202FCC /* PGMPiClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B04E4C56BCF98C2C1B7B00CD /* PGMPiClientDelegate.h */; };
+		A5BDD81C37ED49CB0E74D7A0 /* PGMPiForgotPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = A327D4C0379A804A693AF58B /* PGMPiForgotPassword.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A6B8B17CE027B6503BFD1F22 /* PGMClssCourseListConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5872F917749C1C6320CECA /* PGMClssCourseListConnector.h */; };
+		A86BE83B9751E28EAE2E646D /* PGMClssCourseListSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3534E2C2D6451836CDEAE7C1 /* PGMClssCourseListSerializer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A99D124E04B6EE0510A446A5 /* PGMCoreAccessibilityData.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F96154D2B206D51ACDA41C /* PGMCoreAccessibilityData.h */; };
+		ABB2297F06F2C1E9B9C75BCD /* PGMCoreSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 715A937F6BDF8FFA9F7EC186 /* PGMCoreSessionManager.h */; };
+		AC163BD3D8CC4E69ABE2E75F /* PGMPiUserIdOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B00A9DAA0D162A9B34F651D /* PGMPiUserIdOperation.h */; };
+		B31B6758F76B35C9ACCE78F0 /* PGMPiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C299A9C1C45F48E07701D7 /* PGMPiResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B508253928A209C167689749 /* PGMClssCourseListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DF46113F61E0763ACFD1E /* PGMClssCourseListResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B77DAC10FC8EAF34886DC03D /* PGMPiIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F59B0377A609B2BE3F0C0C /* PGMPiIdentity.h */; };
+		BA1D2AD27A5AC2419132B3A6 /* PGMClssCourseListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8C511BA8AAC1667D971FC0 /* PGMClssCourseListItem.h */; };
+		BAAC7D3F5F3D96634000BB1A /* PGMCoreNetworkData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6092529541C19FAE3CD6FA7C /* PGMCoreNetworkData.h */; };
+		BABAC7EFD36D61EB0C17F71E /* PGMClssCourseStructureResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 433420642D0277532FF6B6DF /* PGMClssCourseStructureResponse.h */; };
+		BBB2AF19BD631555AC2AAEF0 /* PGMPiTokenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F80D065D6E62D50E0575A2 /* PGMPiTokenOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C0E097541A2B9EA24D5B2B1C /* PGMPiUserIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C89F979AB2449F9F17285700 /* PGMPiUserIdOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C126F8AA0E9C8F6838D6384E /* PGMCoreDeviceAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D0742A2014AACC65F7767 /* PGMCoreDeviceAbstraction.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C312708A46BE63A09F20A702 /* PGMClssAssignmentResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DCE6DB2CC65398DD616CB0 /* PGMClssAssignmentResponse.h */; };
+		C70D3C41742553FAA857D382 /* PGMCoreSessionDownloadTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DC728060C9AEA3E5053F823C /* PGMCoreSessionDownloadTaskOperation.h */; };
+		C93B2BC8F82CB79BF2CF135C /* PGMCoreSessionAuthorizationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7070C108512B8419E0F41E8F /* PGMCoreSessionAuthorizationDelegate.h */; };
+		CAE352CA743B87FF2006395B /* PGMClssCustomEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = B91C28B8537DF366E2BE4716 /* PGMClssCustomEnvironment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CB37117E6056C85EAC7DA337 /* PGMClssAssignmentConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C89DD0636BB9E95E71B5E6D /* PGMClssAssignmentConnector.h */; };
+		CB48E9A2305D89CED5DDD660 /* PGMClssEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 17249A08205D952401B69EF2 /* PGMClssEnvironment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CEBE8C0F8C07D41662F4D588 /* PGMPiToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F0EE491C70A843D4EE1D0E /* PGMPiToken.h */; };
+		D04B78BFCC3D68CB664B593E /* PGMPiIdentityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B56DC1F563E7413AD59F6AB /* PGMPiIdentityProfile.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D090675682A1A07EC87C4EBD /* Pods-CourseListClient-core-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6612D57DF6606EAB7A8AB75 /* Pods-CourseListClient-core-ios-sdk-dummy.m */; };
+		D236126F2BAED8F131918AA6 /* PGMPiUserComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E18D570906FA60F67E4AF0 /* PGMPiUserComposite.h */; };
+		D3325C34E64A184B0FA163A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */; };
+		D408B2C062D2106792B1E88A /* PGMPiAPIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7C9E68F3C1986AD7EB5721 /* PGMPiAPIDelegate.h */; };
+		D43644404D08B5135735916B /* PGMClssRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A43D9D8821CE8C7F7D46AD13 /* PGMClssRequestManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D4375185A4B98BD7E23AE7E4 /* PGMClssAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A4AA79065A2C57F5BEEBB /* PGMClssAssignment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D4C0654B4481ACE9AACA305F /* PGMPiCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 2132FEE9176D6330D3059E90 /* PGMPiCredentials.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D75CE3E91EF2CE074FA4CADD /* PGMCoreFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CB3E36886026DAA095B1FA /* PGMCoreFileRequest.h */; };
+		D7D5FFAA6A3A4A1F31656ADB /* PGMCoreLocalizationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BC05D964D4BFC041EF91D7 /* PGMCoreLocalizationData.h */; };
+		D98076A046BCE167286654EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152A383BE6107C477A4D8875 /* UIKit.framework */; };
+		D9F0EF039C5778DEE03395D3 /* PGMClssCustomEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A37F52473935CFBA1DFFE5E /* PGMClssCustomEnvironment.h */; };
+		DA64B93F415DCFC643152C63 /* PGMClssDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21EAABA8495013E0C3E353 /* PGMClssDateUtil.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DEFEF0E46EB3FB007AFC2854 /* PGMPiConsentPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CACABF024A43633415F296 /* PGMPiConsentPolicy.h */; };
+		E6114763ECFC05B3E6C62119 /* PGMPiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A637841F11CE3BF1CAD49258 /* PGMPiResponse.h */; };
+		E61CB60B9CFAFF0232D5F1E2 /* PGMClssRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A96A33F5128E6D3D8493B510 /* PGMClssRequestManager.h */; };
+		E766FD61A889FF7119055972 /* PGMCoreSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F5424836A71379533D3CD /* PGMCoreSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E9881DED40A725BB4CC3D36C /* PGMClssCourseStructureConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 82FE64FF5CC7AA9179C6192D /* PGMClssCourseStructureConnector.h */; };
+		EB1DD803ED90795D5A8F53A7 /* PGMPiOperationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A214B1EB24E680BCA4395275 /* PGMPiOperationConstants.h */; };
+		EB3039928D54B356DC41801B /* PGMClssCourseStructureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B65F726BF52AD8D09BED5E7D /* PGMClssCourseStructureItem.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EEBF5D5E0C4A49DD3B1733B5 /* PGMCoreSessionUploadTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C599077C977D61182FE464A /* PGMCoreSessionUploadTaskOperation.h */; };
+		F083ED3A0E2C0531B5CF7022 /* PGMCoreErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F352265A20FE6183FD7CD8 /* PGMCoreErrors.h */; };
+		F230887FFCFDA08BEE404087 /* PGMPiIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0A60A951440117F375F1DE /* PGMPiIdentity.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F6C8B4C3E40B60C8885668A7 /* Pods-CourseListClient-classroom-ios-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A0500844DC77F782B01701 /* Pods-CourseListClient-classroom-ios-library-dummy.m */; };
+		F8C08539198E4FAF7A365199 /* PGMClssAssignmentSorting.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDB5AF81B3BC9E960CFC298 /* PGMClssAssignmentSorting.h */; };
+		F9310F849338B69423E83440 /* PGMCoreServiceProviderData.m in Sources */ = {isa = PBXBuildFile; fileRef = 533A8BE67B0609B45D37B7A4 /* PGMCoreServiceProviderData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FC09279869AD00595847C059 /* PGMPiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3593760D0A2EDC54B8899D43 /* PGMPiClient.h */; };
+		FF42AD4DF26C0F0FD1961A00 /* PGMClssCourseStructureItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B5F5CC5338C53132DB67E6 /* PGMClssCourseStructureItem.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FDD1477161AF3A2A9D7650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094E7A10882A5850660A17B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9716200EBF736C0E14B24D;
+			remoteInfo = "Pods-CourseListClient-pi-ios-sdk";
+		};
+		05999B8A4010B7A2242C4605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094E7A10882A5850660A17B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998D1710E3BD6D721FD6974F;
+			remoteInfo = "Pods-CourseListClient-classroom-ios-library";
+		};
+		D04968E335D7014AE619F2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094E7A10882A5850660A17B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB13288AA050FA3A049F9C3;
+			remoteInfo = "Pods-CourseListClient-core-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FF445FB2B121328EA1C10A /* PGMPiTokenRefreshOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiTokenRefreshOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenRefreshOperation.m"; sourceTree = "<group>"; };
+		033122BFBDB87617D57920A7 /* PGMPiAlternateId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiAlternateId.m; path = "framework/src/xcode/Pi-ios-client/PGMPiAlternateId.m"; sourceTree = "<group>"; };
+		03A5A6F68E0D56F400932755 /* PGMPiForgotUsername.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiForgotUsername.h; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotUsername.h"; sourceTree = "<group>"; };
+		08B7100CB4C42E716FBB256C /* PGMCoreApplicationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreApplicationData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreApplicationData.h"; sourceTree = "<group>"; };
+		08BC05D964D4BFC041EF91D7 /* PGMCoreLocalizationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreLocalizationData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreLocalizationData.h"; sourceTree = "<group>"; };
+		0B00A9DAA0D162A9B34F651D /* PGMPiUserIdOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserIdOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserIdOperation.h"; sourceTree = "<group>"; };
+		0B6F5424836A71379533D3CD /* PGMCoreSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreSessionManager.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionManager.m"; sourceTree = "<group>"; };
+		0B8C511BA8AAC1667D971FC0 /* PGMClssCourseListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseListItem.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseListItem.h"; sourceTree = "<group>"; };
+		13CAD924A8F2C3E0EE4021D6 /* PGMPiCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiCredentials.h; path = "framework/src/xcode/Pi-ios-client/PGMPiCredentials.h"; sourceTree = "<group>"; };
+		14B5F5CC5338C53132DB67E6 /* PGMClssCourseStructureItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseStructureItem.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureItem.h"; sourceTree = "<group>"; };
+		152A383BE6107C477A4D8875 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		17249A08205D952401B69EF2 /* PGMClssEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssEnvironment.m; path = "framework/src/xcode/classroom-ios/PGMClssEnvironment.m"; sourceTree = "<group>"; };
+		19F96154D2B206D51ACDA41C /* PGMCoreAccessibilityData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreAccessibilityData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreAccessibilityData.h"; sourceTree = "<group>"; };
+		1ACA10FFA20121DE1BC99E29 /* PGMCoreApplicationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreApplicationData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreApplicationData.m"; sourceTree = "<group>"; };
+		1C658AB2632C540C6C5556A4 /* Pods-CourseListClient-core-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-core-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		1C9DF46113F61E0763ACFD1E /* PGMClssCourseListResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseListResponse.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseListResponse.m"; sourceTree = "<group>"; };
+		2132FEE9176D6330D3059E90 /* PGMPiCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiCredentials.m; path = "framework/src/xcode/Pi-ios-client/PGMPiCredentials.m"; sourceTree = "<group>"; };
+		2216AF1FF757B72AEB715451 /* Pods-CourseListClient-core-ios-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-core-ios-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		23580C6A57DCCD902120870B /* PGMClssError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssError.h; path = "framework/src/xcode/classroom-ios/PGMClssError.h"; sourceTree = "<group>"; };
+		26C9BE571C03D9B8FF23C7D4 /* Pods-CourseListClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CourseListClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+		288ABD31E1827C84D0B12418 /* PGMClssAssignmentSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignmentSerializer.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentSerializer.h"; sourceTree = "<group>"; };
+		2D34EE24CAB2DA914CFE53EA /* PGMPiToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiToken.m; path = "framework/src/xcode/Pi-ios-client/PGMPiToken.m"; sourceTree = "<group>"; };
+		2FA2210A4CFE0E1C10FFA300 /* Pods-CourseListClient-pi-ios-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-pi-ios-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		30F352265A20FE6183FD7CD8 /* PGMCoreErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreErrors.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreErrors.h"; sourceTree = "<group>"; };
+		310470F0533E72789E99F2DE /* PGMClssCourseStructureSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseStructureSerializer.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureSerializer.h"; sourceTree = "<group>"; };
+		313EEA16043615FBE6D2E986 /* Pods-CourseListClient-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CourseListClient-environment.h"; sourceTree = "<group>"; };
+		33CB3E36886026DAA095B1FA /* PGMCoreFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreFileRequest.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreFileRequest.h"; sourceTree = "<group>"; };
+		3534E2C2D6451836CDEAE7C1 /* PGMClssCourseListSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseListSerializer.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseListSerializer.m"; sourceTree = "<group>"; };
+		3593760D0A2EDC54B8899D43 /* PGMPiClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClient.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClient.h"; sourceTree = "<group>"; };
+		368D94AEE6649F84E3D11629 /* PGMPiAlternateId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiAlternateId.h; path = "framework/src/xcode/Pi-ios-client/PGMPiAlternateId.h"; sourceTree = "<group>"; };
+		38C299A9C1C45F48E07701D7 /* PGMPiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiResponse.m; path = "framework/src/xcode/Pi-ios-client/PGMPiResponse.m"; sourceTree = "<group>"; };
+		3A92813524760E0812BE529A /* Pods-CourseListClient-classroom-ios-library-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-classroom-ios-library-Private.xcconfig"; sourceTree = "<group>"; };
+		3BF76B2B6A6FFE67C9C7AF08 /* PGMPiUserConsents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserConsents.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserConsents.m"; sourceTree = "<group>"; };
+		3C0D42F51710BD07A6DD9D9B /* PGMCoreSessionTaskOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionTaskOperation.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionTaskOperation.h"; sourceTree = "<group>"; };
+		3C599077C977D61182FE464A /* PGMCoreSessionUploadTaskOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionUploadTaskOperation.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionUploadTaskOperation.h"; sourceTree = "<group>"; };
+		3F7B6D86BE26F381868C1058 /* PGMClssValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssValidator.h; path = "framework/src/xcode/classroom-ios/PGMClssValidator.h"; sourceTree = "<group>"; };
+		433420642D0277532FF6B6DF /* PGMClssCourseStructureResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseStructureResponse.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureResponse.h"; sourceTree = "<group>"; };
+		4C40A3E2BAFC23233A37A08F /* PGMCoreDeviceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreDeviceData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreDeviceData.h"; sourceTree = "<group>"; };
+		4D4C6955A667133568B1501E /* PGMPiUserComposite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserComposite.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserComposite.m"; sourceTree = "<group>"; };
+		4E4DA875B0176ECD685ED01B /* PGMClssCourseListConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseListConnector.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseListConnector.m"; sourceTree = "<group>"; };
+		533A8BE67B0609B45D37B7A4 /* PGMCoreServiceProviderData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreServiceProviderData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreServiceProviderData.m"; sourceTree = "<group>"; };
+		54779899372B852FF4844E77 /* PGMClssCourseStructureConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseStructureConnector.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureConnector.m"; sourceTree = "<group>"; };
+		55429F27E478A1D3A18D5FF2 /* Pods-CourseListClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient.release.xcconfig"; sourceTree = "<group>"; };
+		56F59B0377A609B2BE3F0C0C /* PGMPiIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiIdentity.h; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentity.h"; sourceTree = "<group>"; };
+		57C399E6FA6E7C944D51586E /* PGMPiConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiConsent.h; path = "framework/src/xcode/Pi-ios-client/PGMPiConsent.h"; sourceTree = "<group>"; };
+		59580370F3A8134DC4FC8520 /* libPods-CourseListClient-classroom-ios-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CourseListClient-classroom-ios-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A221AC27296B57BAABF8B42 /* PGMCoreSessionTaskOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreSessionTaskOperation.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionTaskOperation.m"; sourceTree = "<group>"; };
+		5D3D293741F76D0C4CE0F9A7 /* PGMPiSecureStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiSecureStorage.h; path = "framework/src/xcode/Pi-ios-client/PGMPiSecureStorage.h"; sourceTree = "<group>"; };
+		5D4B3783E5AA1C074DAA36CD /* PGMPiClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiClient.m; path = "framework/src/xcode/Pi-ios-client/PGMPiClient.m"; sourceTree = "<group>"; };
+		5E4B1454DEF9D68E0830A4B7 /* Pods-CourseListClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CourseListClient-resources.sh"; sourceTree = "<group>"; };
+		5F477FDD9C887ECA92ECB704 /* PGMCoreNetworkData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreNetworkData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreNetworkData.m"; sourceTree = "<group>"; };
+		6092529541C19FAE3CD6FA7C /* PGMCoreNetworkData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreNetworkData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreNetworkData.h"; sourceTree = "<group>"; };
+		60F9F28D226B9BC13800F23F /* PGMClssAssignmentSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignmentSerializer.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentSerializer.m"; sourceTree = "<group>"; };
+		62B762ABA338F9767D06AF63 /* libPods-CourseListClient-pi-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CourseListClient-pi-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649A4AA79065A2C57F5BEEBB /* PGMClssAssignment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignment.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignment.m"; sourceTree = "<group>"; };
+		64A0500844DC77F782B01701 /* Pods-CourseListClient-classroom-ios-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CourseListClient-classroom-ios-library-dummy.m"; sourceTree = "<group>"; };
+		64F1E62DA5D35D18FEEC7086 /* PGMClssAssignmentConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignmentConnector.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentConnector.m"; sourceTree = "<group>"; };
+		69A7DE31E16F9743619B2EB2 /* Pods-CourseListClient-pi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CourseListClient-pi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		6B3B1B455F841ADC90D7CD66 /* PGMClssCourseListSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseListSerializer.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseListSerializer.h"; sourceTree = "<group>"; };
+		6B56DC1F563E7413AD59F6AB /* PGMPiIdentityProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiIdentityProfile.m; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentityProfile.m"; sourceTree = "<group>"; };
+		6B83C86DF7F522E24C8FB903 /* PGMClssCourseListItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseListItem.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseListItem.m"; sourceTree = "<group>"; };
+		6C666DC011748758C18FE959 /* PGMCoreSessionDownloadTaskOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreSessionDownloadTaskOperation.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionDownloadTaskOperation.m"; sourceTree = "<group>"; };
+		6C72D77D90FC5BED597283A7 /* Pods-CourseListClient-pi-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CourseListClient-pi-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		6D8F2D7342BBA33B26859677 /* PGMPiForgotUsername.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiForgotUsername.m; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotUsername.m"; sourceTree = "<group>"; };
+		7070C108512B8419E0F41E8F /* PGMCoreSessionAuthorizationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionAuthorizationDelegate.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionAuthorizationDelegate.h"; sourceTree = "<group>"; };
+		715A937F6BDF8FFA9F7EC186 /* PGMCoreSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionManager.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionManager.h"; sourceTree = "<group>"; };
+		7A3125004432F91B6E199AC5 /* PGMClssAssignmentActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignmentActivity.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentActivity.h"; sourceTree = "<group>"; };
+		7A37F52473935CFBA1DFFE5E /* PGMClssCustomEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCustomEnvironment.h; path = "framework/src/xcode/classroom-ios/PGMClssCustomEnvironment.h"; sourceTree = "<group>"; };
+		7F21EAABA8495013E0C3E353 /* PGMClssDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssDateUtil.m; path = "framework/src/xcode/classroom-ios/PGMClssDateUtil.m"; sourceTree = "<group>"; };
+		81F0EE491C70A843D4EE1D0E /* PGMPiToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiToken.h; path = "framework/src/xcode/Pi-ios-client/PGMPiToken.h"; sourceTree = "<group>"; };
+		82FE64FF5CC7AA9179C6192D /* PGMClssCourseStructureConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseStructureConnector.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureConnector.h"; sourceTree = "<group>"; };
+		898559C47BA89DE0DC573787 /* Pods-CourseListClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient.debug.xcconfig"; sourceTree = "<group>"; };
+		8BC268D48D34FABA9E60B0EB /* PGMCoreFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreFileRequest.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreFileRequest.m"; sourceTree = "<group>"; };
+		8C392FAC4FED8344AE6A2A21 /* PGMPiTokenRefreshOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiTokenRefreshOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenRefreshOperation.h"; sourceTree = "<group>"; };
+		8C8677192DC6E587020720EE /* PGMPiEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiEnvironment.m; path = "framework/src/xcode/Pi-ios-client/PGMPiEnvironment.m"; sourceTree = "<group>"; };
+		8C89DD0636BB9E95E71B5E6D /* PGMClssAssignmentConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignmentConnector.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentConnector.h"; sourceTree = "<group>"; };
+		8D7D0742A2014AACC65F7767 /* PGMCoreDeviceAbstraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreDeviceAbstraction.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreDeviceAbstraction.m"; sourceTree = "<group>"; };
+		90AE5648BD10ABC72E019330 /* PGMPiError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiError.m; path = "framework/src/xcode/Pi-ios-client/PGMPiError.m"; sourceTree = "<group>"; };
+		98BD804FA053E319D16CF1A8 /* PGMPiConsent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiConsent.m; path = "framework/src/xcode/Pi-ios-client/PGMPiConsent.m"; sourceTree = "<group>"; };
+		99F0F8673BB62673F3BCFA4D /* PGMClssValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssValidator.m; path = "framework/src/xcode/classroom-ios/PGMClssValidator.m"; sourceTree = "<group>"; };
+		9E255127A22B756843E964D3 /* PGMCoreErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreErrors.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreErrors.m"; sourceTree = "<group>"; };
+		9E4D504535915849B53BB169 /* PGMClssCourseStructureResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseStructureResponse.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureResponse.m"; sourceTree = "<group>"; };
+		9E5872F917749C1C6320CECA /* PGMClssCourseListConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseListConnector.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseListConnector.h"; sourceTree = "<group>"; };
+		9E7C9E68F3C1986AD7EB5721 /* PGMPiAPIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiAPIDelegate.h; path = "framework/src/xcode/Pi-ios-client/PGMPiAPIDelegate.h"; sourceTree = "<group>"; };
+		A0AA8F0C67E1093341802E73 /* Pods-CourseListClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CourseListClient-dummy.m"; sourceTree = "<group>"; };
+		A1797FC391377A9C1CB89284 /* PGMClssEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssEnvironment.h; path = "framework/src/xcode/classroom-ios/PGMClssEnvironment.h"; sourceTree = "<group>"; };
+		A1F838878547BA6648423430 /* PGMCoreSessionUploadTaskOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreSessionUploadTaskOperation.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionUploadTaskOperation.m"; sourceTree = "<group>"; };
+		A214B1EB24E680BCA4395275 /* PGMPiOperationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiOperationConstants.h; path = "framework/src/xcode/Pi-ios-client/PGMPiOperationConstants.h"; sourceTree = "<group>"; };
+		A2E18D570906FA60F67E4AF0 /* PGMPiUserComposite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserComposite.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserComposite.h"; sourceTree = "<group>"; };
+		A327D4C0379A804A693AF58B /* PGMPiForgotPassword.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiForgotPassword.m; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotPassword.m"; sourceTree = "<group>"; };
+		A363110375D84BDD0552DAA6 /* PGMClssAssignmentActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignmentActivity.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentActivity.m"; sourceTree = "<group>"; };
+		A43D9D8821CE8C7F7D46AD13 /* PGMClssRequestManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssRequestManager.m; path = "framework/src/xcode/classroom-ios/PGMClssRequestManager.m"; sourceTree = "<group>"; };
+		A637841F11CE3BF1CAD49258 /* PGMPiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiResponse.h; path = "framework/src/xcode/Pi-ios-client/PGMPiResponse.h"; sourceTree = "<group>"; };
+		A6D63F813B132B0F139FC121 /* PGMPiForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiForgotPassword.h; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotPassword.h"; sourceTree = "<group>"; };
+		A96A33F5128E6D3D8493B510 /* PGMClssRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssRequestManager.h; path = "framework/src/xcode/classroom-ios/PGMClssRequestManager.h"; sourceTree = "<group>"; };
+		AE76E6FCB8CAED8DE3508148 /* PGMPiConsentPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiConsentPolicy.m; path = "framework/src/xcode/Pi-ios-client/PGMPiConsentPolicy.m"; sourceTree = "<group>"; };
+		AF2469B3823014432AE46573 /* PGMCoreReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreReachability.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreReachability.m"; sourceTree = "<group>"; };
+		AFD96B8611B2C42CD81FDD3E /* PGMClssCourseListResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssCourseListResponse.h; path = "framework/src/xcode/classroom-ios/PGMClssCourseListResponse.h"; sourceTree = "<group>"; };
+		B04E4C56BCF98C2C1B7B00CD /* PGMPiClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClientDelegate.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClientDelegate.h"; sourceTree = "<group>"; };
+		B07B44B42EEA9575A4CA4094 /* Pods-CourseListClient-pi-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-pi-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		B49DECF0A55BBF52ADB6E0E4 /* PGMPiIdentityProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiIdentityProfile.h; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentityProfile.h"; sourceTree = "<group>"; };
+		B65F726BF52AD8D09BED5E7D /* PGMClssCourseStructureItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseStructureItem.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureItem.m"; sourceTree = "<group>"; };
+		B735167CFD71AC75F0C417FF /* PGMPiError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiError.h; path = "framework/src/xcode/Pi-ios-client/PGMPiError.h"; sourceTree = "<group>"; };
+		B91C28B8537DF366E2BE4716 /* PGMClssCustomEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCustomEnvironment.m; path = "framework/src/xcode/classroom-ios/PGMClssCustomEnvironment.m"; sourceTree = "<group>"; };
+		B92E99532594B1372E478493 /* PGMCoreSessionDataTaskOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreSessionDataTaskOperation.m; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionDataTaskOperation.m"; sourceTree = "<group>"; };
+		BE4191A8C56027D8C7659B9C /* PGMClssDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssDateUtil.h; path = "framework/src/xcode/classroom-ios/PGMClssDateUtil.h"; sourceTree = "<group>"; };
+		C05335CBA02B861E04FD2C75 /* PGMCoreAccessibilityData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreAccessibilityData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreAccessibilityData.m"; sourceTree = "<group>"; };
+		C5054E3E2E3EB516EE8EFA91 /* PGMPiEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiEnvironment.h; path = "framework/src/xcode/Pi-ios-client/PGMPiEnvironment.h"; sourceTree = "<group>"; };
+		C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6612D57DF6606EAB7A8AB75 /* Pods-CourseListClient-core-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CourseListClient-core-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		C69024F6ACA0173DFB24AADB /* PGMCoreDeviceAbstraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreDeviceAbstraction.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreDeviceAbstraction.h"; sourceTree = "<group>"; };
+		C783CEFA24E8581E3493B2F9 /* PGMPiClientLoginOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiClientLoginOptions.m; path = "framework/src/xcode/Pi-ios-client/PGMPiClientLoginOptions.m"; sourceTree = "<group>"; };
+		C89F979AB2449F9F17285700 /* PGMPiUserIdOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserIdOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserIdOperation.m"; sourceTree = "<group>"; };
+		CA3BA526D7E55DD0BE49B398 /* PGMCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCore.h; path = "framework/src/xcode/Core-ios-sdk/PGMCore.h"; sourceTree = "<group>"; };
+		CB55D2D73BC34EFF6121AA87 /* libPods-CourseListClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CourseListClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAAD1835D6BAF31E02C4216 /* PGMClssAssignmentResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignmentResponse.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentResponse.m"; sourceTree = "<group>"; };
+		D0E47711C9C15D80029CECA3 /* PGMPiSecureStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiSecureStorage.m; path = "framework/src/xcode/Pi-ios-client/PGMPiSecureStorage.m"; sourceTree = "<group>"; };
+		D0F80D065D6E62D50E0575A2 /* PGMPiTokenOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiTokenOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenOperation.m"; sourceTree = "<group>"; };
+		D162C16BDA4386BB75A95BAF /* PGMCoreReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreReachability.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreReachability.h"; sourceTree = "<group>"; };
+		D2C8E5EABCD0ABDBEF4822C6 /* PGMPiUserConsents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserConsents.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserConsents.h"; sourceTree = "<group>"; };
+		D45F25A05C5B69FF305D4818 /* PGMCoreSessionDataTaskOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionDataTaskOperation.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionDataTaskOperation.h"; sourceTree = "<group>"; };
+		D5A58772AC0FC83610C1DA13 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D857DD9CC82766A03EBBE827 /* Pods-CourseListClient-classroom-ios-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseListClient-classroom-ios-library.xcconfig"; sourceTree = "<group>"; };
+		D96CF52829838BBEA3F52395 /* PGMPiTokenOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiTokenOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenOperation.h"; sourceTree = "<group>"; };
+		DB4CA01747789F69C3FB1971 /* PGMClssAssignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignment.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignment.h"; sourceTree = "<group>"; };
+		DC0A71F7C302881085B832EF /* PGMCoreLocalizationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreLocalizationData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreLocalizationData.m"; sourceTree = "<group>"; };
+		DC728060C9AEA3E5053F823C /* PGMCoreSessionDownloadTaskOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreSessionDownloadTaskOperation.h; path = "framework/src/xcode/Core-ios-sdk/PGMCoreSessionDownloadTaskOperation.h"; sourceTree = "<group>"; };
+		DDF6C45670C98E5356ACDAF4 /* PGMClssError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssError.m; path = "framework/src/xcode/classroom-ios/PGMClssError.m"; sourceTree = "<group>"; };
+		E5DCE6DB2CC65398DD616CB0 /* PGMClssAssignmentResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignmentResponse.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentResponse.h"; sourceTree = "<group>"; };
+		E7A7C82C8DF79B351C027F71 /* Pods-CourseListClient-core-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CourseListClient-core-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		EB4E6ACEDA85B272510FE2DC /* Pods-CourseListClient-classroom-ios-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CourseListClient-classroom-ios-library-prefix.pch"; sourceTree = "<group>"; };
+		ED0A60A951440117F375F1DE /* PGMPiIdentity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiIdentity.m; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentity.m"; sourceTree = "<group>"; };
+		EF7118A4A3E2E8D07451D1FA /* PGMCoreDeviceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreDeviceData.m; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreDeviceData.m"; sourceTree = "<group>"; };
+		EFD4E5B696E35EDD6CB555EF /* PGMPiOperationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiOperationConstants.m; path = "framework/src/xcode/Pi-ios-client/PGMPiOperationConstants.m"; sourceTree = "<group>"; };
+		F257CDCF8361DF5D0B4C9D99 /* PGMClssCourseStructureSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssCourseStructureSerializer.m; path = "framework/src/xcode/classroom-ios/PGMClssCourseStructureSerializer.m"; sourceTree = "<group>"; };
+		F2BD6A3E84F34615D0A58DD2 /* libPods-CourseListClient-core-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CourseListClient-core-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357BE8B06A8FEC838E7F8D2 /* Pods-CourseListClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CourseListClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		F671B4DC06F2599EC898215B /* PGMClssAssignmentSorting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMClssAssignmentSorting.m; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentSorting.m"; sourceTree = "<group>"; };
+		F6CACABF024A43633415F296 /* PGMPiConsentPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiConsentPolicy.h; path = "framework/src/xcode/Pi-ios-client/PGMPiConsentPolicy.h"; sourceTree = "<group>"; };
+		F8646A42E6A79118C8F1B39D /* PGMCoreServiceProviderData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreServiceProviderData.h; path = "framework/src/xcode/Core-ios-sdk/DeviceAbstraction/PGMCoreServiceProviderData.h"; sourceTree = "<group>"; };
+		FBDB5AF81B3BC9E960CFC298 /* PGMClssAssignmentSorting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMClssAssignmentSorting.h; path = "framework/src/xcode/classroom-ios/PGMClssAssignmentSorting.h"; sourceTree = "<group>"; };
+		FD64468B568811730FBE6EF2 /* PGMPiClientLoginOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClientLoginOptions.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClientLoginOptions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47DAF9385A0B0901BA0F07EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718C8C68B61D733CEC8F1CFE /* Foundation.framework in Frameworks */,
+				D98076A046BCE167286654EC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BF98078EEEBF099A712F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3325C34E64A184B0FA163A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB162228C99EF2E1155009BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124EC51F7EAE6A7E08AF98C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30D2CFB208AB0B08A9B927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965D18DC6E312696CAED251E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB72B647C48491AEA8F8ABE /* classroom-ios-library */ = {
+			isa = PBXGroup;
+			children = (
+				DB4CA01747789F69C3FB1971 /* PGMClssAssignment.h */,
+				649A4AA79065A2C57F5BEEBB /* PGMClssAssignment.m */,
+				7A3125004432F91B6E199AC5 /* PGMClssAssignmentActivity.h */,
+				A363110375D84BDD0552DAA6 /* PGMClssAssignmentActivity.m */,
+				8C89DD0636BB9E95E71B5E6D /* PGMClssAssignmentConnector.h */,
+				64F1E62DA5D35D18FEEC7086 /* PGMClssAssignmentConnector.m */,
+				E5DCE6DB2CC65398DD616CB0 /* PGMClssAssignmentResponse.h */,
+				CCAAD1835D6BAF31E02C4216 /* PGMClssAssignmentResponse.m */,
+				288ABD31E1827C84D0B12418 /* PGMClssAssignmentSerializer.h */,
+				60F9F28D226B9BC13800F23F /* PGMClssAssignmentSerializer.m */,
+				FBDB5AF81B3BC9E960CFC298 /* PGMClssAssignmentSorting.h */,
+				F671B4DC06F2599EC898215B /* PGMClssAssignmentSorting.m */,
+				9E5872F917749C1C6320CECA /* PGMClssCourseListConnector.h */,
+				4E4DA875B0176ECD685ED01B /* PGMClssCourseListConnector.m */,
+				0B8C511BA8AAC1667D971FC0 /* PGMClssCourseListItem.h */,
+				6B83C86DF7F522E24C8FB903 /* PGMClssCourseListItem.m */,
+				AFD96B8611B2C42CD81FDD3E /* PGMClssCourseListResponse.h */,
+				1C9DF46113F61E0763ACFD1E /* PGMClssCourseListResponse.m */,
+				6B3B1B455F841ADC90D7CD66 /* PGMClssCourseListSerializer.h */,
+				3534E2C2D6451836CDEAE7C1 /* PGMClssCourseListSerializer.m */,
+				82FE64FF5CC7AA9179C6192D /* PGMClssCourseStructureConnector.h */,
+				54779899372B852FF4844E77 /* PGMClssCourseStructureConnector.m */,
+				14B5F5CC5338C53132DB67E6 /* PGMClssCourseStructureItem.h */,
+				B65F726BF52AD8D09BED5E7D /* PGMClssCourseStructureItem.m */,
+				433420642D0277532FF6B6DF /* PGMClssCourseStructureResponse.h */,
+				9E4D504535915849B53BB169 /* PGMClssCourseStructureResponse.m */,
+				310470F0533E72789E99F2DE /* PGMClssCourseStructureSerializer.h */,
+				F257CDCF8361DF5D0B4C9D99 /* PGMClssCourseStructureSerializer.m */,
+				7A37F52473935CFBA1DFFE5E /* PGMClssCustomEnvironment.h */,
+				B91C28B8537DF366E2BE4716 /* PGMClssCustomEnvironment.m */,
+				BE4191A8C56027D8C7659B9C /* PGMClssDateUtil.h */,
+				7F21EAABA8495013E0C3E353 /* PGMClssDateUtil.m */,
+				A1797FC391377A9C1CB89284 /* PGMClssEnvironment.h */,
+				17249A08205D952401B69EF2 /* PGMClssEnvironment.m */,
+				23580C6A57DCCD902120870B /* PGMClssError.h */,
+				DDF6C45670C98E5356ACDAF4 /* PGMClssError.m */,
+				A96A33F5128E6D3D8493B510 /* PGMClssRequestManager.h */,
+				A43D9D8821CE8C7F7D46AD13 /* PGMClssRequestManager.m */,
+				3F7B6D86BE26F381868C1058 /* PGMClssValidator.h */,
+				99F0F8673BB62673F3BCFA4D /* PGMClssValidator.m */,
+				8DAEFA012443D0DF7D58158B /* Support Files */,
+			);
+			path = "classroom-ios-library";
+			sourceTree = "<group>";
+		};
+		35A15C25FF01B5CB61E0D711 /* Pods-CourseListClient */ = {
+			isa = PBXGroup;
+			children = (
+				26C9BE571C03D9B8FF23C7D4 /* Pods-CourseListClient-acknowledgements.markdown */,
+				F357BE8B06A8FEC838E7F8D2 /* Pods-CourseListClient-acknowledgements.plist */,
+				A0AA8F0C67E1093341802E73 /* Pods-CourseListClient-dummy.m */,
+				313EEA16043615FBE6D2E986 /* Pods-CourseListClient-environment.h */,
+				5E4B1454DEF9D68E0830A4B7 /* Pods-CourseListClient-resources.sh */,
+				898559C47BA89DE0DC573787 /* Pods-CourseListClient.debug.xcconfig */,
+				55429F27E478A1D3A18D5FF2 /* Pods-CourseListClient.release.xcconfig */,
+			);
+			name = "Pods-CourseListClient";
+			path = "Target Support Files/Pods-CourseListClient";
+			sourceTree = "<group>";
+		};
+		3929CE631750AD735DBB71F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35A15C25FF01B5CB61E0D711 /* Pods-CourseListClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64C0101E13352C11E677681F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF22499DA7F985BA519F6DC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88D34E55BAB73F7A48B6ECEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C658AB2632C540C6C5556A4 /* Pods-CourseListClient-core-ios-sdk.xcconfig */,
+				2216AF1FF757B72AEB715451 /* Pods-CourseListClient-core-ios-sdk-Private.xcconfig */,
+				C6612D57DF6606EAB7A8AB75 /* Pods-CourseListClient-core-ios-sdk-dummy.m */,
+				E7A7C82C8DF79B351C027F71 /* Pods-CourseListClient-core-ios-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CourseListClient-core-ios-sdk";
+			sourceTree = "<group>";
+		};
+		8BF22499DA7F985BA519F6DC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5F8BD394AC5BF1ACE841E03 /* Foundation.framework */,
+				152A383BE6107C477A4D8875 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8DAEFA012443D0DF7D58158B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D857DD9CC82766A03EBBE827 /* Pods-CourseListClient-classroom-ios-library.xcconfig */,
+				3A92813524760E0812BE529A /* Pods-CourseListClient-classroom-ios-library-Private.xcconfig */,
+				64A0500844DC77F782B01701 /* Pods-CourseListClient-classroom-ios-library-dummy.m */,
+				EB4E6ACEDA85B272510FE2DC /* Pods-CourseListClient-classroom-ios-library-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CourseListClient-classroom-ios-library";
+			sourceTree = "<group>";
+		};
+		B17877094490B6AE0E5F6C85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B07B44B42EEA9575A4CA4094 /* Pods-CourseListClient-pi-ios-sdk.xcconfig */,
+				2FA2210A4CFE0E1C10FFA300 /* Pods-CourseListClient-pi-ios-sdk-Private.xcconfig */,
+				69A7DE31E16F9743619B2EB2 /* Pods-CourseListClient-pi-ios-sdk-dummy.m */,
+				6C72D77D90FC5BED597283A7 /* Pods-CourseListClient-pi-ios-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CourseListClient-pi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		CD09A83DE0E61AA3FC4789E2 = {
+			isa = PBXGroup;
+			children = (
+				D5A58772AC0FC83610C1DA13 /* Podfile */,
+				64C0101E13352C11E677681F /* Frameworks */,
+				CEA0204E252375F5D451804E /* Pods */,
+				F32E233859FEFC78A423B5EB /* Products */,
+				3929CE631750AD735DBB71F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA0204E252375F5D451804E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DB72B647C48491AEA8F8ABE /* classroom-ios-library */,
+				E2AE061104533BAA8C276BC5 /* core-ios-sdk */,
+				DE2E86E377580DD45C40153B /* pi-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE2E86E377580DD45C40153B /* pi-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C9E68F3C1986AD7EB5721 /* PGMPiAPIDelegate.h */,
+				368D94AEE6649F84E3D11629 /* PGMPiAlternateId.h */,
+				033122BFBDB87617D57920A7 /* PGMPiAlternateId.m */,
+				3593760D0A2EDC54B8899D43 /* PGMPiClient.h */,
+				5D4B3783E5AA1C074DAA36CD /* PGMPiClient.m */,
+				B04E4C56BCF98C2C1B7B00CD /* PGMPiClientDelegate.h */,
+				FD64468B568811730FBE6EF2 /* PGMPiClientLoginOptions.h */,
+				C783CEFA24E8581E3493B2F9 /* PGMPiClientLoginOptions.m */,
+				57C399E6FA6E7C944D51586E /* PGMPiConsent.h */,
+				98BD804FA053E319D16CF1A8 /* PGMPiConsent.m */,
+				F6CACABF024A43633415F296 /* PGMPiConsentPolicy.h */,
+				AE76E6FCB8CAED8DE3508148 /* PGMPiConsentPolicy.m */,
+				13CAD924A8F2C3E0EE4021D6 /* PGMPiCredentials.h */,
+				2132FEE9176D6330D3059E90 /* PGMPiCredentials.m */,
+				C5054E3E2E3EB516EE8EFA91 /* PGMPiEnvironment.h */,
+				8C8677192DC6E587020720EE /* PGMPiEnvironment.m */,
+				B735167CFD71AC75F0C417FF /* PGMPiError.h */,
+				90AE5648BD10ABC72E019330 /* PGMPiError.m */,
+				A6D63F813B132B0F139FC121 /* PGMPiForgotPassword.h */,
+				A327D4C0379A804A693AF58B /* PGMPiForgotPassword.m */,
+				03A5A6F68E0D56F400932755 /* PGMPiForgotUsername.h */,
+				6D8F2D7342BBA33B26859677 /* PGMPiForgotUsername.m */,
+				56F59B0377A609B2BE3F0C0C /* PGMPiIdentity.h */,
+				ED0A60A951440117F375F1DE /* PGMPiIdentity.m */,
+				B49DECF0A55BBF52ADB6E0E4 /* PGMPiIdentityProfile.h */,
+				6B56DC1F563E7413AD59F6AB /* PGMPiIdentityProfile.m */,
+				A214B1EB24E680BCA4395275 /* PGMPiOperationConstants.h */,
+				EFD4E5B696E35EDD6CB555EF /* PGMPiOperationConstants.m */,
+				A637841F11CE3BF1CAD49258 /* PGMPiResponse.h */,
+				38C299A9C1C45F48E07701D7 /* PGMPiResponse.m */,
+				5D3D293741F76D0C4CE0F9A7 /* PGMPiSecureStorage.h */,
+				D0E47711C9C15D80029CECA3 /* PGMPiSecureStorage.m */,
+				81F0EE491C70A843D4EE1D0E /* PGMPiToken.h */,
+				2D34EE24CAB2DA914CFE53EA /* PGMPiToken.m */,
+				D96CF52829838BBEA3F52395 /* PGMPiTokenOperation.h */,
+				D0F80D065D6E62D50E0575A2 /* PGMPiTokenOperation.m */,
+				8C392FAC4FED8344AE6A2A21 /* PGMPiTokenRefreshOperation.h */,
+				00FF445FB2B121328EA1C10A /* PGMPiTokenRefreshOperation.m */,
+				A2E18D570906FA60F67E4AF0 /* PGMPiUserComposite.h */,
+				4D4C6955A667133568B1501E /* PGMPiUserComposite.m */,
+				D2C8E5EABCD0ABDBEF4822C6 /* PGMPiUserConsents.h */,
+				3BF76B2B6A6FFE67C9C7AF08 /* PGMPiUserConsents.m */,
+				0B00A9DAA0D162A9B34F651D /* PGMPiUserIdOperation.h */,
+				C89F979AB2449F9F17285700 /* PGMPiUserIdOperation.m */,
+				B17877094490B6AE0E5F6C85 /* Support Files */,
+			);
+			path = "pi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		E2AE061104533BAA8C276BC5 /* core-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CA3BA526D7E55DD0BE49B398 /* PGMCore.h */,
+				19F96154D2B206D51ACDA41C /* PGMCoreAccessibilityData.h */,
+				C05335CBA02B861E04FD2C75 /* PGMCoreAccessibilityData.m */,
+				08B7100CB4C42E716FBB256C /* PGMCoreApplicationData.h */,
+				1ACA10FFA20121DE1BC99E29 /* PGMCoreApplicationData.m */,
+				C69024F6ACA0173DFB24AADB /* PGMCoreDeviceAbstraction.h */,
+				8D7D0742A2014AACC65F7767 /* PGMCoreDeviceAbstraction.m */,
+				4C40A3E2BAFC23233A37A08F /* PGMCoreDeviceData.h */,
+				EF7118A4A3E2E8D07451D1FA /* PGMCoreDeviceData.m */,
+				30F352265A20FE6183FD7CD8 /* PGMCoreErrors.h */,
+				9E255127A22B756843E964D3 /* PGMCoreErrors.m */,
+				33CB3E36886026DAA095B1FA /* PGMCoreFileRequest.h */,
+				8BC268D48D34FABA9E60B0EB /* PGMCoreFileRequest.m */,
+				08BC05D964D4BFC041EF91D7 /* PGMCoreLocalizationData.h */,
+				DC0A71F7C302881085B832EF /* PGMCoreLocalizationData.m */,
+				6092529541C19FAE3CD6FA7C /* PGMCoreNetworkData.h */,
+				5F477FDD9C887ECA92ECB704 /* PGMCoreNetworkData.m */,
+				D162C16BDA4386BB75A95BAF /* PGMCoreReachability.h */,
+				AF2469B3823014432AE46573 /* PGMCoreReachability.m */,
+				F8646A42E6A79118C8F1B39D /* PGMCoreServiceProviderData.h */,
+				533A8BE67B0609B45D37B7A4 /* PGMCoreServiceProviderData.m */,
+				7070C108512B8419E0F41E8F /* PGMCoreSessionAuthorizationDelegate.h */,
+				D45F25A05C5B69FF305D4818 /* PGMCoreSessionDataTaskOperation.h */,
+				B92E99532594B1372E478493 /* PGMCoreSessionDataTaskOperation.m */,
+				DC728060C9AEA3E5053F823C /* PGMCoreSessionDownloadTaskOperation.h */,
+				6C666DC011748758C18FE959 /* PGMCoreSessionDownloadTaskOperation.m */,
+				715A937F6BDF8FFA9F7EC186 /* PGMCoreSessionManager.h */,
+				0B6F5424836A71379533D3CD /* PGMCoreSessionManager.m */,
+				3C0D42F51710BD07A6DD9D9B /* PGMCoreSessionTaskOperation.h */,
+				5A221AC27296B57BAABF8B42 /* PGMCoreSessionTaskOperation.m */,
+				3C599077C977D61182FE464A /* PGMCoreSessionUploadTaskOperation.h */,
+				A1F838878547BA6648423430 /* PGMCoreSessionUploadTaskOperation.m */,
+				88D34E55BAB73F7A48B6ECEC /* Support Files */,
+			);
+			path = "core-ios-sdk";
+			sourceTree = "<group>";
+		};
+		F32E233859FEFC78A423B5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB55D2D73BC34EFF6121AA87 /* libPods-CourseListClient.a */,
+				59580370F3A8134DC4FC8520 /* libPods-CourseListClient-classroom-ios-library.a */,
+				F2BD6A3E84F34615D0A58DD2 /* libPods-CourseListClient-core-ios-sdk.a */,
+				62B762ABA338F9767D06AF63 /* libPods-CourseListClient-pi-ios-sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		203AA2C57D8348F3A78F2C06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764E4E8878D93005A3EBBB2F /* PGMCore.h in Headers */,
+				A99D124E04B6EE0510A446A5 /* PGMCoreAccessibilityData.h in Headers */,
+				70C64298729348AFD9189AFD /* PGMCoreApplicationData.h in Headers */,
+				20A962AFC89C0E7640E15428 /* PGMCoreDeviceAbstraction.h in Headers */,
+				6D92BF3095F1FDF283F18A82 /* PGMCoreDeviceData.h in Headers */,
+				F083ED3A0E2C0531B5CF7022 /* PGMCoreErrors.h in Headers */,
+				D75CE3E91EF2CE074FA4CADD /* PGMCoreFileRequest.h in Headers */,
+				D7D5FFAA6A3A4A1F31656ADB /* PGMCoreLocalizationData.h in Headers */,
+				BAAC7D3F5F3D96634000BB1A /* PGMCoreNetworkData.h in Headers */,
+				2B6E33FE8E4150096E1F74A8 /* PGMCoreReachability.h in Headers */,
+				27B0CA554123B70619E8DEB6 /* PGMCoreServiceProviderData.h in Headers */,
+				C93B2BC8F82CB79BF2CF135C /* PGMCoreSessionAuthorizationDelegate.h in Headers */,
+				64A4C0C994D58FCE0E21DCF3 /* PGMCoreSessionDataTaskOperation.h in Headers */,
+				C70D3C41742553FAA857D382 /* PGMCoreSessionDownloadTaskOperation.h in Headers */,
+				ABB2297F06F2C1E9B9C75BCD /* PGMCoreSessionManager.h in Headers */,
+				7B54DADB675CC0F4849FF462 /* PGMCoreSessionTaskOperation.h in Headers */,
+				EEBF5D5E0C4A49DD3B1733B5 /* PGMCoreSessionUploadTaskOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA529A470B1C6D21774A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D408B2C062D2106792B1E88A /* PGMPiAPIDelegate.h in Headers */,
+				2F20B0A27D7FC94336E95478 /* PGMPiAlternateId.h in Headers */,
+				FC09279869AD00595847C059 /* PGMPiClient.h in Headers */,
+				A4BC3BBBFBE48AC76C202FCC /* PGMPiClientDelegate.h in Headers */,
+				1589ADF1B56E42EE68D6A58D /* PGMPiClientLoginOptions.h in Headers */,
+				28D4E03008BB33C0ED35CE34 /* PGMPiConsent.h in Headers */,
+				DEFEF0E46EB3FB007AFC2854 /* PGMPiConsentPolicy.h in Headers */,
+				9B9E091FC6BF4530FCAB8EC6 /* PGMPiCredentials.h in Headers */,
+				9BEB794603B51944EADE6CD4 /* PGMPiEnvironment.h in Headers */,
+				783AB2A8B64360D2C7C5BD72 /* PGMPiError.h in Headers */,
+				58678118324CAA87B8693903 /* PGMPiForgotPassword.h in Headers */,
+				54FA49E470112F3360FD87F9 /* PGMPiForgotUsername.h in Headers */,
+				B77DAC10FC8EAF34886DC03D /* PGMPiIdentity.h in Headers */,
+				77CAB5164241A26FF63A8D9C /* PGMPiIdentityProfile.h in Headers */,
+				EB1DD803ED90795D5A8F53A7 /* PGMPiOperationConstants.h in Headers */,
+				E6114763ECFC05B3E6C62119 /* PGMPiResponse.h in Headers */,
+				5DCE6E53C73205C771A1961A /* PGMPiSecureStorage.h in Headers */,
+				CEBE8C0F8C07D41662F4D588 /* PGMPiToken.h in Headers */,
+				002F2D031F625EA3D6D63825 /* PGMPiTokenOperation.h in Headers */,
+				36B47435D187424B7497839A /* PGMPiTokenRefreshOperation.h in Headers */,
+				D236126F2BAED8F131918AA6 /* PGMPiUserComposite.h in Headers */,
+				5E415D56F2BB7ADD9FEAC2EA /* PGMPiUserConsents.h in Headers */,
+				AC163BD3D8CC4E69ABE2E75F /* PGMPiUserIdOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1914A4433A13ED89E26EE62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A5F1B4D6A956F9810E436F /* PGMClssAssignment.h in Headers */,
+				81F394991DB4CA9C833803E1 /* PGMClssAssignmentActivity.h in Headers */,
+				CB37117E6056C85EAC7DA337 /* PGMClssAssignmentConnector.h in Headers */,
+				C312708A46BE63A09F20A702 /* PGMClssAssignmentResponse.h in Headers */,
+				9E19A7E885EA34D329D18B44 /* PGMClssAssignmentSerializer.h in Headers */,
+				F8C08539198E4FAF7A365199 /* PGMClssAssignmentSorting.h in Headers */,
+				A6B8B17CE027B6503BFD1F22 /* PGMClssCourseListConnector.h in Headers */,
+				BA1D2AD27A5AC2419132B3A6 /* PGMClssCourseListItem.h in Headers */,
+				8C64D781EF8479311671946A /* PGMClssCourseListResponse.h in Headers */,
+				536A21A4A6D4398E157B3344 /* PGMClssCourseListSerializer.h in Headers */,
+				E9881DED40A725BB4CC3D36C /* PGMClssCourseStructureConnector.h in Headers */,
+				FF42AD4DF26C0F0FD1961A00 /* PGMClssCourseStructureItem.h in Headers */,
+				BABAC7EFD36D61EB0C17F71E /* PGMClssCourseStructureResponse.h in Headers */,
+				901367A1267E873AF45614A7 /* PGMClssCourseStructureSerializer.h in Headers */,
+				D9F0EF039C5778DEE03395D3 /* PGMClssCustomEnvironment.h in Headers */,
+				9526F11EBD36287AD0B08717 /* PGMClssDateUtil.h in Headers */,
+				0372C830527120E1490668E2 /* PGMClssEnvironment.h in Headers */,
+				6525B3C1AEFED25539EB67FC /* PGMClssError.h in Headers */,
+				E61CB60B9CFAFF0232D5F1E2 /* PGMClssRequestManager.h in Headers */,
+				A3BDB9A74EFC22C05F7865E0 /* PGMClssValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CB13288AA050FA3A049F9C3 /* Pods-CourseListClient-core-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE01F6A930BE29F060FC914 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-core-ios-sdk" */;
+			buildPhases = (
+				8E2C79BE51548A5EB1D8EEA7 /* Sources */,
+				EC30D2CFB208AB0B08A9B927 /* Frameworks */,
+				203AA2C57D8348F3A78F2C06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CourseListClient-core-ios-sdk";
+			productName = "Pods-CourseListClient-core-ios-sdk";
+			productReference = F2BD6A3E84F34615D0A58DD2 /* libPods-CourseListClient-core-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		998D1710E3BD6D721FD6974F /* Pods-CourseListClient-classroom-ios-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CD29CA9D4F984A01DD5CE5 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-classroom-ios-library" */;
+			buildPhases = (
+				D5EA741320E7595B3AB79654 /* Sources */,
+				BB162228C99EF2E1155009BB /* Frameworks */,
+				C1914A4433A13ED89E26EE62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CourseListClient-classroom-ios-library";
+			productName = "Pods-CourseListClient-classroom-ios-library";
+			productReference = 59580370F3A8134DC4FC8520 /* libPods-CourseListClient-classroom-ios-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD9716200EBF736C0E14B24D /* Pods-CourseListClient-pi-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23DEBF7398637E5520BF16C /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-pi-ios-sdk" */;
+			buildPhases = (
+				A6453EE0B7A459DC9C8253B2 /* Sources */,
+				47DAF9385A0B0901BA0F07EA /* Frameworks */,
+				A17FA529A470B1C6D21774A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CourseListClient-pi-ios-sdk";
+			productName = "Pods-CourseListClient-pi-ios-sdk";
+			productReference = 62B762ABA338F9767D06AF63 /* libPods-CourseListClient-pi-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFFDB067FB62FA2572B5BD5C /* Pods-CourseListClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD102082095D0D09F83DC8E3 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient" */;
+			buildPhases = (
+				8CEF25F489070373C8720485 /* Sources */,
+				63BF98078EEEBF099A712F57 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C562487EDDB679171BFC518B /* PBXTargetDependency */,
+				D2EB518B771F1F8E59AA444F /* PBXTargetDependency */,
+				92A591869E9F89FD3F2CF1AC /* PBXTargetDependency */,
+			);
+			name = "Pods-CourseListClient";
+			productName = "Pods-CourseListClient";
+			productReference = CB55D2D73BC34EFF6121AA87 /* libPods-CourseListClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094E7A10882A5850660A17B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5849A5BB180728F5256F776D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD09A83DE0E61AA3FC4789E2;
+			productRefGroup = F32E233859FEFC78A423B5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFDB067FB62FA2572B5BD5C /* Pods-CourseListClient */,
+				998D1710E3BD6D721FD6974F /* Pods-CourseListClient-classroom-ios-library */,
+				1CB13288AA050FA3A049F9C3 /* Pods-CourseListClient-core-ios-sdk */,
+				BD9716200EBF736C0E14B24D /* Pods-CourseListClient-pi-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CEF25F489070373C8720485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924AB7D21710390C66CDF7C4 /* Pods-CourseListClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2C79BE51548A5EB1D8EEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEFD54857F4A394A4E03B1E /* PGMCoreAccessibilityData.m in Sources */,
+				76FFA9F4E5E3B4C3EAEE4B99 /* PGMCoreApplicationData.m in Sources */,
+				C126F8AA0E9C8F6838D6384E /* PGMCoreDeviceAbstraction.m in Sources */,
+				410ADA52DE0A35F6EC5DC841 /* PGMCoreDeviceData.m in Sources */,
+				969D6BCF83EA9A3E1D01A652 /* PGMCoreErrors.m in Sources */,
+				5BAF6D25E66C04560EB8E2BC /* PGMCoreFileRequest.m in Sources */,
+				5911888181C8A2B42BB7E738 /* PGMCoreLocalizationData.m in Sources */,
+				4BE8647418DA3873F926CA4C /* PGMCoreNetworkData.m in Sources */,
+				29ABC3919AA9B6FF293BFBD6 /* PGMCoreReachability.m in Sources */,
+				F9310F849338B69423E83440 /* PGMCoreServiceProviderData.m in Sources */,
+				3F4D83A426C517EDDB801220 /* PGMCoreSessionDataTaskOperation.m in Sources */,
+				5297EFFE0DC0F4A5F3F9F524 /* PGMCoreSessionDownloadTaskOperation.m in Sources */,
+				E766FD61A889FF7119055972 /* PGMCoreSessionManager.m in Sources */,
+				40A236977FD332013523F55E /* PGMCoreSessionTaskOperation.m in Sources */,
+				90904A9488225F543F7A8EC4 /* PGMCoreSessionUploadTaskOperation.m in Sources */,
+				D090675682A1A07EC87C4EBD /* Pods-CourseListClient-core-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6453EE0B7A459DC9C8253B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4745AB190A8EDE064E368 /* PGMPiAlternateId.m in Sources */,
+				03575B7F335681E56F7BAF26 /* PGMPiClient.m in Sources */,
+				61EF263267AE27B2905C3CAE /* PGMPiClientLoginOptions.m in Sources */,
+				5FF4BDDDBA487CDB33FB4BC7 /* PGMPiConsent.m in Sources */,
+				0E7537B954759198948A7DD5 /* PGMPiConsentPolicy.m in Sources */,
+				D4C0654B4481ACE9AACA305F /* PGMPiCredentials.m in Sources */,
+				7699C68885CA594105541BB0 /* PGMPiEnvironment.m in Sources */,
+				55C0B43426A36E66F136AEB0 /* PGMPiError.m in Sources */,
+				A5BDD81C37ED49CB0E74D7A0 /* PGMPiForgotPassword.m in Sources */,
+				1D2B5BF580252A4DDF0C4ACF /* PGMPiForgotUsername.m in Sources */,
+				F230887FFCFDA08BEE404087 /* PGMPiIdentity.m in Sources */,
+				D04B78BFCC3D68CB664B593E /* PGMPiIdentityProfile.m in Sources */,
+				6757688F8B8AF24427647309 /* PGMPiOperationConstants.m in Sources */,
+				B31B6758F76B35C9ACCE78F0 /* PGMPiResponse.m in Sources */,
+				7F67E6B18C97D53018916D2E /* PGMPiSecureStorage.m in Sources */,
+				33E7DAB9DFA73CD4FD2126BB /* PGMPiToken.m in Sources */,
+				BBB2AF19BD631555AC2AAEF0 /* PGMPiTokenOperation.m in Sources */,
+				01F9B86163559052396C6DFB /* PGMPiTokenRefreshOperation.m in Sources */,
+				9A1599BD6CF954D825161161 /* PGMPiUserComposite.m in Sources */,
+				65075D195FEEA98D13B8FE62 /* PGMPiUserConsents.m in Sources */,
+				C0E097541A2B9EA24D5B2B1C /* PGMPiUserIdOperation.m in Sources */,
+				65C0B06EF63208A857474D4F /* Pods-CourseListClient-pi-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EA741320E7595B3AB79654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4375185A4B98BD7E23AE7E4 /* PGMClssAssignment.m in Sources */,
+				6B0D5D87D4CE2FCDD63E34A9 /* PGMClssAssignmentActivity.m in Sources */,
+				9E369DF1F93642A272C60B4E /* PGMClssAssignmentConnector.m in Sources */,
+				12D9260F64BCDC91E3B614AC /* PGMClssAssignmentResponse.m in Sources */,
+				5C6E609CDB88BB5FFEBAD180 /* PGMClssAssignmentSerializer.m in Sources */,
+				766B2D1DC2D11F1F41D3DA40 /* PGMClssAssignmentSorting.m in Sources */,
+				156ABE9335698D1E35D429A2 /* PGMClssCourseListConnector.m in Sources */,
+				57F92B75DE887B2A6AF86A06 /* PGMClssCourseListItem.m in Sources */,
+				B508253928A209C167689749 /* PGMClssCourseListResponse.m in Sources */,
+				A86BE83B9751E28EAE2E646D /* PGMClssCourseListSerializer.m in Sources */,
+				26A229C6B4BC6AE171354FC8 /* PGMClssCourseStructureConnector.m in Sources */,
+				EB3039928D54B356DC41801B /* PGMClssCourseStructureItem.m in Sources */,
+				1153B0AD83C4F9F08B4E45A9 /* PGMClssCourseStructureResponse.m in Sources */,
+				4BD883540F4161EA36C52EA5 /* PGMClssCourseStructureSerializer.m in Sources */,
+				CAE352CA743B87FF2006395B /* PGMClssCustomEnvironment.m in Sources */,
+				DA64B93F415DCFC643152C63 /* PGMClssDateUtil.m in Sources */,
+				CB48E9A2305D89CED5DDD660 /* PGMClssEnvironment.m in Sources */,
+				3041F0F4F0CF3E17F3761A2B /* PGMClssError.m in Sources */,
+				D43644404D08B5135735916B /* PGMClssRequestManager.m in Sources */,
+				8A49303B9E456630599D0105 /* PGMClssValidator.m in Sources */,
+				F6C8B4C3E40B60C8885668A7 /* Pods-CourseListClient-classroom-ios-library-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A591869E9F89FD3F2CF1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9716200EBF736C0E14B24D /* Pods-CourseListClient-pi-ios-sdk */;
+			targetProxy = 03FDD1477161AF3A2A9D7650 /* PBXContainerItemProxy */;
+		};
+		C562487EDDB679171BFC518B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998D1710E3BD6D721FD6974F /* Pods-CourseListClient-classroom-ios-library */;
+			targetProxy = 05999B8A4010B7A2242C4605 /* PBXContainerItemProxy */;
+		};
+		D2EB518B771F1F8E59AA444F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB13288AA050FA3A049F9C3 /* Pods-CourseListClient-core-ios-sdk */;
+			targetProxy = D04968E335D7014AE619F2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B9A1F67BE79274B1C2302B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2210A4CFE0E1C10FFA300 /* Pods-CourseListClient-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-pi-ios-sdk/Pods-CourseListClient-pi-ios-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2720F8CE8D76357720EC63DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		3CA812E24F103606BE9E1EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A92813524760E0812BE529A /* Pods-CourseListClient-classroom-ios-library-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-classroom-ios-library/Pods-CourseListClient-classroom-ios-library-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		669E64B98FB748A1D75DAB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55429F27E478A1D3A18D5FF2 /* Pods-CourseListClient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914ACF35B7C0499322F8BB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		A6B8666BA944D78DCDD66165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2216AF1FF757B72AEB715451 /* Pods-CourseListClient-core-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-core-ios-sdk/Pods-CourseListClient-core-ios-sdk-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8719F2070D71D5E60B5363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898559C47BA89DE0DC573787 /* Pods-CourseListClient.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4D19DED5100ECD03B26A76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA2210A4CFE0E1C10FFA300 /* Pods-CourseListClient-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-pi-ios-sdk/Pods-CourseListClient-pi-ios-sdk-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97F2F16604EF8EFB3DC0914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A92813524760E0812BE529A /* Pods-CourseListClient-classroom-ios-library-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-classroom-ios-library/Pods-CourseListClient-classroom-ios-library-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F444D5FDE7E052428E0E38A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2216AF1FF757B72AEB715451 /* Pods-CourseListClient-core-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CourseListClient-core-ios-sdk/Pods-CourseListClient-core-ios-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5849A5BB180728F5256F776D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914ACF35B7C0499322F8BB24 /* Debug */,
+				2720F8CE8D76357720EC63DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE01F6A930BE29F060FC914 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-core-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444D5FDE7E052428E0E38A5 /* Debug */,
+				A6B8666BA944D78DCDD66165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CD29CA9D4F984A01DD5CE5 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-classroom-ios-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA812E24F103606BE9E1EEC /* Debug */,
+				E97F2F16604EF8EFB3DC0914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23DEBF7398637E5520BF16C /* Build configuration list for PBXNativeTarget "Pods-CourseListClient-pi-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9A1F67BE79274B1C2302B0 /* Debug */,
+				E4D19DED5100ECD03B26A76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD102082095D0D09F83DC8E3 /* Build configuration list for PBXNativeTarget "Pods-CourseListClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8719F2070D71D5E60B5363 /* Debug */,
+				669E64B98FB748A1D75DAB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094E7A10882A5850660A17B1 /* Project object */;
+}

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/core-ios-sdk" "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public/seer-ios-sdk" "${PODS_ROOT}/Headers/Public/seer-ios-sdk/Seer-ios-client"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/core-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/seer-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/seer-ios-sdk/Seer-ios-client"
+OTHER_LDFLAGS = -ObjC -l"Pods-SeerClientApp-core-ios-sdk" -l"Pods-SeerClientApp-seer-ios-sdk" -framework "Foundation" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

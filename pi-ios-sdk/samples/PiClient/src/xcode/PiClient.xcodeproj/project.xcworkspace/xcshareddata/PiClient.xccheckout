@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8757B4A4-7E0A-4AA4-9BEB-B76064443F2C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PiClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F483A445-33B8-488F-85DF-613725D6673E</key>
+		<string>ssh://devops-tools.pearson.com/mp/pi-ios-sdk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samples/PiClient/src/xcode/PiClient.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F483A445-33B8-488F-85DF-613725D6673E</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://devops-tools.pearson.com/mp/pi-ios-sdk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F483A445-33B8-488F-85DF-613725D6673E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F483A445-33B8-488F-85DF-613725D6673E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pi-ios-sdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

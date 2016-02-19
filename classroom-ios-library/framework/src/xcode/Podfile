@@ -1,0 +1,10 @@
+platform :ios, "7.0"
+
+target "classroom-ios" do
+  pod 'core-ios-sdk', '1.2.0'
+end
+
+target "classroom-iosTests" do
+  pod 'core-ios-sdk', '1.2.0'
+  pod 'OCMock', '3.1.1'
+end

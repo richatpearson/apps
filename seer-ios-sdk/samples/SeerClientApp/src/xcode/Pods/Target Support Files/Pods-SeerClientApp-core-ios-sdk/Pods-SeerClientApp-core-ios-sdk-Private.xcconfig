@@ -1,0 +1,5 @@
+#include "Pods-SeerClientApp-core-ios-sdk.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/core-ios-sdk" "${PODS_ROOT}/Headers/Build/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/core-ios-sdk" "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public/seer-ios-sdk" "${PODS_ROOT}/Headers/Public/seer-ios-sdk/Seer-ios-client"
+OTHER_LDFLAGS = ${PODS_SEERCLIENTAPP_CORE_IOS_SDK_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>432176D8-2F86-4641-89E1-7B652875C19D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SeerClientApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>018EADEE-E708-4102-8B67-4A49C1F6ED9E</key>
+		<string>ssh://devops-tools.pearson.com/mp/seer-ios-sdk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samples/SeerClientApp/src/xcode/SeerClientApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>018EADEE-E708-4102-8B67-4A49C1F6ED9E</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://devops-tools.pearson.com/mp/seer-ios-sdk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>018EADEE-E708-4102-8B67-4A49C1F6ED9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>018EADEE-E708-4102-8B67-4A49C1F6ED9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>seer-ios-sdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794108231AB380BF0076F837 /* SeerQueueIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794108221AB380BF0076F837 /* SeerQueueIntegrationTests.swift */; };
+		79A91E101AAE3A8E00FEC2CF /* SeerDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A91E0E1AAE3A8E00FEC2CF /* SeerDatabaseManager.h */; };
+		79A91E111AAE3A8E00FEC2CF /* SeerDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A91E0F1AAE3A8E00FEC2CF /* SeerDatabaseManager.m */; };
+		79A91E141AAE501200FEC2CF /* SeerQueueDBItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A91E121AAE501200FEC2CF /* SeerQueueDBItem.h */; };
+		79A91E151AAE501200FEC2CF /* SeerQueueDBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A91E131AAE501200FEC2CF /* SeerQueueDBItem.m */; };
+		79A91E181AB2215D00FEC2CF /* SeerQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A91E171AB2215D00FEC2CF /* SeerQueueTests.swift */; };
+		79C90CA41A8EA996001A2318 /* SeerClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64062F21877343A00A99F99 /* SeerClientTests.m */; };
+		79C90CA51A8EAAA4001A2318 /* ActivityStreamValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B8A87A185B799800DB3805 /* ActivityStreamValidatorTests.m */; };
+		79C90CA61A8EAB5D001A2318 /* TincanValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C375D418623DD600686BF2 /* TincanValidatorTests.m */; };
+		79C90CA71A8EABD4001A2318 /* ActivityStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C375FA186252CB00686BF2 /* ActivityStreamTests.m */; };
+		79C90CA81A8EABD4001A2318 /* ActivityStreamActorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64062EA18772AA200A99F99 /* ActivityStreamActorTests.m */; };
+		79C90CA91A8EABD4001A2318 /* ActivityStreamGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64062EC18772BED00A99F99 /* ActivityStreamGeneratorTests.m */; };
+		79C90CAA1A8EABD4001A2318 /* ActivityStreamObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64062EE18772CB900A99F99 /* ActivityStreamObjectTests.m */; };
+		79C90CAB1A8EABD4001A2318 /* ActivityStreamTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64062F018772D8A00A99F99 /* ActivityStreamTargetTests.m */; };
+		79C90CAC1A8EACA2001A2318 /* TincanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF66EC185A568F00AAAE88 /* TincanTests.m */; };
+		79C90CAD1A8EACA2001A2318 /* TincanActorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C232F61868DE6D0079FA01 /* TincanActorTests.m */; };
+		79C90CAE1A8EACA2001A2318 /* TincanActorAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C232F91868E45C0079FA01 /* TincanActorAccountTests.m */; };
+		79C90CAF1A8EACA2001A2318 /* TincanAttachmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C232FB1868E6D90079FA01 /* TincanAttachmentTests.m */; };
+		79C90CB01A8EACA2001A2318 /* TincanAttachmentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C232FD1868EB820079FA01 /* TincanAttachmentsTests.m */; };
+		79C90CB11A8EACA2001A2318 /* TincanContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C232FF1868F4310079FA01 /* TincanContextTests.m */; };
+		79C90CB21A8EACA2001A2318 /* TincanContextActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A2ADA81869FC8F00AE9033 /* TincanContextActivityTests.m */; };
+		79C90CB31A8EACA2001A2318 /* TincanContextActivityItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C233031868FB170079FA01 /* TincanContextActivityItemTests.m */; };
+		79C90CB41A8EACA2001A2318 /* TincanContextExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D44EDA186A0B36007EC0CD /* TincanContextExtensionsTests.m */; };
+		79C90CB51A8EACA2001A2318 /* TincanLanguageMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D44EDC186A0CEF007EC0CD /* TincanLanguageMapTests.m */; };
+		79C90CB61A8EACA2001A2318 /* TincanObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D44EDE186A0DD6007EC0CD /* TincanObjectTests.m */; };
+		79C90CB71A8EACA2001A2318 /* TincanObjectDefinitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED325518732D7600D189D9 /* TincanObjectDefinitionTests.m */; };
+		79C90CB81A8EACA2001A2318 /* TincanResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED3257187336B200D189D9 /* TincanResultTests.m */; };
+		79C90CB91A8EACA2001A2318 /* TincanResultScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED325918733B9200D189D9 /* TincanResultScoreTests.m */; };
+		79C90CBA1A8EACA2001A2318 /* TincanVerbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED325B18733DFC00D189D9 /* TincanVerbTests.m */; };
+		79C9CC1F1900547300BC9749 /* SeerClientBatchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C9CC1D1900547300BC9749 /* SeerClientBatchResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C9CC201900547300BC9749 /* SeerClientBatchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C9CC1E1900547300BC9749 /* SeerClientBatchResponse.m */; };
+		D625CB02185FBE2500494196 /* SeerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D625CB00185FBE2500494196 /* SeerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D625CB03185FBE2500494196 /* SeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D625CB01185FBE2500494196 /* SeerClient.m */; };
+		D625CB0B185FBFE500494196 /* SeerClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D625CB0A185FBFE500494196 /* SeerClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D625CB0E185FC13F00494196 /* SeerTokenFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D625CB0C185FC13F00494196 /* SeerTokenFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D625CB0F185FC13F00494196 /* SeerTokenFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D625CB0D185FC13F00494196 /* SeerTokenFetcher.m */; };
+		D625CB13185FC15200494196 /* SeerTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D625CB11185FC15200494196 /* SeerTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D625CB14185FC15200494196 /* SeerTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D625CB12185FC15200494196 /* SeerTokenResponse.m */; };
+		D6395D3D185F8CBC0097BB24 /* ActivityStreamValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D6395D3B185F8CBC0097BB24 /* ActivityStreamValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6395D3E185F8CBC0097BB24 /* ActivityStreamValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6395D3C185F8CBC0097BB24 /* ActivityStreamValidator.m */; };
+		D64DE2C2189C066800A355F9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DE2C1189C066800A355F9 /* libsqlite3.dylib */; };
+		D6799296188756F2005B39FD /* SeerClientResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D6799294188756F2005B39FD /* SeerClientResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6799297188756F2005B39FD /* SeerClientResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D6799295188756F2005B39FD /* SeerClientResponse.m */; };
+		D683EB4D18592B6D00FD18AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D683EB4918592B5700FD18AE /* Foundation.framework */; };
+		D683EB4E18592B7000FD18AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D683EB4A18592B5700FD18AE /* UIKit.framework */; };
+		D68D29781860EF2700016A11 /* SeerEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = D68D29761860EF2700016A11 /* SeerEndpoints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68D29791860EF2700016A11 /* SeerEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D29771860EF2700016A11 /* SeerEndpoints.m */; };
+		D68D297D1860FF3D00016A11 /* SeerReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = D68D297B1860FF3D00016A11 /* SeerReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68D297E1860FF3D00016A11 /* SeerReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D297C1860FF3D00016A11 /* SeerReporter.m */; };
+		D68E1565187F18CD00B89522 /* SeerArrayObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1561187F18CD00B89522 /* SeerArrayObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E1566187F18CD00B89522 /* SeerArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1562187F18CD00B89522 /* SeerArrayObject.m */; };
+		D68E1568187F18CD00B89522 /* SeerDictionaryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1563187F18CD00B89522 /* SeerDictionaryObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E1569187F18CD00B89522 /* SeerDictionaryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1564187F18CD00B89522 /* SeerDictionaryObject.m */; };
+		D68E156D187F18E300B89522 /* ActivityStreamGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E156B187F18E300B89522 /* ActivityStreamGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E156E187F18E300B89522 /* ActivityStreamGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E156C187F18E300B89522 /* ActivityStreamGenerator.m */; };
+		D68E1574187F190400B89522 /* ActivityStreamObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1570187F190400B89522 /* ActivityStreamObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E1575187F190400B89522 /* ActivityStreamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1571187F190400B89522 /* ActivityStreamObject.m */; };
+		D68E1577187F190400B89522 /* ActivityStreamTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1572187F190400B89522 /* ActivityStreamTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E1578187F190400B89522 /* ActivityStreamTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1573187F190400B89522 /* ActivityStreamTarget.m */; };
+		D68E157E187F191F00B89522 /* ActivityStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E157A187F191F00B89522 /* ActivityStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E157F187F191F00B89522 /* ActivityStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E157B187F191F00B89522 /* ActivityStream.m */; };
+		D68E1581187F191F00B89522 /* ActivityStreamActor.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E157C187F191F00B89522 /* ActivityStreamActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E1582187F191F00B89522 /* ActivityStreamActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E157D187F191F00B89522 /* ActivityStreamActor.m */; };
+		D68E15A5187F196400B89522 /* Tincan.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1584187F196400B89522 /* Tincan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15A6187F196400B89522 /* Tincan.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1585187F196400B89522 /* Tincan.m */; };
+		D68E15A8187F196400B89522 /* TincanActor.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1586187F196400B89522 /* TincanActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15A9187F196400B89522 /* TincanActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1587187F196400B89522 /* TincanActor.m */; };
+		D68E15AB187F196400B89522 /* TincanActorAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1588187F196400B89522 /* TincanActorAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15AC187F196400B89522 /* TincanActorAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1589187F196400B89522 /* TincanActorAccount.m */; };
+		D68E15AE187F196400B89522 /* TincanAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E158A187F196400B89522 /* TincanAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15AF187F196400B89522 /* TincanAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E158B187F196400B89522 /* TincanAttachment.m */; };
+		D68E15B1187F196400B89522 /* TincanAttachments.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E158C187F196400B89522 /* TincanAttachments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15B2187F196400B89522 /* TincanAttachments.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E158D187F196400B89522 /* TincanAttachments.m */; };
+		D68E15B4187F196400B89522 /* TincanContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E158E187F196400B89522 /* TincanContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15B5187F196400B89522 /* TincanContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E158F187F196400B89522 /* TincanContext.m */; };
+		D68E15B7187F196400B89522 /* TincanContextActivities.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1590187F196400B89522 /* TincanContextActivities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15B8187F196400B89522 /* TincanContextActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1591187F196400B89522 /* TincanContextActivities.m */; };
+		D68E15BC187F196400B89522 /* TincanContextActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1593187F196400B89522 /* TincanContextActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15BD187F196400B89522 /* TincanContextActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1594187F196400B89522 /* TincanContextActivity.m */; };
+		D68E15BF187F196400B89522 /* TincanContextActivityItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1595187F196400B89522 /* TincanContextActivityItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15C0187F196400B89522 /* TincanContextActivityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1596187F196400B89522 /* TincanContextActivityItem.m */; };
+		D68E15C2187F196400B89522 /* TincanContextExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1597187F196400B89522 /* TincanContextExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15C3187F196400B89522 /* TincanContextExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E1598187F196400B89522 /* TincanContextExtensions.m */; };
+		D68E15C5187F196400B89522 /* TincanLanguageMap.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E1599187F196400B89522 /* TincanLanguageMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15C6187F196400B89522 /* TincanLanguageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E159A187F196400B89522 /* TincanLanguageMap.m */; };
+		D68E15C8187F196400B89522 /* TincanObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E159B187F196400B89522 /* TincanObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15C9187F196400B89522 /* TincanObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E159C187F196400B89522 /* TincanObject.m */; };
+		D68E15CB187F196400B89522 /* TincanObjectDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E159D187F196400B89522 /* TincanObjectDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15CC187F196400B89522 /* TincanObjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E159E187F196400B89522 /* TincanObjectDefinition.m */; };
+		D68E15CE187F196400B89522 /* TincanResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E159F187F196400B89522 /* TincanResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15CF187F196400B89522 /* TincanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E15A0187F196400B89522 /* TincanResult.m */; };
+		D68E15D1187F196400B89522 /* TincanResultScore.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E15A1187F196400B89522 /* TincanResultScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15D2187F196400B89522 /* TincanResultScore.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E15A2187F196400B89522 /* TincanResultScore.m */; };
+		D68E15D4187F196400B89522 /* TincanVerb.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E15A3187F196400B89522 /* TincanVerb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68E15D5187F196400B89522 /* TincanVerb.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E15A4187F196400B89522 /* TincanVerb.m */; };
+		D6A4078118DCE7CA00097747 /* SeerByteValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A4077F18DCE7CA00097747 /* SeerByteValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A4078218DCE7CA00097747 /* SeerByteValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4078018DCE7CA00097747 /* SeerByteValidator.m */; };
+		D6B8A898185BA39200DB3805 /* SeerUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B8A896185BA39200DB3805 /* SeerUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B8A899185BA39200DB3805 /* SeerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B8A897185BA39200DB3805 /* SeerUtility.m */; };
+		D6C375D0186234E000686BF2 /* TincanValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C375CE186234E000686BF2 /* TincanValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C375D1186234E000686BF2 /* TincanValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C375CF186234E000686BF2 /* TincanValidator.m */; };
+		D6CD1A1418ABEB59000ABB82 /* SeerQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CD1A1318ABEB59000ABB82 /* SeerQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CD1A1B18AC2A48000ABB82 /* SeerQueueResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CD1A1918AC2A48000ABB82 /* SeerQueueResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CD1A1C18AC2A48000ABB82 /* SeerQueueResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD1A1A18AC2A48000ABB82 /* SeerQueueResponse.m */; };
+		D6CD79AB18C5462F006536D6 /* SeerClientErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CD79A918C5462F006536D6 /* SeerClientErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CD79AC18C5462F006536D6 /* SeerClientErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD79AA18C5462F006536D6 /* SeerClientErrors.m */; };
+		D6E18A02188842F6009028B9 /* ValidationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E18A00188842F6009028B9 /* ValidationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E18A0E18888873009028B9 /* ValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E18A0D18888873009028B9 /* ValidationResult.m */; };
+		D6E55A30189993D70081E220 /* SeerQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E55A2E189993D70081E220 /* SeerQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E55A31189993D70081E220 /* SeerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E55A2F189993D70081E220 /* SeerQueue.m */; };
+		D6E55A35189993FF0081E220 /* SeerServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E55A33189993FF0081E220 /* SeerServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E55A36189993FF0081E220 /* SeerServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E55A34189993FF0081E220 /* SeerServerRequest.m */; };
+		D6E80EAE185636700015D7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E80EAC185636700015D7C7 /* InfoPlist.strings */; };
+		D6E80EB7185636700015D7C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E80EB6185636700015D7C7 /* XCTest.framework */; };
+		D6E80EC4185636700015D7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E80EC2185636700015D7C7 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E80EBC185636700015D7C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E80E9B1856366F0015D7C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E80EA61856366F0015D7C7;
+			remoteInfo = "SEER-ios-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794108221AB380BF0076F837 /* SeerQueueIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeerQueueIntegrationTests.swift; path = "Seer-ios-clientTests/SeerQueueIntegrationTests.swift"; sourceTree = SOURCE_ROOT; };
+		79A91E0E1AAE3A8E00FEC2CF /* SeerDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerDatabaseManager.h; path = "Seer-ios-client/SeerDatabaseManager.h"; sourceTree = SOURCE_ROOT; };
+		79A91E0F1AAE3A8E00FEC2CF /* SeerDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerDatabaseManager.m; path = "Seer-ios-client/SeerDatabaseManager.m"; sourceTree = SOURCE_ROOT; };
+		79A91E121AAE501200FEC2CF /* SeerQueueDBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerQueueDBItem.h; path = "Seer-ios-client/SeerQueueDBItem.h"; sourceTree = SOURCE_ROOT; };
+		79A91E131AAE501200FEC2CF /* SeerQueueDBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerQueueDBItem.m; path = "Seer-ios-client/SeerQueueDBItem.m"; sourceTree = SOURCE_ROOT; };
+		79A91E161AB2215C00FEC2CF /* Seer-ios-clientTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seer-ios-clientTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		79A91E171AB2215D00FEC2CF /* SeerQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeerQueueTests.swift; path = "Seer-ios-clientTests/SeerQueueTests.swift"; sourceTree = SOURCE_ROOT; };
+		79C90CA11A8E98E9001A2318 /* Seer-ios-client.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Seer-ios-client.framework"; path = "../../../../../../Library/Developer/Xcode/DerivedData/Seer-ios-client-eiqckrruuasgybeugiobgabxamjj/Build/Products/Debug-iphoneos/Seer-ios-client.framework"; sourceTree = "<group>"; };
+		79C9CC1D1900547300BC9749 /* SeerClientBatchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerClientBatchResponse.h; path = "Seer-ios-client/SeerClientBatchResponse.h"; sourceTree = SOURCE_ROOT; };
+		79C9CC1E1900547300BC9749 /* SeerClientBatchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerClientBatchResponse.m; path = "Seer-ios-client/SeerClientBatchResponse.m"; sourceTree = SOURCE_ROOT; };
+		D625CB00185FBE2500494196 /* SeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerClient.h; sourceTree = "<group>"; };
+		D625CB01185FBE2500494196 /* SeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerClient.m; sourceTree = "<group>"; };
+		D625CB0A185FBFE500494196 /* SeerClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerClientDelegate.h; sourceTree = "<group>"; };
+		D625CB0C185FC13F00494196 /* SeerTokenFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerTokenFetcher.h; sourceTree = "<group>"; };
+		D625CB0D185FC13F00494196 /* SeerTokenFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerTokenFetcher.m; sourceTree = "<group>"; };
+		D625CB11185FC15200494196 /* SeerTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerTokenResponse.h; sourceTree = "<group>"; };
+		D625CB12185FC15200494196 /* SeerTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerTokenResponse.m; sourceTree = "<group>"; };
+		D6395D3B185F8CBC0097BB24 /* ActivityStreamValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityStreamValidator.h; sourceTree = "<group>"; };
+		D6395D3C185F8CBC0097BB24 /* ActivityStreamValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamValidator.m; sourceTree = "<group>"; };
+		D64062EA18772AA200A99F99 /* ActivityStreamActorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamActorTests.m; sourceTree = "<group>"; };
+		D64062EC18772BED00A99F99 /* ActivityStreamGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamGeneratorTests.m; sourceTree = "<group>"; };
+		D64062EE18772CB900A99F99 /* ActivityStreamObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamObjectTests.m; sourceTree = "<group>"; };
+		D64062F018772D8A00A99F99 /* ActivityStreamTargetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamTargetTests.m; sourceTree = "<group>"; };
+		D64062F21877343A00A99F99 /* SeerClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerClientTests.m; sourceTree = "<group>"; };
+		D64DE2C1189C066800A355F9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D6799294188756F2005B39FD /* SeerClientResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerClientResponse.h; path = "Seer-ios-client/SeerClientResponse.h"; sourceTree = SOURCE_ROOT; };
+		D6799295188756F2005B39FD /* SeerClientResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerClientResponse.m; path = "Seer-ios-client/SeerClientResponse.m"; sourceTree = SOURCE_ROOT; };
+		D683EB4918592B5700FD18AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D683EB4A18592B5700FD18AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D68D29761860EF2700016A11 /* SeerEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerEndpoints.h; sourceTree = "<group>"; };
+		D68D29771860EF2700016A11 /* SeerEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerEndpoints.m; sourceTree = "<group>"; };
+		D68D297B1860FF3D00016A11 /* SeerReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerReporter.h; sourceTree = "<group>"; };
+		D68D297C1860FF3D00016A11 /* SeerReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerReporter.m; sourceTree = "<group>"; };
+		D68E1561187F18CD00B89522 /* SeerArrayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerArrayObject.h; path = "Seer-ios-client/SeerArrayObject.h"; sourceTree = SOURCE_ROOT; };
+		D68E1562187F18CD00B89522 /* SeerArrayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerArrayObject.m; path = "Seer-ios-client/SeerArrayObject.m"; sourceTree = SOURCE_ROOT; };
+		D68E1563187F18CD00B89522 /* SeerDictionaryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerDictionaryObject.h; path = "Seer-ios-client/SeerDictionaryObject.h"; sourceTree = SOURCE_ROOT; };
+		D68E1564187F18CD00B89522 /* SeerDictionaryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerDictionaryObject.m; path = "Seer-ios-client/SeerDictionaryObject.m"; sourceTree = SOURCE_ROOT; };
+		D68E156B187F18E300B89522 /* ActivityStreamGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityStreamGenerator.h; path = "Seer-ios-client/ActivityStreamGenerator.h"; sourceTree = SOURCE_ROOT; };
+		D68E156C187F18E300B89522 /* ActivityStreamGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStreamGenerator.m; path = "Seer-ios-client/ActivityStreamGenerator.m"; sourceTree = SOURCE_ROOT; };
+		D68E1570187F190400B89522 /* ActivityStreamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityStreamObject.h; path = "Seer-ios-client/ActivityStreamObject.h"; sourceTree = SOURCE_ROOT; };
+		D68E1571187F190400B89522 /* ActivityStreamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStreamObject.m; path = "Seer-ios-client/ActivityStreamObject.m"; sourceTree = SOURCE_ROOT; };
+		D68E1572187F190400B89522 /* ActivityStreamTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityStreamTarget.h; path = "Seer-ios-client/ActivityStreamTarget.h"; sourceTree = SOURCE_ROOT; };
+		D68E1573187F190400B89522 /* ActivityStreamTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStreamTarget.m; path = "Seer-ios-client/ActivityStreamTarget.m"; sourceTree = SOURCE_ROOT; };
+		D68E157A187F191F00B89522 /* ActivityStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityStream.h; path = "Seer-ios-client/ActivityStream.h"; sourceTree = SOURCE_ROOT; };
+		D68E157B187F191F00B89522 /* ActivityStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStream.m; path = "Seer-ios-client/ActivityStream.m"; sourceTree = SOURCE_ROOT; };
+		D68E157C187F191F00B89522 /* ActivityStreamActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityStreamActor.h; path = "Seer-ios-client/ActivityStreamActor.h"; sourceTree = SOURCE_ROOT; };
+		D68E157D187F191F00B89522 /* ActivityStreamActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStreamActor.m; path = "Seer-ios-client/ActivityStreamActor.m"; sourceTree = SOURCE_ROOT; };
+		D68E1584187F196400B89522 /* Tincan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tincan.h; path = "Seer-ios-client/Tincan.h"; sourceTree = SOURCE_ROOT; };
+		D68E1585187F196400B89522 /* Tincan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tincan.m; path = "Seer-ios-client/Tincan.m"; sourceTree = SOURCE_ROOT; };
+		D68E1586187F196400B89522 /* TincanActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanActor.h; path = "Seer-ios-client/TincanActor.h"; sourceTree = SOURCE_ROOT; };
+		D68E1587187F196400B89522 /* TincanActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanActor.m; path = "Seer-ios-client/TincanActor.m"; sourceTree = SOURCE_ROOT; };
+		D68E1588187F196400B89522 /* TincanActorAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanActorAccount.h; path = "Seer-ios-client/TincanActorAccount.h"; sourceTree = SOURCE_ROOT; };
+		D68E1589187F196400B89522 /* TincanActorAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanActorAccount.m; path = "Seer-ios-client/TincanActorAccount.m"; sourceTree = SOURCE_ROOT; };
+		D68E158A187F196400B89522 /* TincanAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanAttachment.h; path = "Seer-ios-client/TincanAttachment.h"; sourceTree = SOURCE_ROOT; };
+		D68E158B187F196400B89522 /* TincanAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanAttachment.m; path = "Seer-ios-client/TincanAttachment.m"; sourceTree = SOURCE_ROOT; };
+		D68E158C187F196400B89522 /* TincanAttachments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanAttachments.h; path = "Seer-ios-client/TincanAttachments.h"; sourceTree = SOURCE_ROOT; };
+		D68E158D187F196400B89522 /* TincanAttachments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanAttachments.m; path = "Seer-ios-client/TincanAttachments.m"; sourceTree = SOURCE_ROOT; };
+		D68E158E187F196400B89522 /* TincanContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanContext.h; path = "Seer-ios-client/TincanContext.h"; sourceTree = SOURCE_ROOT; };
+		D68E158F187F196400B89522 /* TincanContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContext.m; path = "Seer-ios-client/TincanContext.m"; sourceTree = SOURCE_ROOT; };
+		D68E1590187F196400B89522 /* TincanContextActivities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanContextActivities.h; path = "Seer-ios-client/TincanContextActivities.h"; sourceTree = SOURCE_ROOT; };
+		D68E1591187F196400B89522 /* TincanContextActivities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContextActivities.m; path = "Seer-ios-client/TincanContextActivities.m"; sourceTree = SOURCE_ROOT; };
+		D68E1593187F196400B89522 /* TincanContextActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanContextActivity.h; path = "Seer-ios-client/TincanContextActivity.h"; sourceTree = SOURCE_ROOT; };
+		D68E1594187F196400B89522 /* TincanContextActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContextActivity.m; path = "Seer-ios-client/TincanContextActivity.m"; sourceTree = SOURCE_ROOT; };
+		D68E1595187F196400B89522 /* TincanContextActivityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanContextActivityItem.h; path = "Seer-ios-client/TincanContextActivityItem.h"; sourceTree = SOURCE_ROOT; };
+		D68E1596187F196400B89522 /* TincanContextActivityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContextActivityItem.m; path = "Seer-ios-client/TincanContextActivityItem.m"; sourceTree = SOURCE_ROOT; };
+		D68E1597187F196400B89522 /* TincanContextExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanContextExtensions.h; path = "Seer-ios-client/TincanContextExtensions.h"; sourceTree = SOURCE_ROOT; };
+		D68E1598187F196400B89522 /* TincanContextExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContextExtensions.m; path = "Seer-ios-client/TincanContextExtensions.m"; sourceTree = SOURCE_ROOT; };
+		D68E1599187F196400B89522 /* TincanLanguageMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanLanguageMap.h; path = "Seer-ios-client/TincanLanguageMap.h"; sourceTree = SOURCE_ROOT; };
+		D68E159A187F196400B89522 /* TincanLanguageMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanLanguageMap.m; path = "Seer-ios-client/TincanLanguageMap.m"; sourceTree = SOURCE_ROOT; };
+		D68E159B187F196400B89522 /* TincanObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanObject.h; path = "Seer-ios-client/TincanObject.h"; sourceTree = SOURCE_ROOT; };
+		D68E159C187F196400B89522 /* TincanObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanObject.m; path = "Seer-ios-client/TincanObject.m"; sourceTree = SOURCE_ROOT; };
+		D68E159D187F196400B89522 /* TincanObjectDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanObjectDefinition.h; path = "Seer-ios-client/TincanObjectDefinition.h"; sourceTree = SOURCE_ROOT; };
+		D68E159E187F196400B89522 /* TincanObjectDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanObjectDefinition.m; path = "Seer-ios-client/TincanObjectDefinition.m"; sourceTree = SOURCE_ROOT; };
+		D68E159F187F196400B89522 /* TincanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanResult.h; path = "Seer-ios-client/TincanResult.h"; sourceTree = SOURCE_ROOT; };
+		D68E15A0187F196400B89522 /* TincanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanResult.m; path = "Seer-ios-client/TincanResult.m"; sourceTree = SOURCE_ROOT; };
+		D68E15A1187F196400B89522 /* TincanResultScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanResultScore.h; path = "Seer-ios-client/TincanResultScore.h"; sourceTree = SOURCE_ROOT; };
+		D68E15A2187F196400B89522 /* TincanResultScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanResultScore.m; path = "Seer-ios-client/TincanResultScore.m"; sourceTree = SOURCE_ROOT; };
+		D68E15A3187F196400B89522 /* TincanVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TincanVerb.h; path = "Seer-ios-client/TincanVerb.h"; sourceTree = SOURCE_ROOT; };
+		D68E15A4187F196400B89522 /* TincanVerb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanVerb.m; path = "Seer-ios-client/TincanVerb.m"; sourceTree = SOURCE_ROOT; };
+		D6A2ADA81869FC8F00AE9033 /* TincanContextActivityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanContextActivityTests.m; path = "SEER-ios-clientTests/TincanContextActivityTests.m"; sourceTree = SOURCE_ROOT; };
+		D6A4077F18DCE7CA00097747 /* SeerByteValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerByteValidator.h; path = "Seer-ios-client/SeerByteValidator.h"; sourceTree = SOURCE_ROOT; };
+		D6A4078018DCE7CA00097747 /* SeerByteValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerByteValidator.m; path = "Seer-ios-client/SeerByteValidator.m"; sourceTree = SOURCE_ROOT; };
+		D6B8A87A185B799800DB3805 /* ActivityStreamValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityStreamValidatorTests.m; sourceTree = "<group>"; };
+		D6B8A896185BA39200DB3805 /* SeerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeerUtility.h; sourceTree = "<group>"; };
+		D6B8A897185BA39200DB3805 /* SeerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeerUtility.m; sourceTree = "<group>"; };
+		D6C232F61868DE6D0079FA01 /* TincanActorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanActorTests.m; sourceTree = "<group>"; };
+		D6C232F91868E45C0079FA01 /* TincanActorAccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanActorAccountTests.m; sourceTree = "<group>"; };
+		D6C232FB1868E6D90079FA01 /* TincanAttachmentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanAttachmentTests.m; path = "SEER-ios-clientTests/TincanAttachmentTests.m"; sourceTree = SOURCE_ROOT; };
+		D6C232FD1868EB820079FA01 /* TincanAttachmentsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanAttachmentsTests.m; sourceTree = "<group>"; };
+		D6C232FF1868F4310079FA01 /* TincanContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanContextTests.m; sourceTree = "<group>"; };
+		D6C233031868FB170079FA01 /* TincanContextActivityItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanContextActivityItemTests.m; sourceTree = "<group>"; };
+		D6C375CE186234E000686BF2 /* TincanValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TincanValidator.h; sourceTree = "<group>"; };
+		D6C375CF186234E000686BF2 /* TincanValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanValidator.m; sourceTree = "<group>"; };
+		D6C375D418623DD600686BF2 /* TincanValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanValidatorTests.m; sourceTree = "<group>"; };
+		D6C375FA186252CB00686BF2 /* ActivityStreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityStreamTests.m; path = "SEER-ios-clientTests/ActivityStreamTests.m"; sourceTree = SOURCE_ROOT; };
+		D6CD1A1318ABEB59000ABB82 /* SeerQueueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerQueueDelegate.h; path = "Seer-ios-client/SeerQueueDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D6CD1A1918AC2A48000ABB82 /* SeerQueueResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerQueueResponse.h; path = "Seer-ios-client/SeerQueueResponse.h"; sourceTree = SOURCE_ROOT; };
+		D6CD1A1A18AC2A48000ABB82 /* SeerQueueResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerQueueResponse.m; path = "Seer-ios-client/SeerQueueResponse.m"; sourceTree = SOURCE_ROOT; };
+		D6CD79A918C5462F006536D6 /* SeerClientErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerClientErrors.h; path = "Seer-ios-client/SeerClientErrors.h"; sourceTree = SOURCE_ROOT; };
+		D6CD79AA18C5462F006536D6 /* SeerClientErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerClientErrors.m; path = "Seer-ios-client/SeerClientErrors.m"; sourceTree = SOURCE_ROOT; };
+		D6D44EDA186A0B36007EC0CD /* TincanContextExtensionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanContextExtensionsTests.m; sourceTree = "<group>"; };
+		D6D44EDC186A0CEF007EC0CD /* TincanLanguageMapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanLanguageMapTests.m; sourceTree = "<group>"; };
+		D6D44EDE186A0DD6007EC0CD /* TincanObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanObjectTests.m; sourceTree = "<group>"; };
+		D6E18A00188842F6009028B9 /* ValidationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidationResult.h; path = "Seer-ios-client/ValidationResult.h"; sourceTree = SOURCE_ROOT; };
+		D6E18A0D18888873009028B9 /* ValidationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidationResult.m; path = "Seer-ios-client/ValidationResult.m"; sourceTree = SOURCE_ROOT; };
+		D6E55A2E189993D70081E220 /* SeerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerQueue.h; path = "Seer-ios-client/SeerQueue.h"; sourceTree = SOURCE_ROOT; };
+		D6E55A2F189993D70081E220 /* SeerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerQueue.m; path = "Seer-ios-client/SeerQueue.m"; sourceTree = SOURCE_ROOT; };
+		D6E55A33189993FF0081E220 /* SeerServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeerServerRequest.h; path = "../Seer-ios-client/SeerServerRequest.h"; sourceTree = "<group>"; };
+		D6E55A34189993FF0081E220 /* SeerServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeerServerRequest.m; path = "../Seer-ios-client/SeerServerRequest.m"; sourceTree = "<group>"; };
+		D6E80EA7185636700015D7C7 /* Seer-ios-client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seer-ios-client.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E80EAB185636700015D7C7 /* Seer-ios-client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seer-ios-client-Info.plist"; sourceTree = "<group>"; };
+		D6E80EAD185636700015D7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6E80EAF185636700015D7C7 /* Seer-ios-client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seer-ios-client-Prefix.pch"; sourceTree = "<group>"; };
+		D6E80EB4185636700015D7C7 /* Seer-ios-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seer-ios-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E80EB6185636700015D7C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6E80EC1185636700015D7C7 /* Seer-ios-clientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seer-ios-clientTests-Info.plist"; sourceTree = "<group>"; };
+		D6E80EC3185636700015D7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6ED325518732D7600D189D9 /* TincanObjectDefinitionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanObjectDefinitionTests.m; sourceTree = "<group>"; };
+		D6ED3257187336B200D189D9 /* TincanResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TincanResultTests.m; path = "SEER-ios-clientTests/TincanResultTests.m"; sourceTree = SOURCE_ROOT; };
+		D6ED325918733B9200D189D9 /* TincanResultScoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanResultScoreTests.m; sourceTree = "<group>"; };
+		D6ED325B18733DFC00D189D9 /* TincanVerbTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanVerbTests.m; sourceTree = "<group>"; };
+		D6EF66EC185A568F00AAAE88 /* TincanTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TincanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E80EA11856366F0015D7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E80EB1185636700015D7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DE2C2189C066800A355F9 /* libsqlite3.dylib in Frameworks */,
+				D6E80EB7185636700015D7C7 /* XCTest.framework in Frameworks */,
+				D683EB4E18592B7000FD18AE /* UIKit.framework in Frameworks */,
+				D683EB4D18592B6D00FD18AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A651CE1AAA2C8900F88127 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				79A91E0E1AAE3A8E00FEC2CF /* SeerDatabaseManager.h */,
+				79A91E0F1AAE3A8E00FEC2CF /* SeerDatabaseManager.m */,
+				79A91E121AAE501200FEC2CF /* SeerQueueDBItem.h */,
+				79A91E131AAE501200FEC2CF /* SeerQueueDBItem.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		D68AACFC1875CDCB00889197 /* ActivityStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C375FA186252CB00686BF2 /* ActivityStreamTests.m */,
+				D64062EA18772AA200A99F99 /* ActivityStreamActorTests.m */,
+				D64062EC18772BED00A99F99 /* ActivityStreamGeneratorTests.m */,
+				D64062EE18772CB900A99F99 /* ActivityStreamObjectTests.m */,
+				D64062F018772D8A00A99F99 /* ActivityStreamTargetTests.m */,
+			);
+			name = ActivityStreamTests;
+			sourceTree = "<group>";
+		};
+		D6B8A890185BA11A00DB3805 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6B8A896185BA39200DB3805 /* SeerUtility.h */,
+				D6B8A897185BA39200DB3805 /* SeerUtility.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D6C232F81868E42B0079FA01 /* TincanTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF66EC185A568F00AAAE88 /* TincanTests.m */,
+				D6C232F61868DE6D0079FA01 /* TincanActorTests.m */,
+				D6C232F91868E45C0079FA01 /* TincanActorAccountTests.m */,
+				D6C232FB1868E6D90079FA01 /* TincanAttachmentTests.m */,
+				D6C232FD1868EB820079FA01 /* TincanAttachmentsTests.m */,
+				D6C232FF1868F4310079FA01 /* TincanContextTests.m */,
+				D6A2ADA81869FC8F00AE9033 /* TincanContextActivityTests.m */,
+				D6C233031868FB170079FA01 /* TincanContextActivityItemTests.m */,
+				D6D44EDA186A0B36007EC0CD /* TincanContextExtensionsTests.m */,
+				D6D44EDC186A0CEF007EC0CD /* TincanLanguageMapTests.m */,
+				D6D44EDE186A0DD6007EC0CD /* TincanObjectTests.m */,
+				D6ED325518732D7600D189D9 /* TincanObjectDefinitionTests.m */,
+				D6ED3257187336B200D189D9 /* TincanResultTests.m */,
+				D6ED325918733B9200D189D9 /* TincanResultScoreTests.m */,
+				D6ED325B18733DFC00D189D9 /* TincanVerbTests.m */,
+			);
+			name = TincanTests;
+			sourceTree = "<group>";
+		};
+		D6C375D3186234E400686BF2 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				D6395D3B185F8CBC0097BB24 /* ActivityStreamValidator.h */,
+				D6395D3C185F8CBC0097BB24 /* ActivityStreamValidator.m */,
+				D6C375CE186234E000686BF2 /* TincanValidator.h */,
+				D6C375CF186234E000686BF2 /* TincanValidator.m */,
+				D6A4077F18DCE7CA00097747 /* SeerByteValidator.h */,
+				D6A4078018DCE7CA00097747 /* SeerByteValidator.m */,
+				D6E18A00188842F6009028B9 /* ValidationResult.h */,
+				D6E18A0D18888873009028B9 /* ValidationResult.m */,
+			);
+			name = Validators;
+			sourceTree = "<group>";
+		};
+		D6C375D61862493A00686BF2 /* ActivityStream */ = {
+			isa = PBXGroup;
+			children = (
+				D68E157A187F191F00B89522 /* ActivityStream.h */,
+				D68E157B187F191F00B89522 /* ActivityStream.m */,
+				D68E157C187F191F00B89522 /* ActivityStreamActor.h */,
+				D68E157D187F191F00B89522 /* ActivityStreamActor.m */,
+				D68E156B187F18E300B89522 /* ActivityStreamGenerator.h */,
+				D68E156C187F18E300B89522 /* ActivityStreamGenerator.m */,
+				D68E1570187F190400B89522 /* ActivityStreamObject.h */,
+				D68E1571187F190400B89522 /* ActivityStreamObject.m */,
+				D68E1572187F190400B89522 /* ActivityStreamTarget.h */,
+				D68E1573187F190400B89522 /* ActivityStreamTarget.m */,
+			);
+			name = ActivityStream;
+			sourceTree = "<group>";
+		};
+		D6E80E9A1856366F0015D7C7 = {
+			isa = PBXGroup;
+			children = (
+				79C90CA11A8E98E9001A2318 /* Seer-ios-client.framework */,
+				D6E80EA9185636700015D7C7 /* Seer-ios-client */,
+				D6E80EBF185636700015D7C7 /* Seer-ios-clientTests */,
+				D6E80EB5185636700015D7C7 /* Frameworks */,
+				D6E80EA8185636700015D7C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E80EA8185636700015D7C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E80EA7185636700015D7C7 /* Seer-ios-client.framework */,
+				D6E80EB4185636700015D7C7 /* Seer-ios-clientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E80EA9185636700015D7C7 /* Seer-ios-client */ = {
+			isa = PBXGroup;
+			children = (
+				79A651CE1AAA2C8900F88127 /* Database */,
+				D6C375D3186234E400686BF2 /* Validators */,
+				D6B8A890185BA11A00DB3805 /* Utilities */,
+				D6E80ECF185636F60015D7C7 /* Model */,
+				D6E80EAA185636700015D7C7 /* Supporting Files */,
+				D625CB00185FBE2500494196 /* SeerClient.h */,
+				D625CB01185FBE2500494196 /* SeerClient.m */,
+				D625CB0A185FBFE500494196 /* SeerClientDelegate.h */,
+				D6CD79A918C5462F006536D6 /* SeerClientErrors.h */,
+				D6CD79AA18C5462F006536D6 /* SeerClientErrors.m */,
+				D6799294188756F2005B39FD /* SeerClientResponse.h */,
+				D6799295188756F2005B39FD /* SeerClientResponse.m */,
+				79C9CC1D1900547300BC9749 /* SeerClientBatchResponse.h */,
+				79C9CC1E1900547300BC9749 /* SeerClientBatchResponse.m */,
+				D68D29761860EF2700016A11 /* SeerEndpoints.h */,
+				D68D29771860EF2700016A11 /* SeerEndpoints.m */,
+				D6E55A2E189993D70081E220 /* SeerQueue.h */,
+				D6E55A2F189993D70081E220 /* SeerQueue.m */,
+				D6CD1A1318ABEB59000ABB82 /* SeerQueueDelegate.h */,
+				D6CD1A1918AC2A48000ABB82 /* SeerQueueResponse.h */,
+				D6CD1A1A18AC2A48000ABB82 /* SeerQueueResponse.m */,
+				D68D297B1860FF3D00016A11 /* SeerReporter.h */,
+				D68D297C1860FF3D00016A11 /* SeerReporter.m */,
+				D6E55A33189993FF0081E220 /* SeerServerRequest.h */,
+				D6E55A34189993FF0081E220 /* SeerServerRequest.m */,
+				D625CB0C185FC13F00494196 /* SeerTokenFetcher.h */,
+				D625CB0D185FC13F00494196 /* SeerTokenFetcher.m */,
+				D625CB11185FC15200494196 /* SeerTokenResponse.h */,
+				D625CB12185FC15200494196 /* SeerTokenResponse.m */,
+			);
+			name = "Seer-ios-client";
+			path = "SEER-ios-client";
+			sourceTree = "<group>";
+		};
+		D6E80EAA185636700015D7C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E80EAB185636700015D7C7 /* Seer-ios-client-Info.plist */,
+				D6E80EAC185636700015D7C7 /* InfoPlist.strings */,
+				D6E80EAF185636700015D7C7 /* Seer-ios-client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6E80EB5185636700015D7C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64DE2C1189C066800A355F9 /* libsqlite3.dylib */,
+				D683EB4918592B5700FD18AE /* Foundation.framework */,
+				D683EB4A18592B5700FD18AE /* UIKit.framework */,
+				D6E80EB6185636700015D7C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E80EBF185636700015D7C7 /* Seer-ios-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64062F21877343A00A99F99 /* SeerClientTests.m */,
+				D6B8A87A185B799800DB3805 /* ActivityStreamValidatorTests.m */,
+				D6C375D418623DD600686BF2 /* TincanValidatorTests.m */,
+				D6EF66EB185A55D500AAAE88 /* Model */,
+				D6E80EC0185636700015D7C7 /* Supporting Files */,
+				79A91E161AB2215C00FEC2CF /* Seer-ios-clientTests-Bridging-Header.h */,
+				79A91E171AB2215D00FEC2CF /* SeerQueueTests.swift */,
+				794108221AB380BF0076F837 /* SeerQueueIntegrationTests.swift */,
+			);
+			name = "Seer-ios-clientTests";
+			path = "SEER-ios-clientTests";
+			sourceTree = "<group>";
+		};
+		D6E80EC0185636700015D7C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E80EC1185636700015D7C7 /* Seer-ios-clientTests-Info.plist */,
+				D6E80EC2185636700015D7C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6E80ECF185636F60015D7C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D68E1561187F18CD00B89522 /* SeerArrayObject.h */,
+				D68E1562187F18CD00B89522 /* SeerArrayObject.m */,
+				D68E1563187F18CD00B89522 /* SeerDictionaryObject.h */,
+				D68E1564187F18CD00B89522 /* SeerDictionaryObject.m */,
+				D6C375D61862493A00686BF2 /* ActivityStream */,
+				D6E80ED0185636FD0015D7C7 /* Tincan */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6E80ED0185636FD0015D7C7 /* Tincan */ = {
+			isa = PBXGroup;
+			children = (
+				D68E1584187F196400B89522 /* Tincan.h */,
+				D68E1585187F196400B89522 /* Tincan.m */,
+				D68E1586187F196400B89522 /* TincanActor.h */,
+				D68E1587187F196400B89522 /* TincanActor.m */,
+				D68E1588187F196400B89522 /* TincanActorAccount.h */,
+				D68E1589187F196400B89522 /* TincanActorAccount.m */,
+				D68E158A187F196400B89522 /* TincanAttachment.h */,
+				D68E158B187F196400B89522 /* TincanAttachment.m */,
+				D68E158C187F196400B89522 /* TincanAttachments.h */,
+				D68E158D187F196400B89522 /* TincanAttachments.m */,
+				D68E158E187F196400B89522 /* TincanContext.h */,
+				D68E158F187F196400B89522 /* TincanContext.m */,
+				D68E1590187F196400B89522 /* TincanContextActivities.h */,
+				D68E1591187F196400B89522 /* TincanContextActivities.m */,
+				D68E1593187F196400B89522 /* TincanContextActivity.h */,
+				D68E1594187F196400B89522 /* TincanContextActivity.m */,
+				D68E1595187F196400B89522 /* TincanContextActivityItem.h */,
+				D68E1596187F196400B89522 /* TincanContextActivityItem.m */,
+				D68E1597187F196400B89522 /* TincanContextExtensions.h */,
+				D68E1598187F196400B89522 /* TincanContextExtensions.m */,
+				D68E1599187F196400B89522 /* TincanLanguageMap.h */,
+				D68E159A187F196400B89522 /* TincanLanguageMap.m */,
+				D68E159B187F196400B89522 /* TincanObject.h */,
+				D68E159C187F196400B89522 /* TincanObject.m */,
+				D68E159D187F196400B89522 /* TincanObjectDefinition.h */,
+				D68E159E187F196400B89522 /* TincanObjectDefinition.m */,
+				D68E159F187F196400B89522 /* TincanResult.h */,
+				D68E15A0187F196400B89522 /* TincanResult.m */,
+				D68E15A1187F196400B89522 /* TincanResultScore.h */,
+				D68E15A2187F196400B89522 /* TincanResultScore.m */,
+				D68E15A3187F196400B89522 /* TincanVerb.h */,
+				D68E15A4187F196400B89522 /* TincanVerb.m */,
+			);
+			name = Tincan;
+			sourceTree = "<group>";
+		};
+		D6EF66EB185A55D500AAAE88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D68AACFC1875CDCB00889197 /* ActivityStreamTests */,
+				D6C232F81868E42B0079FA01 /* TincanTests */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D6E80EA21856366F0015D7C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D625CB02185FBE2500494196 /* SeerClient.h in Headers */,
+				D625CB0B185FBFE500494196 /* SeerClientDelegate.h in Headers */,
+				D68E1565187F18CD00B89522 /* SeerArrayObject.h in Headers */,
+				D6799296188756F2005B39FD /* SeerClientResponse.h in Headers */,
+				79C9CC1F1900547300BC9749 /* SeerClientBatchResponse.h in Headers */,
+				D68E1568187F18CD00B89522 /* SeerDictionaryObject.h in Headers */,
+				D68D29781860EF2700016A11 /* SeerEndpoints.h in Headers */,
+				D6CD1A1418ABEB59000ABB82 /* SeerQueueDelegate.h in Headers */,
+				D68D297D1860FF3D00016A11 /* SeerReporter.h in Headers */,
+				D6B8A898185BA39200DB3805 /* SeerUtility.h in Headers */,
+				D625CB0E185FC13F00494196 /* SeerTokenFetcher.h in Headers */,
+				D625CB13185FC15200494196 /* SeerTokenResponse.h in Headers */,
+				D68E157E187F191F00B89522 /* ActivityStream.h in Headers */,
+				D68E1581187F191F00B89522 /* ActivityStreamActor.h in Headers */,
+				D68E156D187F18E300B89522 /* ActivityStreamGenerator.h in Headers */,
+				D68E1574187F190400B89522 /* ActivityStreamObject.h in Headers */,
+				D68E1577187F190400B89522 /* ActivityStreamTarget.h in Headers */,
+				D68E15A5187F196400B89522 /* Tincan.h in Headers */,
+				D68E15A8187F196400B89522 /* TincanActor.h in Headers */,
+				D68E15AB187F196400B89522 /* TincanActorAccount.h in Headers */,
+				D68E15AE187F196400B89522 /* TincanAttachment.h in Headers */,
+				D68E15B1187F196400B89522 /* TincanAttachments.h in Headers */,
+				D68E15B4187F196400B89522 /* TincanContext.h in Headers */,
+				D68E15BF187F196400B89522 /* TincanContextActivityItem.h in Headers */,
+				D68E15B7187F196400B89522 /* TincanContextActivities.h in Headers */,
+				D68E15CB187F196400B89522 /* TincanObjectDefinition.h in Headers */,
+				D68E15C8187F196400B89522 /* TincanObject.h in Headers */,
+				D68E15CE187F196400B89522 /* TincanResult.h in Headers */,
+				D68E15D1187F196400B89522 /* TincanResultScore.h in Headers */,
+				D68E15D4187F196400B89522 /* TincanVerb.h in Headers */,
+				D68E15BC187F196400B89522 /* TincanContextActivity.h in Headers */,
+				D68E15C5187F196400B89522 /* TincanLanguageMap.h in Headers */,
+				D68E15C2187F196400B89522 /* TincanContextExtensions.h in Headers */,
+				D6C375D0186234E000686BF2 /* TincanValidator.h in Headers */,
+				79A91E101AAE3A8E00FEC2CF /* SeerDatabaseManager.h in Headers */,
+				D6CD79AB18C5462F006536D6 /* SeerClientErrors.h in Headers */,
+				D6395D3D185F8CBC0097BB24 /* ActivityStreamValidator.h in Headers */,
+				79A91E141AAE501200FEC2CF /* SeerQueueDBItem.h in Headers */,
+				D6CD1A1B18AC2A48000ABB82 /* SeerQueueResponse.h in Headers */,
+				D6A4078118DCE7CA00097747 /* SeerByteValidator.h in Headers */,
+				D6E55A30189993D70081E220 /* SeerQueue.h in Headers */,
+				D6E55A35189993FF0081E220 /* SeerServerRequest.h in Headers */,
+				D6E18A02188842F6009028B9 /* ValidationResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D6E80EA61856366F0015D7C7 /* Seer-ios-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E80EC9185636700015D7C7 /* Build configuration list for PBXNativeTarget "Seer-ios-client" */;
+			buildPhases = (
+				D6E80E9F1856366F0015D7C7 /* ShellScript */,
+				D6E80EA01856366F0015D7C7 /* Sources */,
+				D6E80EA11856366F0015D7C7 /* Frameworks */,
+				D6E80EA21856366F0015D7C7 /* Headers */,
+				D6E80EA31856366F0015D7C7 /* Resources */,
+				D6E80EA41856366F0015D7C7 /* ShellScript */,
+				D6E80EA51856366F0015D7C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seer-ios-client";
+			productName = "SEER-ios-client";
+			productReference = D6E80EA7185636700015D7C7 /* Seer-ios-client.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D6E80EB3185636700015D7C7 /* Seer-ios-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E80ECC185636700015D7C7 /* Build configuration list for PBXNativeTarget "Seer-ios-clientTests" */;
+			buildPhases = (
+				D6E80EB0185636700015D7C7 /* Sources */,
+				D6E80EB1185636700015D7C7 /* Frameworks */,
+				D6E80EB2185636700015D7C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E80EBD185636700015D7C7 /* PBXTargetDependency */,
+			);
+			name = "Seer-ios-clientTests";
+			productName = "SEER-ios-clientTests";
+			productReference = D6E80EB4185636700015D7C7 /* Seer-ios-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E80E9B1856366F0015D7C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Pearson;
+				TargetAttributes = {
+					D6E80EB3185636700015D7C7 = {
+						TestTargetID = D6E80EA61856366F0015D7C7;
+					};
+				};
+			};
+			buildConfigurationList = D6E80E9E1856366F0015D7C7 /* Build configuration list for PBXProject "Seer-ios-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6E80E9A1856366F0015D7C7;
+			productRefGroup = D6E80EA8185636700015D7C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E80EA61856366F0015D7C7 /* Seer-ios-client */,
+				D6E80EB3185636700015D7C7 /* Seer-ios-clientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E80EA31856366F0015D7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E80EAE185636700015D7C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E80EB2185636700015D7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E80EC4185636700015D7C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6E80E9F1856366F0015D7C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		D6E80EA41856366F0015D7C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		D6E80EA51856366F0015D7C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\nif [[ \"$XCODE_VERSION_MAJOR\" == \"0500\" ]]\nthen\n    echo \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nelse\n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nfi \n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh $FRAMEWORK_VERSION \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh $FRAMEWORK_VERSION \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E80EA01856366F0015D7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68E15A6187F196400B89522 /* Tincan.m in Sources */,
+				D68E15A9187F196400B89522 /* TincanActor.m in Sources */,
+				D68E15D2187F196400B89522 /* TincanResultScore.m in Sources */,
+				D68E1582187F191F00B89522 /* ActivityStreamActor.m in Sources */,
+				D6E55A36189993FF0081E220 /* SeerServerRequest.m in Sources */,
+				D625CB03185FBE2500494196 /* SeerClient.m in Sources */,
+				D68E1566187F18CD00B89522 /* SeerArrayObject.m in Sources */,
+				D68E156E187F18E300B89522 /* ActivityStreamGenerator.m in Sources */,
+				D625CB0F185FC13F00494196 /* SeerTokenFetcher.m in Sources */,
+				D68D297E1860FF3D00016A11 /* SeerReporter.m in Sources */,
+				D68D29791860EF2700016A11 /* SeerEndpoints.m in Sources */,
+				79A91E151AAE501200FEC2CF /* SeerQueueDBItem.m in Sources */,
+				D6E55A31189993D70081E220 /* SeerQueue.m in Sources */,
+				D68E15C9187F196400B89522 /* TincanObject.m in Sources */,
+				D6B8A899185BA39200DB3805 /* SeerUtility.m in Sources */,
+				D6A4078218DCE7CA00097747 /* SeerByteValidator.m in Sources */,
+				D6799297188756F2005B39FD /* SeerClientResponse.m in Sources */,
+				D6CD79AC18C5462F006536D6 /* SeerClientErrors.m in Sources */,
+				D68E15C6187F196400B89522 /* TincanLanguageMap.m in Sources */,
+				79C9CC201900547300BC9749 /* SeerClientBatchResponse.m in Sources */,
+				D68E157F187F191F00B89522 /* ActivityStream.m in Sources */,
+				D6CD1A1C18AC2A48000ABB82 /* SeerQueueResponse.m in Sources */,
+				D68E15AF187F196400B89522 /* TincanAttachment.m in Sources */,
+				D68E1569187F18CD00B89522 /* SeerDictionaryObject.m in Sources */,
+				79A91E111AAE3A8E00FEC2CF /* SeerDatabaseManager.m in Sources */,
+				D68E15C3187F196400B89522 /* TincanContextExtensions.m in Sources */,
+				D68E15B8187F196400B89522 /* TincanContextActivities.m in Sources */,
+				D68E15D5187F196400B89522 /* TincanVerb.m in Sources */,
+				D68E1575187F190400B89522 /* ActivityStreamObject.m in Sources */,
+				D625CB14185FC15200494196 /* SeerTokenResponse.m in Sources */,
+				D68E15BD187F196400B89522 /* TincanContextActivity.m in Sources */,
+				D68E15B2187F196400B89522 /* TincanAttachments.m in Sources */,
+				D68E15AC187F196400B89522 /* TincanActorAccount.m in Sources */,
+				D68E15CF187F196400B89522 /* TincanResult.m in Sources */,
+				D68E15B5187F196400B89522 /* TincanContext.m in Sources */,
+				D6395D3E185F8CBC0097BB24 /* ActivityStreamValidator.m in Sources */,
+				D68E1578187F190400B89522 /* ActivityStreamTarget.m in Sources */,
+				D6E18A0E18888873009028B9 /* ValidationResult.m in Sources */,
+				D68E15CC187F196400B89522 /* TincanObjectDefinition.m in Sources */,
+				D68E15C0187F196400B89522 /* TincanContextActivityItem.m in Sources */,
+				D6C375D1186234E000686BF2 /* TincanValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E80EB0185636700015D7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C90CAC1A8EACA2001A2318 /* TincanTests.m in Sources */,
+				79C90CAD1A8EACA2001A2318 /* TincanActorTests.m in Sources */,
+				794108231AB380BF0076F837 /* SeerQueueIntegrationTests.swift in Sources */,
+				79C90CAE1A8EACA2001A2318 /* TincanActorAccountTests.m in Sources */,
+				79C90CAF1A8EACA2001A2318 /* TincanAttachmentTests.m in Sources */,
+				79C90CB01A8EACA2001A2318 /* TincanAttachmentsTests.m in Sources */,
+				79C90CB11A8EACA2001A2318 /* TincanContextTests.m in Sources */,
+				79C90CB21A8EACA2001A2318 /* TincanContextActivityTests.m in Sources */,
+				79C90CB31A8EACA2001A2318 /* TincanContextActivityItemTests.m in Sources */,
+				79C90CB41A8EACA2001A2318 /* TincanContextExtensionsTests.m in Sources */,
+				79C90CB51A8EACA2001A2318 /* TincanLanguageMapTests.m in Sources */,
+				79C90CB61A8EACA2001A2318 /* TincanObjectTests.m in Sources */,
+				79C90CB71A8EACA2001A2318 /* TincanObjectDefinitionTests.m in Sources */,
+				79C90CB81A8EACA2001A2318 /* TincanResultTests.m in Sources */,
+				79C90CB91A8EACA2001A2318 /* TincanResultScoreTests.m in Sources */,
+				79C90CBA1A8EACA2001A2318 /* TincanVerbTests.m in Sources */,
+				79C90CA71A8EABD4001A2318 /* ActivityStreamTests.m in Sources */,
+				79C90CA81A8EABD4001A2318 /* ActivityStreamActorTests.m in Sources */,
+				79C90CA91A8EABD4001A2318 /* ActivityStreamGeneratorTests.m in Sources */,
+				79C90CAA1A8EABD4001A2318 /* ActivityStreamObjectTests.m in Sources */,
+				79C90CAB1A8EABD4001A2318 /* ActivityStreamTargetTests.m in Sources */,
+				79C90CA61A8EAB5D001A2318 /* TincanValidatorTests.m in Sources */,
+				79C90CA51A8EAAA4001A2318 /* ActivityStreamValidatorTests.m in Sources */,
+				79A91E181AB2215D00FEC2CF /* SeerQueueTests.swift in Sources */,
+				79C90CA41A8EA996001A2318 /* SeerClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E80EBD185636700015D7C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E80EA61856366F0015D7C7 /* Seer-ios-client */;
+			targetProxy = D6E80EBC185636700015D7C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E80EAC185636700015D7C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E80EAD185636700015D7C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6E80EC2185636700015D7C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E80EC3185636700015D7C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E80EC7185636700015D7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6E80EC8185636700015D7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E80ECA185636700015D7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seer-ios-client/Seer-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "Seer-ios-client/Seer-ios-client-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D6E80ECB185636700015D7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seer-ios-client/Seer-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "Seer-ios-client/Seer-ios-client-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		D6E80ECD185636700015D7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seer-ios-client.framework/Versions/A/Seer-ios-client";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seer-ios-client/Seer-ios-client-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Seer-ios-clientTests/Seer-ios-clientTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEER-ios-clientTests/Seer-ios-clientTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6E80ECE185636700015D7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seer-ios-client.framework/Versions/A/Seer-ios-client";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seer-ios-client/Seer-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "Seer-ios-clientTests/Seer-ios-clientTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEER-ios-clientTests/Seer-ios-clientTests-Bridging-Header.h";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E80E9E1856366F0015D7C7 /* Build configuration list for PBXProject "Seer-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E80EC7185636700015D7C7 /* Debug */,
+				D6E80EC8185636700015D7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E80EC9185636700015D7C7 /* Build configuration list for PBXNativeTarget "Seer-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E80ECA185636700015D7C7 /* Debug */,
+				D6E80ECB185636700015D7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E80ECC185636700015D7C7 /* Build configuration list for PBXNativeTarget "Seer-ios-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E80ECD185636700015D7C7 /* Debug */,
+				D6E80ECE185636700015D7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E80E9B1856366F0015D7C7 /* Project object */;
+}

@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.pearson.mobileplatform.ios.push</groupId>
+	<artifactId>pushnotifications</artifactId>
+	<version>2.0.2</version>
+  	<packaging>pom</packaging>
+    <build>
+        <plugins>
+        	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.8</version>
+				<executions>
+					<execution>
+						<id>unpack</id>
+						<phase>validate</phase>
+						<goals>
+					  		<goal>unpack</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>com.pearson.mobileplatform.ios.appservices</groupId>
+									<artifactId>appservices</artifactId>
+									<version>2.0.12.0</version>
+									<type>zip</type>
+									<overWrite>true</overWrite>
+									<outputDirectory>src/xcode/xcode-deps/frameworks/PearsonAppServicesiOSSDK</outputDirectory>
+								</artifactItem>
+							</artifactItems>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+			  	<artifactId>exec-maven-plugin</artifactId>
+			  	<version>1.2.1</version>
+			  	  <executions>
+			  		<execution><!-- Run Library script -->
+				  		<id>PushNotifications Libraries</id>
+				  		<phase>install</phase>
+				  		<goals>
+							<goal>exec</goal>
+				  		</goals>
+				  		<configuration>
+							<executable>${basedir}/scripts/pearson_push_dist.sh</executable>
+				  		</configuration>
+					</execution>
+					<execution><!-- Run framework script -->
+				  		<id>PushNotifications Framework</id>
+				  		<phase>install</phase>
+				  		<goals>
+							<goal>exec</goal>
+				  		</goals>
+				  		<configuration>
+							<executable>${basedir}/scripts/pearson_push_framework.sh</executable>
+				  		</configuration>
+					</execution>
+					<execution><!-- Run Release Build Zip Script -->
+				  		<id>PushNotifications Release</id>
+				  		<phase>install</phase>
+				  		<goals>
+							<goal>exec</goal>
+				  		</goals>
+				  		<configuration>
+							<executable>${basedir}/scripts/pearson_push_build_zip.sh</executable>
+							<arguments>
+								<argument>${project.version}</argument>
+								<argument>${project.artifactId}</argument>
+							</arguments>
+				  		</configuration>
+					</execution>
+			  	</executions>
+			</plugin>
+		</plugins>
+    </build>
+</project>

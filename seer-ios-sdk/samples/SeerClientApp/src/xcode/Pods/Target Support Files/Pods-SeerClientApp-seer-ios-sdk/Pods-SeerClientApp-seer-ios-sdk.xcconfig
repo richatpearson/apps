@@ -1,0 +1,1 @@
+PODS_SEERCLIENTAPP_SEER_IOS_SDK_OTHER_LDFLAGS = -framework "Foundation" -framework "UIKit"

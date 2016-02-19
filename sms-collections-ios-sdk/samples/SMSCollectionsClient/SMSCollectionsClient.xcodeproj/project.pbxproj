@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E660164BC655E94AEF550F5 /* libPods-SMSCollectionsClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458CBA5D853C770BE72CD7F5 /* libPods-SMSCollectionsClient.a */; };
+		7941FFAF1A4336BF00434945 /* PGMSmsUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7941FFAE1A4336BF00434945 /* PGMSmsUserProfileViewController.swift */; };
+		7A2DF3691A2D30000087D4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DF3681A2D30000087D4BD /* AppDelegate.swift */; };
+		7A2DF36B1A2D30000087D4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DF36A1A2D30000087D4BD /* ViewController.swift */; };
+		7A2DF36E1A2D30000087D4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DF36C1A2D30000087D4BD /* Main.storyboard */; };
+		7A2DF3701A2D30000087D4BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DF36F1A2D30000087D4BD /* Images.xcassets */; };
+		7A2DF3731A2D30000087D4BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DF3711A2D30000087D4BD /* LaunchScreen.xib */; };
+		7A2DF37F1A2D30000087D4BD /* SMSCollectionsClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DF37E1A2D30000087D4BD /* SMSCollectionsClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A2DF3791A2D30000087D4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2DF35B1A2D30000087D4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2DF3621A2D30000087D4BD;
+			remoteInfo = SMSCollectionsClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A62F5FC1A2E594B001EE081 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		458CBA5D853C770BE72CD7F5 /* libPods-SMSCollectionsClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSCollectionsClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E92EF2DD55AF6E8A3E8F04E /* Pods-SMSCollectionsClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSCollectionsClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSCollectionsClient/Pods-SMSCollectionsClient.debug.xcconfig"; sourceTree = "<group>"; };
+		7941FFAE1A4336BF00434945 /* PGMSmsUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMSmsUserProfileViewController.swift; sourceTree = "<group>"; };
+		7A2DF3631A2D30000087D4BD /* SMSCollectionsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSCollectionsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2DF3671A2D30000087D4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2DF3681A2D30000087D4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A2DF36A1A2D30000087D4BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A2DF36D1A2D30000087D4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A2DF36F1A2D30000087D4BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A2DF3721A2D30000087D4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A2DF3781A2D30000087D4BD /* SMSCollectionsClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSCollectionsClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2DF37D1A2D30000087D4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2DF37E1A2D30000087D4BD /* SMSCollectionsClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCollectionsClientTests.swift; sourceTree = "<group>"; };
+		FBDDC8BCE4752FD4209D3973 /* Pods-SMSCollectionsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSCollectionsClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSCollectionsClient/Pods-SMSCollectionsClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A2DF3601A2D30000087D4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E660164BC655E94AEF550F5 /* libPods-SMSCollectionsClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2DF3751A2D30000087D4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032325BEC44E38D159D7353B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				458CBA5D853C770BE72CD7F5 /* libPods-SMSCollectionsClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A2DF35A1A2D30000087D4BD = {
+			isa = PBXGroup;
+			children = (
+				7A2DF3651A2D30000087D4BD /* SMSCollectionsClient */,
+				7A2DF37B1A2D30000087D4BD /* SMSCollectionsClientTests */,
+				7A2DF3641A2D30000087D4BD /* Products */,
+				DDE03BC4BEED6CA118AF2B4D /* Pods */,
+				032325BEC44E38D159D7353B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A2DF3641A2D30000087D4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DF3631A2D30000087D4BD /* SMSCollectionsClient.app */,
+				7A2DF3781A2D30000087D4BD /* SMSCollectionsClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A2DF3651A2D30000087D4BD /* SMSCollectionsClient */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DF3681A2D30000087D4BD /* AppDelegate.swift */,
+				7A2DF36A1A2D30000087D4BD /* ViewController.swift */,
+				7941FFAE1A4336BF00434945 /* PGMSmsUserProfileViewController.swift */,
+				7A2DF36C1A2D30000087D4BD /* Main.storyboard */,
+				7A2DF3711A2D30000087D4BD /* LaunchScreen.xib */,
+				7A2DF3661A2D30000087D4BD /* Supporting Files */,
+			);
+			path = SMSCollectionsClient;
+			sourceTree = "<group>";
+		};
+		7A2DF3661A2D30000087D4BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DF36F1A2D30000087D4BD /* Images.xcassets */,
+				7A2DF3671A2D30000087D4BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A2DF37B1A2D30000087D4BD /* SMSCollectionsClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DF37E1A2D30000087D4BD /* SMSCollectionsClientTests.swift */,
+				7A2DF37C1A2D30000087D4BD /* Supporting Files */,
+			);
+			path = SMSCollectionsClientTests;
+			sourceTree = "<group>";
+		};
+		7A2DF37C1A2D30000087D4BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DF37D1A2D30000087D4BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE03BC4BEED6CA118AF2B4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E92EF2DD55AF6E8A3E8F04E /* Pods-SMSCollectionsClient.debug.xcconfig */,
+				FBDDC8BCE4752FD4209D3973 /* Pods-SMSCollectionsClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A2DF3621A2D30000087D4BD /* SMSCollectionsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2DF3821A2D30000087D4BD /* Build configuration list for PBXNativeTarget "SMSCollectionsClient" */;
+			buildPhases = (
+				67A40F1917B50927BBBD3EF0 /* Check Pods Manifest.lock */,
+				7A2DF35F1A2D30000087D4BD /* Sources */,
+				7A2DF3601A2D30000087D4BD /* Frameworks */,
+				7A2DF3611A2D30000087D4BD /* Resources */,
+				7A62F5FC1A2E594B001EE081 /* CopyFiles */,
+				4EC34B44D2D87A23E63515FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSCollectionsClient;
+			productName = SMSCollectionsClient;
+			productReference = 7A2DF3631A2D30000087D4BD /* SMSCollectionsClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A2DF3771A2D30000087D4BD /* SMSCollectionsClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2DF3851A2D30000087D4BD /* Build configuration list for PBXNativeTarget "SMSCollectionsClientTests" */;
+			buildPhases = (
+				7A2DF3741A2D30000087D4BD /* Sources */,
+				7A2DF3751A2D30000087D4BD /* Frameworks */,
+				7A2DF3761A2D30000087D4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2DF37A1A2D30000087D4BD /* PBXTargetDependency */,
+			);
+			name = SMSCollectionsClientTests;
+			productName = SMSCollectionsClientTests;
+			productReference = 7A2DF3781A2D30000087D4BD /* SMSCollectionsClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A2DF35B1A2D30000087D4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Pearson;
+				TargetAttributes = {
+					7A2DF3621A2D30000087D4BD = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4Y68U227M4;
+					};
+					7A2DF3771A2D30000087D4BD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7A2DF3621A2D30000087D4BD;
+					};
+				};
+			};
+			buildConfigurationList = 7A2DF35E1A2D30000087D4BD /* Build configuration list for PBXProject "SMSCollectionsClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A2DF35A1A2D30000087D4BD;
+			productRefGroup = 7A2DF3641A2D30000087D4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A2DF3621A2D30000087D4BD /* SMSCollectionsClient */,
+				7A2DF3771A2D30000087D4BD /* SMSCollectionsClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A2DF3611A2D30000087D4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2DF36E1A2D30000087D4BD /* Main.storyboard in Resources */,
+				7A2DF3731A2D30000087D4BD /* LaunchScreen.xib in Resources */,
+				7A2DF3701A2D30000087D4BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2DF3761A2D30000087D4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EC34B44D2D87A23E63515FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSCollectionsClient/Pods-SMSCollectionsClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A40F1917B50927BBBD3EF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2DF35F1A2D30000087D4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7941FFAF1A4336BF00434945 /* PGMSmsUserProfileViewController.swift in Sources */,
+				7A2DF36B1A2D30000087D4BD /* ViewController.swift in Sources */,
+				7A2DF3691A2D30000087D4BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2DF3741A2D30000087D4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2DF37F1A2D30000087D4BD /* SMSCollectionsClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A2DF37A1A2D30000087D4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2DF3621A2D30000087D4BD /* SMSCollectionsClient */;
+			targetProxy = 7A2DF3791A2D30000087D4BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A2DF36C1A2D30000087D4BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2DF36D1A2D30000087D4BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A2DF3711A2D30000087D4BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2DF3721A2D30000087D4BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A2DF3801A2D30000087D4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		7A2DF3811A2D30000087D4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		7A2DF3831A2D30000087D4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E92EF2DD55AF6E8A3E8F04E /* Pods-SMSCollectionsClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SMSCollectionsClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Headers/Public/sms-collections-ios-sdk/sms-collections-client/sms-collections-client.h";
+			};
+			name = Debug;
+		};
+		7A2DF3841A2D30000087D4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDDC8BCE4752FD4209D3973 /* Pods-SMSCollectionsClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SMSCollectionsClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de232b11-f18f-4a62-b383-23e1ec4b7b3a";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Headers/Public/sms-collections-ios-sdk/sms-collections-client/sms-collections-client.h";
+			};
+			name = Release;
+		};
+		7A2DF3861A2D30000087D4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSCollectionsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSCollectionsClient.app/SMSCollectionsClient";
+			};
+			name = Debug;
+		};
+		7A2DF3871A2D30000087D4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSCollectionsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSCollectionsClient.app/SMSCollectionsClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A2DF35E1A2D30000087D4BD /* Build configuration list for PBXProject "SMSCollectionsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2DF3801A2D30000087D4BD /* Debug */,
+				7A2DF3811A2D30000087D4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2DF3821A2D30000087D4BD /* Build configuration list for PBXNativeTarget "SMSCollectionsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2DF3831A2D30000087D4BD /* Debug */,
+				7A2DF3841A2D30000087D4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2DF3851A2D30000087D4BD /* Build configuration list for PBXNativeTarget "SMSCollectionsClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2DF3861A2D30000087D4BD /* Debug */,
+				7A2DF3871A2D30000087D4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A2DF35B1A2D30000087D4BD /* Project object */;
+}

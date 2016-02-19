@@ -1,0 +1,1 @@
+PODS_PICLIENTSTAGING_PI_IOS_SDK_OTHER_LDFLAGS = -framework Foundation -framework UIKit

@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/classroom-ios-library" "${PODS_ROOT}/Headers/Public/classroom-ios-library/classroom-ios" "${PODS_ROOT}/Headers/Public/core-ios-sdk" "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public/pi-ios-sdk" "${PODS_ROOT}/Headers/Public/pi-ios-sdk/Pi-ios-client"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/classroom-ios-library" -isystem "${PODS_ROOT}/Headers/Public/classroom-ios-library/classroom-ios" -isystem "${PODS_ROOT}/Headers/Public/core-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/pi-ios-sdk" -isystem "${PODS_ROOT}/Headers/Public/pi-ios-sdk/Pi-ios-client"
+OTHER_LDFLAGS = -ObjC -l"Pods-CourseListClient-classroom-ios-library" -l"Pods-CourseListClient-core-ios-sdk" -l"Pods-CourseListClient-pi-ios-sdk" -framework "Foundation" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
+VALID_ARCHITECTURES = arm64 armv7 armv7s i386 x86_64

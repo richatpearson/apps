@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PearsonPush
+
+  Created by Tomack, Barry on 10/16/13.
+  Copyright (c) 2013 Pearson. All rights reserved.
+*/
+
+"NEW_FRIEND_FORMAT" = "%@ and %@ are now friends.";
+"ALL_FRIENDS_FORMAT" = "%@, %@ and %@ are all friends.";

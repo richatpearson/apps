@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C3A8E65924051A87CDAA4 /* libPods-PiClientStaging-pi-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF6E1E6EC2C4FAAB0A16AFF /* libPods-PiClientStaging-pi-ios-sdk.a */; };
+		018B19FD68FD4ECAA0CE7D2E /* PGMPiCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D57D174B94A048BB05DA5 /* PGMPiCredentials.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		040F73185EB54A75BB45109C /* Pods-PiClientStaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 155EA086644944B590D0860C /* Pods-PiClientStaging-dummy.m */; };
+		0680D17352E243D5B22D9E86 /* PGMPiTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C9C9543C245D28315D016 /* PGMPiTokenRefreshOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0846B724AA544526A9D58218 /* PGMPiTokenOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4187D06784643B7B3547DA3 /* PGMPiTokenOperation.h */; };
+		0F645948D9684B1E8FA3CF75 /* PGMPiOperationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD99CE132BC40E78D2DACAE /* PGMPiOperationConstants.h */; };
+		1934B3AF8A534E5499ED0516 /* PGMPiUserIdOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5733A67F37E94427B521DC8A /* PGMPiUserIdOperation.h */; };
+		19438E77A45E46889A8D2CA4 /* PGMPiIdentityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FBF25BEEBB4B25957A69E9 /* PGMPiIdentityProfile.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1AB77EA7BA8D4996B592D58C /* PGMPiAlternateId.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D33E5D5F21840F0B71092E8 /* PGMPiAlternateId.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1E5FF642EE3E4773866EF869 /* PGMPiIdentityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FBF25BEEBB4B25957A69E9 /* PGMPiIdentityProfile.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1FE1F39246304EDDB1AB286F /* PGMPiTokenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F82AB887A1FD40409115E60B /* PGMPiTokenOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		23A02B5A45494149A5AEDB03 /* PGMPiEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0851E55BD6430FAFAD6D05 /* PGMPiEnvironment.h */; };
+		2573289BCA1B4475B4190DE6 /* PGMPiClientLoginOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E4649BD9E4A6C8878F5DC /* PGMPiClientLoginOptions.h */; };
+		2625833962D548CEB6E582E9 /* PGMPiUserComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB05517F88E4C9AB28ECAEC /* PGMPiUserComposite.h */; };
+		27A96725CC20482FB3750B04 /* PGMPiIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC77CA34563494C9107757E /* PGMPiIdentity.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		28221454573E459BA26052AC /* PGMPiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DB852C9DE4F8BB2FC4E90 /* PGMPiResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		28B9200B9D1B4A81953A1D63 /* PGMPiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EF98E61672447984550342 /* PGMPiResponse.h */; };
+		29CECC360F32487E887D4047 /* PGMPiUserComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = BF613F3FB9AC4E859EBA1369 /* PGMPiUserComposite.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2C3369BF843144129D2D3EAF /* PGMPiAPIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD10CF6095DA4CE182B96D73 /* PGMPiAPIDelegate.h */; };
+		2CCD915F116E4DA8AEEE95A9 /* PGMPiEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9D22AF69747A682BF4416 /* PGMPiEnvironment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		32207B40483A4F1480585EDD /* PGMPiOperationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD99CE132BC40E78D2DACAE /* PGMPiOperationConstants.h */; };
+		32EC00E4B8BF4B53B75FF62A /* PGMPiIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D91106E0C6A48A3A4505826 /* PGMPiIdentity.h */; };
+		33F42E8F715D4B9294066742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */; };
+		345E757FAFA745ADA023EC32 /* PGMPiSecureStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26894AF51C254F7889AA985A /* PGMPiSecureStorage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		36444E2FF6DE4B11B5B44A44 /* PGMPiAlternateId.h in Headers */ = {isa = PBXBuildFile; fileRef = B002283963124CA195D1FD31 /* PGMPiAlternateId.h */; };
+		36BF75A2A9D74D55951FCA02 /* PGMPiClientLoginOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D545F3E74E24E85B49D1A1C /* PGMPiClientLoginOptions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3B5E2FDA8E5B46C584337F10 /* PGMPiConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F80AED4D8E4621A4352D20 /* PGMPiConsent.h */; };
+		3B9DEF9D7AD14D0CB2AF4B6A /* PGMPiError.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C48D60EA7C4E0783E67937 /* PGMPiError.h */; };
+		3D69A3FA2FC4436AAC55A629 /* PGMPiUserComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB05517F88E4C9AB28ECAEC /* PGMPiUserComposite.h */; };
+		3FDA4EB12A234E3CB6247A37 /* PGMPiIdentityProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = C76179AAAB0846198ED26654 /* PGMPiIdentityProfile.h */; };
+		4B34DDACA37C46B1B62686F2 /* PGMPiToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B09C498A2461C8E904DBA /* PGMPiToken.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4E03017CC0B9474D9E3CA076 /* PGMPiConsent.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A28B80B5049DDAAFFFA5F /* PGMPiConsent.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		51374183FFD24CF989E6EBA9 /* PGMPiEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0851E55BD6430FAFAD6D05 /* PGMPiEnvironment.h */; };
+		528E9FA1587D4B07B61F6D1B /* PGMPiError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E66A017384376815946A5 /* PGMPiError.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		52DAD829444E49A79D64A93C /* PGMPiClientLoginOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E4649BD9E4A6C8878F5DC /* PGMPiClientLoginOptions.h */; };
+		59C42E05A0F747DC95F6E853 /* PGMPiEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9D22AF69747A682BF4416 /* PGMPiEnvironment.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5A2C262646184E1AAA1C0426 /* Pods-PiClientProduction-pi-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40CE0EF04664748AAACFAC2 /* Pods-PiClientProduction-pi-ios-sdk-dummy.m */; };
+		5C1EF87E33CB4B23BAF346D5 /* PGMPiUserIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C930A2954EF846278B99931D /* PGMPiUserIdOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DA2123B388641D194296310 /* libPods-PiClientProduction-pi-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B081A2A25D24C5794E82764 /* libPods-PiClientProduction-pi-ios-sdk.a */; };
+		5F84941AF57940F0A397BAEB /* PGMPiForgotPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 40683C690F2C49E59E625ED5 /* PGMPiForgotPassword.h */; };
+		5FBCCBB4740D4189BCAA6575 /* PGMPiIdentityProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = C76179AAAB0846198ED26654 /* PGMPiIdentityProfile.h */; };
+		65A0E8B5CE44406F818EED7F /* PGMPiClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1751D708E66A41829D75B2B8 /* PGMPiClientDelegate.h */; };
+		678FC6767C0241BC8836F31F /* PGMPiForgotUsername.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAD9A3AD95747E69BD6DD2C /* PGMPiForgotUsername.h */; };
+		688D5B4423F5462EB1107F5A /* PGMPiCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D57D174B94A048BB05DA5 /* PGMPiCredentials.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		696134EB0A6F4018A0673D18 /* PGMPiToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B09C498A2461C8E904DBA /* PGMPiToken.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6A98D6BA15544E409D403742 /* PGMPiUserConsents.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F3BEE9108462F8B65D646 /* PGMPiUserConsents.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6C883E73E29942C094F60ED9 /* PGMPiAlternateId.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D33E5D5F21840F0B71092E8 /* PGMPiAlternateId.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		77D0D834C07642D1B13DDFFB /* PGMPiCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = D61E670D6FCA4DA0B45E3902 /* PGMPiCredentials.h */; };
+		7813D351B54C45E6B6614ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */; };
+		7EF7ACB983254D50B33EC736 /* PGMPiConsentPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D88364B7B74CBA9B327096 /* PGMPiConsentPolicy.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		83D0E3D3790F45A6A20C6BA9 /* PGMPiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EAA858FADB4CA586772B67 /* PGMPiClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8A3D7DEBF67949579387D0F8 /* PGMPiClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1751D708E66A41829D75B2B8 /* PGMPiClientDelegate.h */; };
+		8CE908274CA04DC1B4067F29 /* PGMPiConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F80AED4D8E4621A4352D20 /* PGMPiConsent.h */; };
+		95A4D05FA2414C35B01D0AC1 /* PGMPiToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 18ABB17739C54C768E9C1130 /* PGMPiToken.h */; };
+		95CEE02403254AEABAD317FE /* PGMPiForgotUsername.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316E62E749A492CAF52AC84 /* PGMPiForgotUsername.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		97D08EF2BF654D2ABAFE1300 /* PGMPiConsentPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E059BC2793483FBFD80C30 /* PGMPiConsentPolicy.h */; };
+		9B27999A07414F99B732341D /* PGMPiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E26753DC6F4F99868AFA46 /* PGMPiClient.h */; };
+		9FB32960BB0F4CD0B27B23B3 /* PGMPiUserComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = BF613F3FB9AC4E859EBA1369 /* PGMPiUserComposite.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A08A1B4596104A74AEBB24C3 /* PGMPiError.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C48D60EA7C4E0783E67937 /* PGMPiError.h */; };
+		A21C2F96ED3742A189B19D58 /* Pods-PiClientStaging-pi-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882A4C5EE11403BAD82912B /* Pods-PiClientStaging-pi-ios-sdk-dummy.m */; };
+		A45DCAF485644E86B3C1272E /* Pods-PiClientProduction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC44AA420E422EA49CBC6B /* Pods-PiClientProduction-dummy.m */; };
+		A525F63526254DFB95A5DE79 /* PGMPiTokenOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4187D06784643B7B3547DA3 /* PGMPiTokenOperation.h */; };
+		A5A0F2C9A6844EC8AA3C4F71 /* PGMPiError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E66A017384376815946A5 /* PGMPiError.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A5D2AE77675E4799995C0C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */; };
+		AC432033C9C946C8BDC4CB78 /* PGMPiConsentPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D88364B7B74CBA9B327096 /* PGMPiConsentPolicy.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AE171AA4DA8A4B0B85C9C550 /* PGMPiOperationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 474DE4F74F5445D982DC6B83 /* PGMPiOperationConstants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AF50B3FB4FF742399AAA49FC /* PGMPiSecureStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A1422A489CFB416D9C54DFF1 /* PGMPiSecureStorage.h */; };
+		B296382157234CBD9E85CABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3EFD634EB470FBAECFE23 /* UIKit.framework */; };
+		BC7A370BEEEF40A898B2DFE8 /* PGMPiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E26753DC6F4F99868AFA46 /* PGMPiClient.h */; };
+		BCC8EEC517504156A43F4231 /* PGMPiIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D91106E0C6A48A3A4505826 /* PGMPiIdentity.h */; };
+		C0F33AFEB3B94C9689E37805 /* PGMPiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EF98E61672447984550342 /* PGMPiResponse.h */; };
+		C266D2D2F2FE4EA7A42FD842 /* PGMPiTokenRefreshOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A0412518974B470CA1015E6A /* PGMPiTokenRefreshOperation.h */; };
+		C39BB0EC4E664DA5BA9FAE03 /* PGMPiToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 18ABB17739C54C768E9C1130 /* PGMPiToken.h */; };
+		C7FBBFBC0E1744CBA8DE8BA1 /* PGMPiForgotPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = D2439A388C0145A48EE504EF /* PGMPiForgotPassword.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CEBFFBE7F73C48A59965A094 /* PGMPiForgotPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = D2439A388C0145A48EE504EF /* PGMPiForgotPassword.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D0CB01197D254546943FF8ED /* PGMPiUserIdOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5733A67F37E94427B521DC8A /* PGMPiUserIdOperation.h */; };
+		D151FFCF1F814AFB9D6A2CF1 /* PGMPiOperationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 474DE4F74F5445D982DC6B83 /* PGMPiOperationConstants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D178010A16634FFFB010A327 /* PGMPiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EAA858FADB4CA586772B67 /* PGMPiClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D1E4488338B74891BEE8DC18 /* PGMPiIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC77CA34563494C9107757E /* PGMPiIdentity.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D2C401979D6841CD8263FB13 /* PGMPiAlternateId.h in Headers */ = {isa = PBXBuildFile; fileRef = B002283963124CA195D1FD31 /* PGMPiAlternateId.h */; };
+		D7B67E2A102E4CCF8F76816E /* PGMPiForgotPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 40683C690F2C49E59E625ED5 /* PGMPiForgotPassword.h */; };
+		DB74BEF097274A27871C1BC8 /* PGMPiUserConsents.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D46E369F44D4C13B1C35BEC /* PGMPiUserConsents.h */; };
+		DCEEA7C3C19446B6944B7AE2 /* PGMPiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DB852C9DE4F8BB2FC4E90 /* PGMPiResponse.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE5F4F7D958D477F9C5E6D2C /* PGMPiConsentPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E059BC2793483FBFD80C30 /* PGMPiConsentPolicy.h */; };
+		DF88695238324386B83E1C52 /* PGMPiUserIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C930A2954EF846278B99931D /* PGMPiUserIdOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E0272F610CE54D97AF59A97E /* PGMPiTokenRefreshOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A0412518974B470CA1015E6A /* PGMPiTokenRefreshOperation.h */; };
+		E10B0B8142A44F0F9B8D4F2A /* PGMPiSecureStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26894AF51C254F7889AA985A /* PGMPiSecureStorage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E3D65D25231441A5A8C47473 /* PGMPiTokenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F82AB887A1FD40409115E60B /* PGMPiTokenOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E3E439A064704E6485E5CB11 /* PGMPiConsent.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A28B80B5049DDAAFFFA5F /* PGMPiConsent.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E70C8AC635194E6FA73CE0CC /* PGMPiUserConsents.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D46E369F44D4C13B1C35BEC /* PGMPiUserConsents.h */; };
+		E884BB7EBF624FA5949C605D /* PGMPiCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = D61E670D6FCA4DA0B45E3902 /* PGMPiCredentials.h */; };
+		EC9CF66AF4794480A630B605 /* PGMPiForgotUsername.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAD9A3AD95747E69BD6DD2C /* PGMPiForgotUsername.h */; };
+		EDB8526DE6074C9880A16A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */; };
+		EE7A5D03C68645898565870B /* PGMPiSecureStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A1422A489CFB416D9C54DFF1 /* PGMPiSecureStorage.h */; };
+		F29E18B256BE405C9F33A10A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3EFD634EB470FBAECFE23 /* UIKit.framework */; };
+		F4DD25F870A14DE8844D7690 /* PGMPiAPIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD10CF6095DA4CE182B96D73 /* PGMPiAPIDelegate.h */; };
+		F8AAEB6F49F447C0A2F6F677 /* PGMPiTokenRefreshOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C9C9543C245D28315D016 /* PGMPiTokenRefreshOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F8E9FBB2467447EF83BAAAD2 /* PGMPiUserConsents.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F3BEE9108462F8B65D646 /* PGMPiUserConsents.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FC64416A80964B05BED018A7 /* PGMPiForgotUsername.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316E62E749A492CAF52AC84 /* PGMPiForgotUsername.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FE8D2B4B64634217A63633FF /* PGMPiClientLoginOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D545F3E74E24E85B49D1A1C /* PGMPiClientLoginOptions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8732A4243B95480291E19638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B5AB925C424801AF2C82FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494AF4344A264745AA252A3C;
+			remoteInfo = "Pods-PiClientProduction-pi-ios-sdk";
+		};
+		9E24F43A9D4A48A6B8F560F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B5AB925C424801AF2C82FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B191430D684842A78301F258;
+			remoteInfo = "Pods-PiClientStaging-pi-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003D57D174B94A048BB05DA5 /* PGMPiCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiCredentials.m; path = "framework/src/xcode/Pi-ios-client/PGMPiCredentials.m"; sourceTree = "<group>"; };
+		04D88364B7B74CBA9B327096 /* PGMPiConsentPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiConsentPolicy.m; path = "framework/src/xcode/Pi-ios-client/PGMPiConsentPolicy.m"; sourceTree = "<group>"; };
+		08EAA858FADB4CA586772B67 /* PGMPiClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiClient.m; path = "framework/src/xcode/Pi-ios-client/PGMPiClient.m"; sourceTree = "<group>"; };
+		11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		12A5B42A5A5E491F801DACCE /* Pods-PiClientProduction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiClientProduction-acknowledgements.plist"; sourceTree = "<group>"; };
+		155EA086644944B590D0860C /* Pods-PiClientStaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiClientStaging-dummy.m"; sourceTree = "<group>"; };
+		1751D708E66A41829D75B2B8 /* PGMPiClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClientDelegate.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClientDelegate.h"; sourceTree = "<group>"; };
+		18ABB17739C54C768E9C1130 /* PGMPiToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiToken.h; path = "framework/src/xcode/Pi-ios-client/PGMPiToken.h"; sourceTree = "<group>"; };
+		1C123732DD32492D87BF7FA3 /* Pods-PiClientStaging-pi-ios-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientStaging-pi-ios-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		1C1B09C498A2461C8E904DBA /* PGMPiToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiToken.m; path = "framework/src/xcode/Pi-ios-client/PGMPiToken.m"; sourceTree = "<group>"; };
+		26894AF51C254F7889AA985A /* PGMPiSecureStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiSecureStorage.m; path = "framework/src/xcode/Pi-ios-client/PGMPiSecureStorage.m"; sourceTree = "<group>"; };
+		30F80AED4D8E4621A4352D20 /* PGMPiConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiConsent.h; path = "framework/src/xcode/Pi-ios-client/PGMPiConsent.h"; sourceTree = "<group>"; };
+		40683C690F2C49E59E625ED5 /* PGMPiForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiForgotPassword.h; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotPassword.h"; sourceTree = "<group>"; };
+		413DB852C9DE4F8BB2FC4E90 /* PGMPiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiResponse.m; path = "framework/src/xcode/Pi-ios-client/PGMPiResponse.m"; sourceTree = "<group>"; };
+		45169DB68DC141EF84BFC7DC /* Pods-PiClientProduction-pi-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientProduction-pi-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		462F6329888C4A7EB757FC7A /* Pods-PiClientStaging-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiClientStaging-resources.sh"; sourceTree = "<group>"; };
+		474DE4F74F5445D982DC6B83 /* PGMPiOperationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiOperationConstants.m; path = "framework/src/xcode/Pi-ios-client/PGMPiOperationConstants.m"; sourceTree = "<group>"; };
+		4F5E66A017384376815946A5 /* PGMPiError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiError.m; path = "framework/src/xcode/Pi-ios-client/PGMPiError.m"; sourceTree = "<group>"; };
+		53EF98E61672447984550342 /* PGMPiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiResponse.h; path = "framework/src/xcode/Pi-ios-client/PGMPiResponse.h"; sourceTree = "<group>"; };
+		56921434BC0A49AD91021B6E /* Pods-PiClientProduction-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiClientProduction-resources.sh"; sourceTree = "<group>"; };
+		5733A67F37E94427B521DC8A /* PGMPiUserIdOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserIdOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserIdOperation.h"; sourceTree = "<group>"; };
+		58E059BC2793483FBFD80C30 /* PGMPiConsentPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiConsentPolicy.h; path = "framework/src/xcode/Pi-ios-client/PGMPiConsentPolicy.h"; sourceTree = "<group>"; };
+		5CB05517F88E4C9AB28ECAEC /* PGMPiUserComposite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserComposite.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserComposite.h"; sourceTree = "<group>"; };
+		5D33E5D5F21840F0B71092E8 /* PGMPiAlternateId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiAlternateId.m; path = "framework/src/xcode/Pi-ios-client/PGMPiAlternateId.m"; sourceTree = "<group>"; };
+		5D545F3E74E24E85B49D1A1C /* PGMPiClientLoginOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiClientLoginOptions.m; path = "framework/src/xcode/Pi-ios-client/PGMPiClientLoginOptions.m"; sourceTree = "<group>"; };
+		630A431669F243F19E55DDA4 /* Pods-PiClientProduction-pi-ios-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientProduction-pi-ios-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		6B081A2A25D24C5794E82764 /* libPods-PiClientProduction-pi-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiClientProduction-pi-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D34F2D556564871973D0AB7 /* libPods-PiClientProduction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiClientProduction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D938059759B4B03ABDD3068 /* Pods-PiClientProduction-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiClientProduction-environment.h"; sourceTree = "<group>"; };
+		72063DA714C54265838B5922 /* Pods-PiClientStaging-pi-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientStaging-pi-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		74006DA616AD4D7399ACD113 /* libPods-PiClientStaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiClientStaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADC992876674E2DADD0B191 /* Pods-PiClientStaging-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiClientStaging-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C9C9C9543C245D28315D016 /* PGMPiTokenRefreshOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiTokenRefreshOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenRefreshOperation.m"; sourceTree = "<group>"; };
+		7D46E369F44D4C13B1C35BEC /* PGMPiUserConsents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiUserConsents.h; path = "framework/src/xcode/Pi-ios-client/PGMPiUserConsents.h"; sourceTree = "<group>"; };
+		7D91106E0C6A48A3A4505826 /* PGMPiIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiIdentity.h; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentity.h"; sourceTree = "<group>"; };
+		8334F5F2BC58472DB320C9E3 /* Pods-PiClientStaging-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiClientStaging-environment.h"; sourceTree = "<group>"; };
+		8882A4C5EE11403BAD82912B /* Pods-PiClientStaging-pi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiClientStaging-pi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		8AAD9A3AD95747E69BD6DD2C /* PGMPiForgotUsername.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiForgotUsername.h; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotUsername.h"; sourceTree = "<group>"; };
+		8D7C6A859A8741BBBC75C109 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9316E62E749A492CAF52AC84 /* PGMPiForgotUsername.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiForgotUsername.m; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotUsername.m"; sourceTree = "<group>"; };
+		9613AE07236C4A8B96E91696 /* Pods-PiClientStaging-pi-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiClientStaging-pi-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		9BF6E1E6EC2C4FAAB0A16AFF /* libPods-PiClientStaging-pi-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiClientStaging-pi-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0412518974B470CA1015E6A /* PGMPiTokenRefreshOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiTokenRefreshOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenRefreshOperation.h"; sourceTree = "<group>"; };
+		A1422A489CFB416D9C54DFF1 /* PGMPiSecureStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiSecureStorage.h; path = "framework/src/xcode/Pi-ios-client/PGMPiSecureStorage.h"; sourceTree = "<group>"; };
+		A4187D06784643B7B3547DA3 /* PGMPiTokenOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiTokenOperation.h; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenOperation.h"; sourceTree = "<group>"; };
+		A5C9D22AF69747A682BF4416 /* PGMPiEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiEnvironment.m; path = "framework/src/xcode/Pi-ios-client/PGMPiEnvironment.m"; sourceTree = "<group>"; };
+		A82CFA331B97479FBC460465 /* Pods-PiClientProduction-pi-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiClientProduction-pi-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		AA231E6EA7514C73A48750E4 /* Pods-PiClientProduction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiClientProduction-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B002283963124CA195D1FD31 /* PGMPiAlternateId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiAlternateId.h; path = "framework/src/xcode/Pi-ios-client/PGMPiAlternateId.h"; sourceTree = "<group>"; };
+		B2EC44AA420E422EA49CBC6B /* Pods-PiClientProduction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiClientProduction-dummy.m"; sourceTree = "<group>"; };
+		B5E26753DC6F4F99868AFA46 /* PGMPiClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClient.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClient.h"; sourceTree = "<group>"; };
+		B7E3EFD634EB470FBAECFE23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B959443F75294EC2A967CB38 /* Pods-PiClientStaging-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiClientStaging-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDD99CE132BC40E78D2DACAE /* PGMPiOperationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiOperationConstants.h; path = "framework/src/xcode/Pi-ios-client/PGMPiOperationConstants.h"; sourceTree = "<group>"; };
+		BE0F3BEE9108462F8B65D646 /* PGMPiUserConsents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserConsents.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserConsents.m"; sourceTree = "<group>"; };
+		BF613F3FB9AC4E859EBA1369 /* PGMPiUserComposite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserComposite.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserComposite.m"; sourceTree = "<group>"; };
+		C24E4649BD9E4A6C8878F5DC /* PGMPiClientLoginOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiClientLoginOptions.h; path = "framework/src/xcode/Pi-ios-client/PGMPiClientLoginOptions.h"; sourceTree = "<group>"; };
+		C3C48D60EA7C4E0783E67937 /* PGMPiError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiError.h; path = "framework/src/xcode/Pi-ios-client/PGMPiError.h"; sourceTree = "<group>"; };
+		C76179AAAB0846198ED26654 /* PGMPiIdentityProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiIdentityProfile.h; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentityProfile.h"; sourceTree = "<group>"; };
+		C930A2954EF846278B99931D /* PGMPiUserIdOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiUserIdOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiUserIdOperation.m"; sourceTree = "<group>"; };
+		C9FBF25BEEBB4B25957A69E9 /* PGMPiIdentityProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiIdentityProfile.m; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentityProfile.m"; sourceTree = "<group>"; };
+		CD10CF6095DA4CE182B96D73 /* PGMPiAPIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiAPIDelegate.h; path = "framework/src/xcode/Pi-ios-client/PGMPiAPIDelegate.h"; sourceTree = "<group>"; };
+		D2439A388C0145A48EE504EF /* PGMPiForgotPassword.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiForgotPassword.m; path = "framework/src/xcode/Pi-ios-client/PGMPiForgotPassword.m"; sourceTree = "<group>"; };
+		D61E670D6FCA4DA0B45E3902 /* PGMPiCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiCredentials.h; path = "framework/src/xcode/Pi-ios-client/PGMPiCredentials.h"; sourceTree = "<group>"; };
+		DAC77CA34563494C9107757E /* PGMPiIdentity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiIdentity.m; path = "framework/src/xcode/Pi-ios-client/PGMPiIdentity.m"; sourceTree = "<group>"; };
+		DF0851E55BD6430FAFAD6D05 /* PGMPiEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMPiEnvironment.h; path = "framework/src/xcode/Pi-ios-client/PGMPiEnvironment.h"; sourceTree = "<group>"; };
+		E40CE0EF04664748AAACFAC2 /* Pods-PiClientProduction-pi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiClientProduction-pi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		E8F6B0F746524EEFB8F5DBA9 /* Pods-PiClientStaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientStaging.xcconfig"; sourceTree = "<group>"; };
+		F05A28B80B5049DDAAFFFA5F /* PGMPiConsent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiConsent.m; path = "framework/src/xcode/Pi-ios-client/PGMPiConsent.m"; sourceTree = "<group>"; };
+		F245137B1AE848A797653EB4 /* Pods-PiClientProduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiClientProduction.xcconfig"; sourceTree = "<group>"; };
+		F82AB887A1FD40409115E60B /* PGMPiTokenOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMPiTokenOperation.m; path = "framework/src/xcode/Pi-ios-client/PGMPiTokenOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D11B09F27147828B2BCA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8526DE6074C9880A16A44 /* Foundation.framework in Frameworks */,
+				017C3A8E65924051A87CDAA4 /* libPods-PiClientStaging-pi-ios-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0DB91FFF34C80952A917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F42E8F715D4B9294066742 /* Foundation.framework in Frameworks */,
+				5DA2123B388641D194296310 /* libPods-PiClientProduction-pi-ios-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC6065704648C6AC191363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7813D351B54C45E6B6614ADD /* Foundation.framework in Frameworks */,
+				F29E18B256BE405C9F33A10A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06D1C0A975C4222B3469FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D2AE77675E4799995C0C1D /* Foundation.framework in Frameworks */,
+				B296382157234CBD9E85CABD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012AD2E5390E4F5297D7E7CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A22F40930645ADBDD8D365 /* pi-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28961781E4DD4906BE58BCA9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11CFB69FA01A429CB8E4D2F5 /* Foundation.framework */,
+				B7E3EFD634EB470FBAECFE23 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2D94417B7F2C49869C571840 /* Pods-PiClientStaging */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6B0F746524EEFB8F5DBA9 /* Pods-PiClientStaging.xcconfig */,
+				B959443F75294EC2A967CB38 /* Pods-PiClientStaging-acknowledgements.markdown */,
+				7ADC992876674E2DADD0B191 /* Pods-PiClientStaging-acknowledgements.plist */,
+				155EA086644944B590D0860C /* Pods-PiClientStaging-dummy.m */,
+				8334F5F2BC58472DB320C9E3 /* Pods-PiClientStaging-environment.h */,
+				462F6329888C4A7EB757FC7A /* Pods-PiClientStaging-resources.sh */,
+			);
+			name = "Pods-PiClientStaging";
+			sourceTree = "<group>";
+		};
+		3AB0CB70BD1642748AD6D125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D34F2D556564871973D0AB7 /* libPods-PiClientProduction.a */,
+				6B081A2A25D24C5794E82764 /* libPods-PiClientProduction-pi-ios-sdk.a */,
+				74006DA616AD4D7399ACD113 /* libPods-PiClientStaging.a */,
+				9BF6E1E6EC2C4FAAB0A16AFF /* libPods-PiClientStaging-pi-ios-sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56BB7AA81F974989A514B71A = {
+			isa = PBXGroup;
+			children = (
+				8D7C6A859A8741BBBC75C109 /* Podfile */,
+				63AACBF6152B4E60819CBAD7 /* Frameworks */,
+				012AD2E5390E4F5297D7E7CE /* Pods */,
+				3AB0CB70BD1642748AD6D125 /* Products */,
+				58D34B6B8FC14538A528FF5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		58D34B6B8FC14538A528FF5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF5FC02F08247A4BF975962 /* Pods-PiClientProduction */,
+				2D94417B7F2C49869C571840 /* Pods-PiClientStaging */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63AACBF6152B4E60819CBAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28961781E4DD4906BE58BCA9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994578E852A6490DA1FD8608 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45169DB68DC141EF84BFC7DC /* Pods-PiClientProduction-pi-ios-sdk.xcconfig */,
+				630A431669F243F19E55DDA4 /* Pods-PiClientProduction-pi-ios-sdk-Private.xcconfig */,
+				E40CE0EF04664748AAACFAC2 /* Pods-PiClientProduction-pi-ios-sdk-dummy.m */,
+				A82CFA331B97479FBC460465 /* Pods-PiClientProduction-pi-ios-sdk-prefix.pch */,
+				72063DA714C54265838B5922 /* Pods-PiClientStaging-pi-ios-sdk.xcconfig */,
+				1C123732DD32492D87BF7FA3 /* Pods-PiClientStaging-pi-ios-sdk-Private.xcconfig */,
+				8882A4C5EE11403BAD82912B /* Pods-PiClientStaging-pi-ios-sdk-dummy.m */,
+				9613AE07236C4A8B96E91696 /* Pods-PiClientStaging-pi-ios-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		D3A22F40930645ADBDD8D365 /* pi-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CD10CF6095DA4CE182B96D73 /* PGMPiAPIDelegate.h */,
+				B002283963124CA195D1FD31 /* PGMPiAlternateId.h */,
+				5D33E5D5F21840F0B71092E8 /* PGMPiAlternateId.m */,
+				B5E26753DC6F4F99868AFA46 /* PGMPiClient.h */,
+				08EAA858FADB4CA586772B67 /* PGMPiClient.m */,
+				1751D708E66A41829D75B2B8 /* PGMPiClientDelegate.h */,
+				C24E4649BD9E4A6C8878F5DC /* PGMPiClientLoginOptions.h */,
+				5D545F3E74E24E85B49D1A1C /* PGMPiClientLoginOptions.m */,
+				30F80AED4D8E4621A4352D20 /* PGMPiConsent.h */,
+				F05A28B80B5049DDAAFFFA5F /* PGMPiConsent.m */,
+				58E059BC2793483FBFD80C30 /* PGMPiConsentPolicy.h */,
+				04D88364B7B74CBA9B327096 /* PGMPiConsentPolicy.m */,
+				D61E670D6FCA4DA0B45E3902 /* PGMPiCredentials.h */,
+				003D57D174B94A048BB05DA5 /* PGMPiCredentials.m */,
+				DF0851E55BD6430FAFAD6D05 /* PGMPiEnvironment.h */,
+				A5C9D22AF69747A682BF4416 /* PGMPiEnvironment.m */,
+				C3C48D60EA7C4E0783E67937 /* PGMPiError.h */,
+				4F5E66A017384376815946A5 /* PGMPiError.m */,
+				40683C690F2C49E59E625ED5 /* PGMPiForgotPassword.h */,
+				D2439A388C0145A48EE504EF /* PGMPiForgotPassword.m */,
+				8AAD9A3AD95747E69BD6DD2C /* PGMPiForgotUsername.h */,
+				9316E62E749A492CAF52AC84 /* PGMPiForgotUsername.m */,
+				7D91106E0C6A48A3A4505826 /* PGMPiIdentity.h */,
+				DAC77CA34563494C9107757E /* PGMPiIdentity.m */,
+				C76179AAAB0846198ED26654 /* PGMPiIdentityProfile.h */,
+				C9FBF25BEEBB4B25957A69E9 /* PGMPiIdentityProfile.m */,
+				BDD99CE132BC40E78D2DACAE /* PGMPiOperationConstants.h */,
+				474DE4F74F5445D982DC6B83 /* PGMPiOperationConstants.m */,
+				53EF98E61672447984550342 /* PGMPiResponse.h */,
+				413DB852C9DE4F8BB2FC4E90 /* PGMPiResponse.m */,
+				A1422A489CFB416D9C54DFF1 /* PGMPiSecureStorage.h */,
+				26894AF51C254F7889AA985A /* PGMPiSecureStorage.m */,
+				18ABB17739C54C768E9C1130 /* PGMPiToken.h */,
+				1C1B09C498A2461C8E904DBA /* PGMPiToken.m */,
+				A4187D06784643B7B3547DA3 /* PGMPiTokenOperation.h */,
+				F82AB887A1FD40409115E60B /* PGMPiTokenOperation.m */,
+				A0412518974B470CA1015E6A /* PGMPiTokenRefreshOperation.h */,
+				7C9C9C9543C245D28315D016 /* PGMPiTokenRefreshOperation.m */,
+				5CB05517F88E4C9AB28ECAEC /* PGMPiUserComposite.h */,
+				BF613F3FB9AC4E859EBA1369 /* PGMPiUserComposite.m */,
+				7D46E369F44D4C13B1C35BEC /* PGMPiUserConsents.h */,
+				BE0F3BEE9108462F8B65D646 /* PGMPiUserConsents.m */,
+				5733A67F37E94427B521DC8A /* PGMPiUserIdOperation.h */,
+				C930A2954EF846278B99931D /* PGMPiUserIdOperation.m */,
+				994578E852A6490DA1FD8608 /* Support Files */,
+			);
+			path = "pi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		DBF5FC02F08247A4BF975962 /* Pods-PiClientProduction */ = {
+			isa = PBXGroup;
+			children = (
+				F245137B1AE848A797653EB4 /* Pods-PiClientProduction.xcconfig */,
+				AA231E6EA7514C73A48750E4 /* Pods-PiClientProduction-acknowledgements.markdown */,
+				12A5B42A5A5E491F801DACCE /* Pods-PiClientProduction-acknowledgements.plist */,
+				B2EC44AA420E422EA49CBC6B /* Pods-PiClientProduction-dummy.m */,
+				6D938059759B4B03ABDD3068 /* Pods-PiClientProduction-environment.h */,
+				56921434BC0A49AD91021B6E /* Pods-PiClientProduction-resources.sh */,
+			);
+			name = "Pods-PiClientProduction";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		773C004783F246CEA5D2CEC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3369BF843144129D2D3EAF /* PGMPiAPIDelegate.h in Headers */,
+				D2C401979D6841CD8263FB13 /* PGMPiAlternateId.h in Headers */,
+				BC7A370BEEEF40A898B2DFE8 /* PGMPiClient.h in Headers */,
+				65A0E8B5CE44406F818EED7F /* PGMPiClientDelegate.h in Headers */,
+				2573289BCA1B4475B4190DE6 /* PGMPiClientLoginOptions.h in Headers */,
+				3B5E2FDA8E5B46C584337F10 /* PGMPiConsent.h in Headers */,
+				DE5F4F7D958D477F9C5E6D2C /* PGMPiConsentPolicy.h in Headers */,
+				77D0D834C07642D1B13DDFFB /* PGMPiCredentials.h in Headers */,
+				23A02B5A45494149A5AEDB03 /* PGMPiEnvironment.h in Headers */,
+				A08A1B4596104A74AEBB24C3 /* PGMPiError.h in Headers */,
+				5F84941AF57940F0A397BAEB /* PGMPiForgotPassword.h in Headers */,
+				678FC6767C0241BC8836F31F /* PGMPiForgotUsername.h in Headers */,
+				32EC00E4B8BF4B53B75FF62A /* PGMPiIdentity.h in Headers */,
+				5FBCCBB4740D4189BCAA6575 /* PGMPiIdentityProfile.h in Headers */,
+				32207B40483A4F1480585EDD /* PGMPiOperationConstants.h in Headers */,
+				C0F33AFEB3B94C9689E37805 /* PGMPiResponse.h in Headers */,
+				AF50B3FB4FF742399AAA49FC /* PGMPiSecureStorage.h in Headers */,
+				C39BB0EC4E664DA5BA9FAE03 /* PGMPiToken.h in Headers */,
+				0846B724AA544526A9D58218 /* PGMPiTokenOperation.h in Headers */,
+				E0272F610CE54D97AF59A97E /* PGMPiTokenRefreshOperation.h in Headers */,
+				3D69A3FA2FC4436AAC55A629 /* PGMPiUserComposite.h in Headers */,
+				DB74BEF097274A27871C1BC8 /* PGMPiUserConsents.h in Headers */,
+				D0CB01197D254546943FF8ED /* PGMPiUserIdOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984954B46C1D4B158B2174D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DD25F870A14DE8844D7690 /* PGMPiAPIDelegate.h in Headers */,
+				36444E2FF6DE4B11B5B44A44 /* PGMPiAlternateId.h in Headers */,
+				9B27999A07414F99B732341D /* PGMPiClient.h in Headers */,
+				8A3D7DEBF67949579387D0F8 /* PGMPiClientDelegate.h in Headers */,
+				52DAD829444E49A79D64A93C /* PGMPiClientLoginOptions.h in Headers */,
+				8CE908274CA04DC1B4067F29 /* PGMPiConsent.h in Headers */,
+				97D08EF2BF654D2ABAFE1300 /* PGMPiConsentPolicy.h in Headers */,
+				E884BB7EBF624FA5949C605D /* PGMPiCredentials.h in Headers */,
+				51374183FFD24CF989E6EBA9 /* PGMPiEnvironment.h in Headers */,
+				3B9DEF9D7AD14D0CB2AF4B6A /* PGMPiError.h in Headers */,
+				D7B67E2A102E4CCF8F76816E /* PGMPiForgotPassword.h in Headers */,
+				EC9CF66AF4794480A630B605 /* PGMPiForgotUsername.h in Headers */,
+				BCC8EEC517504156A43F4231 /* PGMPiIdentity.h in Headers */,
+				3FDA4EB12A234E3CB6247A37 /* PGMPiIdentityProfile.h in Headers */,
+				0F645948D9684B1E8FA3CF75 /* PGMPiOperationConstants.h in Headers */,
+				28B9200B9D1B4A81953A1D63 /* PGMPiResponse.h in Headers */,
+				EE7A5D03C68645898565870B /* PGMPiSecureStorage.h in Headers */,
+				95A4D05FA2414C35B01D0AC1 /* PGMPiToken.h in Headers */,
+				A525F63526254DFB95A5DE79 /* PGMPiTokenOperation.h in Headers */,
+				C266D2D2F2FE4EA7A42FD842 /* PGMPiTokenRefreshOperation.h in Headers */,
+				2625833962D548CEB6E582E9 /* PGMPiUserComposite.h in Headers */,
+				E70C8AC635194E6FA73CE0CC /* PGMPiUserConsents.h in Headers */,
+				1934B3AF8A534E5499ED0516 /* PGMPiUserIdOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		197EDD218DA54632AC211C68 /* Pods-PiClientProduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466F7C25FEFA481B84595F12 /* Build configuration list for PBXNativeTarget "Pods-PiClientProduction" */;
+			buildPhases = (
+				A6D52B910CF646E8ADC4459C /* Sources */,
+				50B0DB91FFF34C80952A917B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905ADDE39FDB467185E77CF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-PiClientProduction";
+			productName = "Pods-PiClientProduction";
+			productReference = 6D34F2D556564871973D0AB7 /* libPods-PiClientProduction.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1F5113D69C6141E985B4132E /* Pods-PiClientStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339AF16A5DAE4C44B77F5307 /* Build configuration list for PBXNativeTarget "Pods-PiClientStaging" */;
+			buildPhases = (
+				9AA3A91488A245D28116270B /* Sources */,
+				37D11B09F27147828B2BCA76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2498D59A47924AA8B159EB54 /* PBXTargetDependency */,
+			);
+			name = "Pods-PiClientStaging";
+			productName = "Pods-PiClientStaging";
+			productReference = 74006DA616AD4D7399ACD113 /* libPods-PiClientStaging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		494AF4344A264745AA252A3C /* Pods-PiClientProduction-pi-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B38B4F22A15400F8BE2CA4E /* Build configuration list for PBXNativeTarget "Pods-PiClientProduction-pi-ios-sdk" */;
+			buildPhases = (
+				7299CCBA4E5B4FB8BA8E59DA /* Sources */,
+				AEEC6065704648C6AC191363 /* Frameworks */,
+				773C004783F246CEA5D2CEC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PiClientProduction-pi-ios-sdk";
+			productName = "Pods-PiClientProduction-pi-ios-sdk";
+			productReference = 6B081A2A25D24C5794E82764 /* libPods-PiClientProduction-pi-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B191430D684842A78301F258 /* Pods-PiClientStaging-pi-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6EA555708D4470D8931FD7C /* Build configuration list for PBXNativeTarget "Pods-PiClientStaging-pi-ios-sdk" */;
+			buildPhases = (
+				E0A73540C58A4C06A0D22761 /* Sources */,
+				B06D1C0A975C4222B3469FF1 /* Frameworks */,
+				984954B46C1D4B158B2174D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PiClientStaging-pi-ios-sdk";
+			productName = "Pods-PiClientStaging-pi-ios-sdk";
+			productReference = 9BF6E1E6EC2C4FAAB0A16AFF /* libPods-PiClientStaging-pi-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B5AB925C424801AF2C82FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 97E70EB008F2405A84079F28 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56BB7AA81F974989A514B71A;
+			productRefGroup = 3AB0CB70BD1642748AD6D125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197EDD218DA54632AC211C68 /* Pods-PiClientProduction */,
+				494AF4344A264745AA252A3C /* Pods-PiClientProduction-pi-ios-sdk */,
+				1F5113D69C6141E985B4132E /* Pods-PiClientStaging */,
+				B191430D684842A78301F258 /* Pods-PiClientStaging-pi-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7299CCBA4E5B4FB8BA8E59DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB77EA7BA8D4996B592D58C /* PGMPiAlternateId.m in Sources */,
+				D178010A16634FFFB010A327 /* PGMPiClient.m in Sources */,
+				FE8D2B4B64634217A63633FF /* PGMPiClientLoginOptions.m in Sources */,
+				E3E439A064704E6485E5CB11 /* PGMPiConsent.m in Sources */,
+				7EF7ACB983254D50B33EC736 /* PGMPiConsentPolicy.m in Sources */,
+				018B19FD68FD4ECAA0CE7D2E /* PGMPiCredentials.m in Sources */,
+				2CCD915F116E4DA8AEEE95A9 /* PGMPiEnvironment.m in Sources */,
+				A5A0F2C9A6844EC8AA3C4F71 /* PGMPiError.m in Sources */,
+				C7FBBFBC0E1744CBA8DE8BA1 /* PGMPiForgotPassword.m in Sources */,
+				95CEE02403254AEABAD317FE /* PGMPiForgotUsername.m in Sources */,
+				D1E4488338B74891BEE8DC18 /* PGMPiIdentity.m in Sources */,
+				1E5FF642EE3E4773866EF869 /* PGMPiIdentityProfile.m in Sources */,
+				AE171AA4DA8A4B0B85C9C550 /* PGMPiOperationConstants.m in Sources */,
+				DCEEA7C3C19446B6944B7AE2 /* PGMPiResponse.m in Sources */,
+				345E757FAFA745ADA023EC32 /* PGMPiSecureStorage.m in Sources */,
+				696134EB0A6F4018A0673D18 /* PGMPiToken.m in Sources */,
+				E3D65D25231441A5A8C47473 /* PGMPiTokenOperation.m in Sources */,
+				0680D17352E243D5B22D9E86 /* PGMPiTokenRefreshOperation.m in Sources */,
+				29CECC360F32487E887D4047 /* PGMPiUserComposite.m in Sources */,
+				6A98D6BA15544E409D403742 /* PGMPiUserConsents.m in Sources */,
+				DF88695238324386B83E1C52 /* PGMPiUserIdOperation.m in Sources */,
+				5A2C262646184E1AAA1C0426 /* Pods-PiClientProduction-pi-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA3A91488A245D28116270B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F73185EB54A75BB45109C /* Pods-PiClientStaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D52B910CF646E8ADC4459C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45DCAF485644E86B3C1272E /* Pods-PiClientProduction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A73540C58A4C06A0D22761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C883E73E29942C094F60ED9 /* PGMPiAlternateId.m in Sources */,
+				83D0E3D3790F45A6A20C6BA9 /* PGMPiClient.m in Sources */,
+				36BF75A2A9D74D55951FCA02 /* PGMPiClientLoginOptions.m in Sources */,
+				4E03017CC0B9474D9E3CA076 /* PGMPiConsent.m in Sources */,
+				AC432033C9C946C8BDC4CB78 /* PGMPiConsentPolicy.m in Sources */,
+				688D5B4423F5462EB1107F5A /* PGMPiCredentials.m in Sources */,
+				59C42E05A0F747DC95F6E853 /* PGMPiEnvironment.m in Sources */,
+				528E9FA1587D4B07B61F6D1B /* PGMPiError.m in Sources */,
+				CEBFFBE7F73C48A59965A094 /* PGMPiForgotPassword.m in Sources */,
+				FC64416A80964B05BED018A7 /* PGMPiForgotUsername.m in Sources */,
+				27A96725CC20482FB3750B04 /* PGMPiIdentity.m in Sources */,
+				19438E77A45E46889A8D2CA4 /* PGMPiIdentityProfile.m in Sources */,
+				D151FFCF1F814AFB9D6A2CF1 /* PGMPiOperationConstants.m in Sources */,
+				28221454573E459BA26052AC /* PGMPiResponse.m in Sources */,
+				E10B0B8142A44F0F9B8D4F2A /* PGMPiSecureStorage.m in Sources */,
+				4B34DDACA37C46B1B62686F2 /* PGMPiToken.m in Sources */,
+				1FE1F39246304EDDB1AB286F /* PGMPiTokenOperation.m in Sources */,
+				F8AAEB6F49F447C0A2F6F677 /* PGMPiTokenRefreshOperation.m in Sources */,
+				9FB32960BB0F4CD0B27B23B3 /* PGMPiUserComposite.m in Sources */,
+				F8E9FBB2467447EF83BAAAD2 /* PGMPiUserConsents.m in Sources */,
+				5C1EF87E33CB4B23BAF346D5 /* PGMPiUserIdOperation.m in Sources */,
+				A21C2F96ED3742A189B19D58 /* Pods-PiClientStaging-pi-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2498D59A47924AA8B159EB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B191430D684842A78301F258 /* Pods-PiClientStaging-pi-ios-sdk */;
+			targetProxy = 9E24F43A9D4A48A6B8F560F2 /* PBXContainerItemProxy */;
+		};
+		905ADDE39FDB467185E77CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494AF4344A264745AA252A3C /* Pods-PiClientProduction-pi-ios-sdk */;
+			targetProxy = 8732A4243B95480291E19638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		198F08CC14224C24988D558F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C123732DD32492D87BF7FA3 /* Pods-PiClientStaging-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PiClientStaging-pi-ios-sdk-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22AC09FA8EDB4CA3978E4735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F6B0F746524EEFB8F5DBA9 /* Pods-PiClientStaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A036FC3099A44ABA695BAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630A431669F243F19E55DDA4 /* Pods-PiClientProduction-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PiClientProduction-pi-ios-sdk-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3064422269F2470C8014B1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C123732DD32492D87BF7FA3 /* Pods-PiClientStaging-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PiClientStaging-pi-ios-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B2B0097C14F4CE58C720728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F6B0F746524EEFB8F5DBA9 /* Pods-PiClientStaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		67068F35BEC84681BD0BA9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630A431669F243F19E55DDA4 /* Pods-PiClientProduction-pi-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PiClientProduction-pi-ios-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9622B559FBDB44CDAA4A62FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F245137B1AE848A797653EB4 /* Pods-PiClientProduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5648FA92C8463895A3E4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		BDB23B822A944933A4B10103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F245137B1AE848A797653EB4 /* Pods-PiClientProduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7739D420A6D4323B960EA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339AF16A5DAE4C44B77F5307 /* Build configuration list for PBXNativeTarget "Pods-PiClientStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B0097C14F4CE58C720728 /* Debug */,
+				22AC09FA8EDB4CA3978E4735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466F7C25FEFA481B84595F12 /* Build configuration list for PBXNativeTarget "Pods-PiClientProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB23B822A944933A4B10103 /* Debug */,
+				9622B559FBDB44CDAA4A62FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B38B4F22A15400F8BE2CA4E /* Build configuration list for PBXNativeTarget "Pods-PiClientProduction-pi-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67068F35BEC84681BD0BA9CD /* Debug */,
+				2A036FC3099A44ABA695BAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E70EB008F2405A84079F28 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5648FA92C8463895A3E4D9 /* Debug */,
+				F7739D420A6D4323B960EA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6EA555708D4470D8931FD7C /* Build configuration list for PBXNativeTarget "Pods-PiClientStaging-pi-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3064422269F2470C8014B1EF /* Debug */,
+				198F08CC14224C24988D558F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B5AB925C424801AF2C82FD /* Project object */;
+}

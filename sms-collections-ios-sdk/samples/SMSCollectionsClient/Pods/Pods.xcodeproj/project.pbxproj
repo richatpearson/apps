@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0601557383C29E5E53AB0A32 /* PGMSmsCollectionsClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8403D1AFD0F1576A2C1AC5 /* PGMSmsCollectionsClient.h */; };
+		0EC9EEBE9B4AF111CCCA47F6 /* PGMSmsError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0DED5755F22157B6542C48 /* PGMSmsError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14E5DC30B7C051844100540C /* PGMSmsUrlSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 795698A95A29498773202CA4 /* PGMSmsUrlSessionFactory.h */; };
+		1F7F188AC5B4C59F1421CE1D /* PGMSmsAuthenticationResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4157AA6B27DB59A1CD708C /* PGMSmsAuthenticationResponseHandler.h */; };
+		1FF54B0113198EB34431C416 /* Pods-SMSCollectionsClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34E7743CAE5AAC8AB966684 /* Pods-SMSCollectionsClient-dummy.m */; };
+		33BC53BF7924CC24952C1F80 /* PGMSmsEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = A9224CD8F226055249E0DB84 /* PGMSmsEnvironment.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34B9EBA1E22574EAB1787FAA /* PGMSmsUserProfileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E928AF1587510DE79871DD /* PGMSmsUserProfileParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		37EC5959B6BEF507AD5FC960 /* PGMSmsUserModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E73BDBFB35FC7F80A1126792 /* PGMSmsUserModule.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E7CF2D8841CFD79499EAC11 /* PGMSmsTokenParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 117D0E1DD7A80B4EC6757D42 /* PGMSmsTokenParser.h */; };
+		41DEC777C59C57FA09677871 /* PGMSmsUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9795A3ECD85638F740ECC5D5 /* PGMSmsUserProfile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44611CD0F0BE7A071C00CCF9 /* PGMSmsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A8213DB4753E92468283BC32 /* PGMSmsResponse.h */; };
+		49CE3A95D1E9E1ED3EAB9C22 /* PGMSmsUserProfileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6325A6FBC49BB9EB2DA1CD9B /* PGMSmsUserProfileParser.h */; };
+		514D8C8784C994902520BD7E /* PGMSmsSecret.h in Headers */ = {isa = PBXBuildFile; fileRef = 555D3DFAFE201A5FB494B2B2 /* PGMSmsSecret.h */; };
+		586B07AE4ED140612D24A765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC74808B1812DE068565DA0 /* Foundation.framework */; };
+		813E23A40C25BCACB695AD47 /* NSString+Numeric.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE7F65D77CA76F61BAF1FE0 /* NSString+Numeric.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88EA48E6A754E7C14E47C395 /* PGMSmsEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = C356AE5694A779C307B81967 /* PGMSmsEnvironment.h */; };
+		8A25576F40EA21C4B1444B9E /* PGMCoreNetworkRequester.h in Headers */ = {isa = PBXBuildFile; fileRef = DB46DD75C956F8D1D3B80448 /* PGMCoreNetworkRequester.h */; };
+		999B7668AD942339AF098D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC74808B1812DE068565DA0 /* Foundation.framework */; };
+		9E700A50E68B8F5003797025 /* PGMSmsTokenParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EE3E87DC5D81EACCC54E83 /* PGMSmsTokenParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8264923808BBA1BA4FFCB88 /* PGMSmsError.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F76EE28498B01F3789E4D4 /* PGMSmsError.h */; };
+		B9C819AEB1924A7E70F67727 /* PGMSmsCollectionsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AED11E6CA50984E3E83B4CC6 /* PGMSmsCollectionsClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFA521B4FD3FE0A7AE1697EA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B31B33904373CE8041689 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m */; };
+		D0C7CB54F224151CA2781DA9 /* PGMCoreNetworkRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFE47312D6D53CD225ABEF /* PGMCoreNetworkRequester.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB3739BF902D68D958B5EBAB /* PGMSmsConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 326F4376D96436D2CACE6B29 /* PGMSmsConnector.h */; };
+		DF1FF3489A0B7F0C40E133F8 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF5E0A11693CDDD9288F81 /* NSString+MD5.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E038933B5EADF1E261C8E1CA /* PGMSmsAuthenticationResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9314A841860B4E256E4268 /* PGMSmsAuthenticationResponseHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E13005E53974373E1216D8F1 /* PGMSmsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 05003EEE6F0F114916C163BA /* PGMSmsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC43CE04BC486B73C038E3BB /* PGMSmsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D67A947CB8CEE52E2CF939 /* PGMSmsConnector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F039EE4B6392357D8C7A61D1 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 486295F663A95A0AD5A130A2 /* NSString+MD5.h */; };
+		F0AACEC82982894ED3A9C5CF /* NSString+Numeric.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE57802D4D36E428B6D8183 /* NSString+Numeric.h */; };
+		F5F755D0A5A18B37F679BBEF /* sms-collections-client.h in Headers */ = {isa = PBXBuildFile; fileRef = DC667C660FEC4CE9EB305493 /* sms-collections-client.h */; };
+		F679B33DA5EC2EAB725BD0BF /* PGMSmsUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8DA99F50B7919FA764516F /* PGMSmsUserProfile.h */; };
+		F730BD5A3B0D7171B15A0663 /* PGMSmsUserModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D4466875274FB275ABC49B19 /* PGMSmsUserModule.h */; };
+		F8069DFFCA795C335D0E97E6 /* PGMSmsSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDA30A4C47CFFF919697A8 /* PGMSmsSecret.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FC699DF048B9474C48573759 /* PGMSmsUrlSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B5D578DE518CA66529485C /* PGMSmsUrlSessionFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C616634723A086A754EE7FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FF78BB48215BBBE6EC1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3263F522A38933C27D90F407;
+			remoteInfo = "Pods-SMSCollectionsClient-sms-collections-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05003EEE6F0F114916C163BA /* PGMSmsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsResponse.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsResponse.m"; sourceTree = "<group>"; };
+		0C0DED5755F22157B6542C48 /* PGMSmsError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsError.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsError.m"; sourceTree = "<group>"; };
+		0EC74808B1812DE068565DA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		117D0E1DD7A80B4EC6757D42 /* PGMSmsTokenParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsTokenParser.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsTokenParser.h"; sourceTree = "<group>"; };
+		18CFE47312D6D53CD225ABEF /* PGMCoreNetworkRequester.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMCoreNetworkRequester.m; path = "framework/sms-collections-client/sms-collections-client/PGMCoreNetworkRequester.m"; sourceTree = "<group>"; };
+		18F8B0BF68CC0A8BF93CA50A /* Pods-SMSCollectionsClient-sms-collections-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSCollectionsClient-sms-collections-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		1CE00826F9ACAA31BC4DFC44 /* Pods-SMSCollectionsClient-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSCollectionsClient-environment.h"; sourceTree = "<group>"; };
+		1D4157AA6B27DB59A1CD708C /* PGMSmsAuthenticationResponseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsAuthenticationResponseHandler.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsAuthenticationResponseHandler.h"; sourceTree = "<group>"; };
+		1F70E365473DE3BF5CA83835 /* Pods-SMSCollectionsClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSCollectionsClient-resources.sh"; sourceTree = "<group>"; };
+		326F4376D96436D2CACE6B29 /* PGMSmsConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsConnector.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsConnector.h"; sourceTree = "<group>"; };
+		41E42AD0B83EFBB3AF0AAAD0 /* Pods-SMSCollectionsClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSCollectionsClient.debug.xcconfig"; sourceTree = "<group>"; };
+		486295F663A95A0AD5A130A2 /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "framework/sms-collections-client/sms-collections-client/NSString+MD5.h"; sourceTree = "<group>"; };
+		4D21915F2430D661FB0CAAB4 /* libPods-SMSCollectionsClient-sms-collections-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSCollectionsClient-sms-collections-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EDA30A4C47CFFF919697A8 /* PGMSmsSecret.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsSecret.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsSecret.m"; sourceTree = "<group>"; };
+		555D3DFAFE201A5FB494B2B2 /* PGMSmsSecret.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsSecret.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsSecret.h"; sourceTree = "<group>"; };
+		6325A6FBC49BB9EB2DA1CD9B /* PGMSmsUserProfileParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsUserProfileParser.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserProfileParser.h"; sourceTree = "<group>"; };
+		64B5D578DE518CA66529485C /* PGMSmsUrlSessionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsUrlSessionFactory.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUrlSessionFactory.m"; sourceTree = "<group>"; };
+		71EF5E0A11693CDDD9288F81 /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "framework/sms-collections-client/sms-collections-client/NSString+MD5.m"; sourceTree = "<group>"; };
+		72BE415C5067CF8B6480ADFA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSCollectionsClient-sms-collections-ios-sdk-Private.xcconfig"; sourceTree = "<group>"; };
+		795698A95A29498773202CA4 /* PGMSmsUrlSessionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsUrlSessionFactory.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUrlSessionFactory.h"; sourceTree = "<group>"; };
+		7A8DA99F50B7919FA764516F /* PGMSmsUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsUserProfile.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserProfile.h"; sourceTree = "<group>"; };
+		7E1B31B33904373CE8041689 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		8596991ECA39FAD66E479912 /* Pods-SMSCollectionsClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSCollectionsClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BE57802D4D36E428B6D8183 /* NSString+Numeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Numeric.h"; path = "framework/sms-collections-client/sms-collections-client/NSString+Numeric.h"; sourceTree = "<group>"; };
+		8C8403D1AFD0F1576A2C1AC5 /* PGMSmsCollectionsClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsCollectionsClient.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsCollectionsClient.h"; sourceTree = "<group>"; };
+		9795A3ECD85638F740ECC5D5 /* PGMSmsUserProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsUserProfile.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserProfile.m"; sourceTree = "<group>"; };
+		9D896A42EF0496819D436B41 /* Pods-SMSCollectionsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSCollectionsClient.release.xcconfig"; sourceTree = "<group>"; };
+		A8213DB4753E92468283BC32 /* PGMSmsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsResponse.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsResponse.h"; sourceTree = "<group>"; };
+		A9224CD8F226055249E0DB84 /* PGMSmsEnvironment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsEnvironment.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsEnvironment.m"; sourceTree = "<group>"; };
+		AED11E6CA50984E3E83B4CC6 /* PGMSmsCollectionsClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsCollectionsClient.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsCollectionsClient.m"; sourceTree = "<group>"; };
+		B8D67A947CB8CEE52E2CF939 /* PGMSmsConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsConnector.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsConnector.m"; sourceTree = "<group>"; };
+		B9EE3E87DC5D81EACCC54E83 /* PGMSmsTokenParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsTokenParser.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsTokenParser.m"; sourceTree = "<group>"; };
+		C356AE5694A779C307B81967 /* PGMSmsEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsEnvironment.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsEnvironment.h"; sourceTree = "<group>"; };
+		C8520A9FD24260B663EBE5FA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEE7F65D77CA76F61BAF1FE0 /* NSString+Numeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Numeric.m"; path = "framework/sms-collections-client/sms-collections-client/NSString+Numeric.m"; sourceTree = "<group>"; };
+		D4466875274FB275ABC49B19 /* PGMSmsUserModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsUserModule.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserModule.h"; sourceTree = "<group>"; };
+		DB46DD75C956F8D1D3B80448 /* PGMCoreNetworkRequester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMCoreNetworkRequester.h; path = "framework/sms-collections-client/sms-collections-client/PGMCoreNetworkRequester.h"; sourceTree = "<group>"; };
+		DC22005A785293D76CDAC900 /* Pods-SMSCollectionsClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSCollectionsClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC667C660FEC4CE9EB305493 /* sms-collections-client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sms-collections-client.h"; path = "framework/sms-collections-client/sms-collections-client/sms-collections-client.h"; sourceTree = "<group>"; };
+		DF118CD6EC74136172F93A30 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSCollectionsClient-sms-collections-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		E1E928AF1587510DE79871DD /* PGMSmsUserProfileParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsUserProfileParser.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserProfileParser.m"; sourceTree = "<group>"; };
+		E34E7743CAE5AAC8AB966684 /* Pods-SMSCollectionsClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSCollectionsClient-dummy.m"; sourceTree = "<group>"; };
+		E73BDBFB35FC7F80A1126792 /* PGMSmsUserModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsUserModule.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsUserModule.m"; sourceTree = "<group>"; };
+		F47294A7BF97F2A6FBC694C3 /* libPods-SMSCollectionsClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSCollectionsClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F76EE28498B01F3789E4D4 /* PGMSmsError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGMSmsError.h; path = "framework/sms-collections-client/sms-collections-client/PGMSmsError.h"; sourceTree = "<group>"; };
+		FA9314A841860B4E256E4268 /* PGMSmsAuthenticationResponseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGMSmsAuthenticationResponseHandler.m; path = "framework/sms-collections-client/sms-collections-client/PGMSmsAuthenticationResponseHandler.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252830B62F1C306FB020FC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999B7668AD942339AF098D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625C428AE840EFDB5ED437D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586B07AE4ED140612D24A765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDD4C0D48E20E7D91C2CF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47294A7BF97F2A6FBC694C3 /* libPods-SMSCollectionsClient.a */,
+				4D21915F2430D661FB0CAAB4 /* libPods-SMSCollectionsClient-sms-collections-ios-sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284EAE66336A08CEDFF81037 = {
+			isa = PBXGroup;
+			children = (
+				C8520A9FD24260B663EBE5FA /* Podfile */,
+				885D6C8A6E2D733A69F8D11B /* Frameworks */,
+				D4C166C647A4D54B0CB87588 /* Pods */,
+				0FDD4C0D48E20E7D91C2CF5B /* Products */,
+				CE26238C8B4FF29D54D325AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		659AF386EBDB68EC20628B19 /* Pods-SMSCollectionsClient */ = {
+			isa = PBXGroup;
+			children = (
+				DC22005A785293D76CDAC900 /* Pods-SMSCollectionsClient-acknowledgements.markdown */,
+				8596991ECA39FAD66E479912 /* Pods-SMSCollectionsClient-acknowledgements.plist */,
+				E34E7743CAE5AAC8AB966684 /* Pods-SMSCollectionsClient-dummy.m */,
+				1CE00826F9ACAA31BC4DFC44 /* Pods-SMSCollectionsClient-environment.h */,
+				1F70E365473DE3BF5CA83835 /* Pods-SMSCollectionsClient-resources.sh */,
+				41E42AD0B83EFBB3AF0AAAD0 /* Pods-SMSCollectionsClient.debug.xcconfig */,
+				9D896A42EF0496819D436B41 /* Pods-SMSCollectionsClient.release.xcconfig */,
+			);
+			name = "Pods-SMSCollectionsClient";
+			path = "Target Support Files/Pods-SMSCollectionsClient";
+			sourceTree = "<group>";
+		};
+		885D6C8A6E2D733A69F8D11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF320A7BA7343884C8349E52 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7AF11AD33BE88FBEB6B0CF8 /* sms-collections-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				486295F663A95A0AD5A130A2 /* NSString+MD5.h */,
+				71EF5E0A11693CDDD9288F81 /* NSString+MD5.m */,
+				8BE57802D4D36E428B6D8183 /* NSString+Numeric.h */,
+				CEE7F65D77CA76F61BAF1FE0 /* NSString+Numeric.m */,
+				DB46DD75C956F8D1D3B80448 /* PGMCoreNetworkRequester.h */,
+				18CFE47312D6D53CD225ABEF /* PGMCoreNetworkRequester.m */,
+				1D4157AA6B27DB59A1CD708C /* PGMSmsAuthenticationResponseHandler.h */,
+				FA9314A841860B4E256E4268 /* PGMSmsAuthenticationResponseHandler.m */,
+				8C8403D1AFD0F1576A2C1AC5 /* PGMSmsCollectionsClient.h */,
+				AED11E6CA50984E3E83B4CC6 /* PGMSmsCollectionsClient.m */,
+				326F4376D96436D2CACE6B29 /* PGMSmsConnector.h */,
+				B8D67A947CB8CEE52E2CF939 /* PGMSmsConnector.m */,
+				C356AE5694A779C307B81967 /* PGMSmsEnvironment.h */,
+				A9224CD8F226055249E0DB84 /* PGMSmsEnvironment.m */,
+				F9F76EE28498B01F3789E4D4 /* PGMSmsError.h */,
+				0C0DED5755F22157B6542C48 /* PGMSmsError.m */,
+				A8213DB4753E92468283BC32 /* PGMSmsResponse.h */,
+				05003EEE6F0F114916C163BA /* PGMSmsResponse.m */,
+				555D3DFAFE201A5FB494B2B2 /* PGMSmsSecret.h */,
+				51EDA30A4C47CFFF919697A8 /* PGMSmsSecret.m */,
+				117D0E1DD7A80B4EC6757D42 /* PGMSmsTokenParser.h */,
+				B9EE3E87DC5D81EACCC54E83 /* PGMSmsTokenParser.m */,
+				795698A95A29498773202CA4 /* PGMSmsUrlSessionFactory.h */,
+				64B5D578DE518CA66529485C /* PGMSmsUrlSessionFactory.m */,
+				D4466875274FB275ABC49B19 /* PGMSmsUserModule.h */,
+				E73BDBFB35FC7F80A1126792 /* PGMSmsUserModule.m */,
+				7A8DA99F50B7919FA764516F /* PGMSmsUserProfile.h */,
+				9795A3ECD85638F740ECC5D5 /* PGMSmsUserProfile.m */,
+				6325A6FBC49BB9EB2DA1CD9B /* PGMSmsUserProfileParser.h */,
+				E1E928AF1587510DE79871DD /* PGMSmsUserProfileParser.m */,
+				DC667C660FEC4CE9EB305493 /* sms-collections-client.h */,
+				E4BC404D0B356D3C977E5E52 /* Support Files */,
+			);
+			path = "sms-collections-ios-sdk";
+			sourceTree = "<group>";
+		};
+		CE26238C8B4FF29D54D325AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				659AF386EBDB68EC20628B19 /* Pods-SMSCollectionsClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4C166C647A4D54B0CB87588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF11AD33BE88FBEB6B0CF8 /* sms-collections-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4BC404D0B356D3C977E5E52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F8B0BF68CC0A8BF93CA50A /* Pods-SMSCollectionsClient-sms-collections-ios-sdk.xcconfig */,
+				72BE415C5067CF8B6480ADFA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-Private.xcconfig */,
+				7E1B31B33904373CE8041689 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m */,
+				DF118CD6EC74136172F93A30 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SMSCollectionsClient-sms-collections-ios-sdk";
+			sourceTree = "<group>";
+		};
+		FF320A7BA7343884C8349E52 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0EC74808B1812DE068565DA0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3994CD6774968DA732D4F5F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F039EE4B6392357D8C7A61D1 /* NSString+MD5.h in Headers */,
+				F0AACEC82982894ED3A9C5CF /* NSString+Numeric.h in Headers */,
+				8A25576F40EA21C4B1444B9E /* PGMCoreNetworkRequester.h in Headers */,
+				1F7F188AC5B4C59F1421CE1D /* PGMSmsAuthenticationResponseHandler.h in Headers */,
+				0601557383C29E5E53AB0A32 /* PGMSmsCollectionsClient.h in Headers */,
+				DB3739BF902D68D958B5EBAB /* PGMSmsConnector.h in Headers */,
+				88EA48E6A754E7C14E47C395 /* PGMSmsEnvironment.h in Headers */,
+				A8264923808BBA1BA4FFCB88 /* PGMSmsError.h in Headers */,
+				44611CD0F0BE7A071C00CCF9 /* PGMSmsResponse.h in Headers */,
+				514D8C8784C994902520BD7E /* PGMSmsSecret.h in Headers */,
+				3E7CF2D8841CFD79499EAC11 /* PGMSmsTokenParser.h in Headers */,
+				14E5DC30B7C051844100540C /* PGMSmsUrlSessionFactory.h in Headers */,
+				F730BD5A3B0D7171B15A0663 /* PGMSmsUserModule.h in Headers */,
+				F679B33DA5EC2EAB725BD0BF /* PGMSmsUserProfile.h in Headers */,
+				49CE3A95D1E9E1ED3EAB9C22 /* PGMSmsUserProfileParser.h in Headers */,
+				F5F755D0A5A18B37F679BBEF /* sms-collections-client.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3263F522A38933C27D90F407 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7201E1B6FFE52EF29ABE08 /* Build configuration list for PBXNativeTarget "Pods-SMSCollectionsClient-sms-collections-ios-sdk" */;
+			buildPhases = (
+				B3C132AEABEBA18CF110E0EF /* Sources */,
+				252830B62F1C306FB020FC61 /* Frameworks */,
+				3994CD6774968DA732D4F5F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMSCollectionsClient-sms-collections-ios-sdk";
+			productName = "Pods-SMSCollectionsClient-sms-collections-ios-sdk";
+			productReference = 4D21915F2430D661FB0CAAB4 /* libPods-SMSCollectionsClient-sms-collections-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B691E83BFF87B0518CA2588 /* Pods-SMSCollectionsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815D34A608C232E45148AC32 /* Build configuration list for PBXNativeTarget "Pods-SMSCollectionsClient" */;
+			buildPhases = (
+				3E9304666951BE489D25909C /* Sources */,
+				625C428AE840EFDB5ED437D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867308D00DD4FD05A27EF0E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSCollectionsClient";
+			productName = "Pods-SMSCollectionsClient";
+			productReference = F47294A7BF97F2A6FBC694C3 /* libPods-SMSCollectionsClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FF78BB48215BBBE6EC1892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FA6B16484FFE214D4FB67658 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 284EAE66336A08CEDFF81037;
+			productRefGroup = 0FDD4C0D48E20E7D91C2CF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B691E83BFF87B0518CA2588 /* Pods-SMSCollectionsClient */,
+				3263F522A38933C27D90F407 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9304666951BE489D25909C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF54B0113198EB34431C416 /* Pods-SMSCollectionsClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C132AEABEBA18CF110E0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1FF3489A0B7F0C40E133F8 /* NSString+MD5.m in Sources */,
+				813E23A40C25BCACB695AD47 /* NSString+Numeric.m in Sources */,
+				D0C7CB54F224151CA2781DA9 /* PGMCoreNetworkRequester.m in Sources */,
+				E038933B5EADF1E261C8E1CA /* PGMSmsAuthenticationResponseHandler.m in Sources */,
+				B9C819AEB1924A7E70F67727 /* PGMSmsCollectionsClient.m in Sources */,
+				EC43CE04BC486B73C038E3BB /* PGMSmsConnector.m in Sources */,
+				33BC53BF7924CC24952C1F80 /* PGMSmsEnvironment.m in Sources */,
+				0EC9EEBE9B4AF111CCCA47F6 /* PGMSmsError.m in Sources */,
+				E13005E53974373E1216D8F1 /* PGMSmsResponse.m in Sources */,
+				F8069DFFCA795C335D0E97E6 /* PGMSmsSecret.m in Sources */,
+				9E700A50E68B8F5003797025 /* PGMSmsTokenParser.m in Sources */,
+				FC699DF048B9474C48573759 /* PGMSmsUrlSessionFactory.m in Sources */,
+				37EC5959B6BEF507AD5FC960 /* PGMSmsUserModule.m in Sources */,
+				41DEC777C59C57FA09677871 /* PGMSmsUserProfile.m in Sources */,
+				34B9EBA1E22574EAB1787FAA /* PGMSmsUserProfileParser.m in Sources */,
+				BFA521B4FD3FE0A7AE1697EA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		867308D00DD4FD05A27EF0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSCollectionsClient-sms-collections-ios-sdk";
+			target = 3263F522A38933C27D90F407 /* Pods-SMSCollectionsClient-sms-collections-ios-sdk */;
+			targetProxy = C616634723A086A754EE7FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D72562870C58B0BD6EBE2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BE415C5067CF8B6480ADFA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSCollectionsClient-sms-collections-ios-sdk/Pods-SMSCollectionsClient-sms-collections-ios-sdk-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A81C005E6590BF637F8EDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E42AD0B83EFBB3AF0AAAD0 /* Pods-SMSCollectionsClient.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35579AED194826EA9ABB1F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BE415C5067CF8B6480ADFA /* Pods-SMSCollectionsClient-sms-collections-ios-sdk-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSCollectionsClient-sms-collections-ios-sdk/Pods-SMSCollectionsClient-sms-collections-ios-sdk-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DE09F1F9170EA863BF8EA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D896A42EF0496819D436B41 /* Pods-SMSCollectionsClient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF67BEBA841AFDF5925BF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		F08B7A7F578120DC6D5D1B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815D34A608C232E45148AC32 /* Build configuration list for PBXNativeTarget "Pods-SMSCollectionsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81C005E6590BF637F8EDF2 /* Debug */,
+				8DE09F1F9170EA863BF8EA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7201E1B6FFE52EF29ABE08 /* Build configuration list for PBXNativeTarget "Pods-SMSCollectionsClient-sms-collections-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35579AED194826EA9ABB1F46 /* Debug */,
+				0D72562870C58B0BD6EBE2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6B16484FFE214D4FB67658 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF67BEBA841AFDF5925BF45 /* Debug */,
+				F08B7A7F578120DC6D5D1B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FF78BB48215BBBE6EC1892 /* Project object */;
+}

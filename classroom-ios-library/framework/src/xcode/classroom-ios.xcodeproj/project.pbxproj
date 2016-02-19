@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7913FD0F1999E1FA001D057B /* PGMClssCourseListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7913FD0D1999E1FA001D057B /* PGMClssCourseListResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7913FD101999E1FA001D057B /* PGMClssCourseListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD0E1999E1FA001D057B /* PGMClssCourseListResponse.m */; };
+		7913FD13199A64B8001D057B /* PGMClssError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7913FD11199A64B8001D057B /* PGMClssError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7913FD14199A64B8001D057B /* PGMClssError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD12199A64B8001D057B /* PGMClssError.m */; };
+		7913FD16199AD919001D057B /* PGMClssErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD15199AD919001D057B /* PGMClssErrorTests.m */; };
+		7913FD18199AD97B001D057B /* PGMClssCourseListResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD17199AD97B001D057B /* PGMClssCourseListResponseTests.m */; };
+		7913FD1B199AE814001D057B /* PGMClssEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7913FD19199AE814001D057B /* PGMClssEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7913FD1C199AE814001D057B /* PGMClssEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD1A199AE814001D057B /* PGMClssEnvironment.m */; };
+		7913FD1E199AEB67001D057B /* PGMClssEnvironmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD1D199AEB67001D057B /* PGMClssEnvironmentTests.m */; };
+		7913FD21199B02B3001D057B /* PGMClssCustomEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7913FD1F199B02B3001D057B /* PGMClssCustomEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7913FD22199B02B3001D057B /* PGMClssCustomEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913FD20199B02B3001D057B /* PGMClssCustomEnvironment.m */; };
+		79181EF9199BC267008F9831 /* PGMClssCustomEnvironmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79181EF8199BC267008F9831 /* PGMClssCustomEnvironmentTests.m */; };
+		791E58EB19C8BC510028DB57 /* libPods-classroom-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791E58EA19C8BC510028DB57 /* libPods-classroom-ios.a */; };
+		791E58ED19C8BFC60028DB57 /* libPods-classroom-iosTests-OCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791E58EC19C8BFC60028DB57 /* libPods-classroom-iosTests-OCMock.a */; };
+		7986FB3A19C8A51700353A27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7986FB3919C8A51700353A27 /* XCTest.framework */; };
+		7986FB3E19C8A7A100353A27 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7986FB3D19C8A7A100353A27 /* SystemConfiguration.framework */; };
+		79E20BAD1993D67A00AE6ED3 /* PGMClssRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E20BAB1993D67A00AE6ED3 /* PGMClssRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E20BAE1993D67A00AE6ED3 /* PGMClssRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BAC1993D67A00AE6ED3 /* PGMClssRequestManager.m */; };
+		79E20BB01993D79B00AE6ED3 /* PGMClssRequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BAF1993D79B00AE6ED3 /* PGMClssRequestManagerTests.m */; };
+		79E20BB31993DDDA00AE6ED3 /* PGMClssCourseListConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E20BB11993DDDA00AE6ED3 /* PGMClssCourseListConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E20BB41993DDDA00AE6ED3 /* PGMClssCourseListConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BB21993DDDA00AE6ED3 /* PGMClssCourseListConnector.m */; };
+		79E20BB61993DDF900AE6ED3 /* PGMClssCourseListConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BB51993DDF900AE6ED3 /* PGMClssCourseListConnectorTests.m */; };
+		79E20BBA1993DF2300AE6ED3 /* PGMClssCourseListSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E20BB81993DF2300AE6ED3 /* PGMClssCourseListSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E20BBB1993DF2300AE6ED3 /* PGMClssCourseListSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BB91993DF2300AE6ED3 /* PGMClssCourseListSerializer.m */; };
+		79E20BBD1993DF4A00AE6ED3 /* PGMClssCourseListSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BBC1993DF4A00AE6ED3 /* PGMClssCourseListSerializerTests.m */; };
+		79E20BC01993DFDA00AE6ED3 /* PGMClssCourseListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E20BBE1993DFDA00AE6ED3 /* PGMClssCourseListItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E20BC11993DFDA00AE6ED3 /* PGMClssCourseListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BBF1993DFDA00AE6ED3 /* PGMClssCourseListItem.m */; };
+		79E20BC31993DFF500AE6ED3 /* PGMClssCourseListItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E20BC21993DFF500AE6ED3 /* PGMClssCourseListItemTests.m */; };
+		79E876E319AFE3BD00A78018 /* PGMClssCourseStructureItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E876E119AFE3BD00A78018 /* PGMClssCourseStructureItem.h */; };
+		79E876E419AFE3BD00A78018 /* PGMClssCourseStructureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876E219AFE3BD00A78018 /* PGMClssCourseStructureItem.m */; };
+		79E876E619AFE74B00A78018 /* PGMClssCourseStructureItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876E519AFE74B00A78018 /* PGMClssCourseStructureItemTests.m */; };
+		79E876ED19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E876EB19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.h */; };
+		79E876EE19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876EC19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.m */; };
+		79E876F019AFEDF500A78018 /* PGMClssCourseStructureSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876EF19AFEDF500A78018 /* PGMClssCourseStructureSerializerTests.m */; };
+		79E876F319B009B300A78018 /* PGMClssCourseStructureConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E876F119B009B300A78018 /* PGMClssCourseStructureConnector.h */; };
+		79E876F419B009B300A78018 /* PGMClssCourseStructureConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876F219B009B300A78018 /* PGMClssCourseStructureConnector.m */; };
+		79E876F719B009D600A78018 /* PGMClssCourseStructureResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E876F519B009D600A78018 /* PGMClssCourseStructureResponse.h */; };
+		79E876F819B009D600A78018 /* PGMClssCourseStructureResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876F619B009D600A78018 /* PGMClssCourseStructureResponse.m */; };
+		79E876FA19B01A1A00A78018 /* PGMClssCourseStructureResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876F919B01A1A00A78018 /* PGMClssCourseStructureResponseTests.m */; };
+		79E876FC19B041A500A78018 /* PGMClssCourseStructureConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E876FB19B041A500A78018 /* PGMClssCourseStructureConnectorTests.m */; };
+		7A173FB819F7147E00CA2B09 /* PGMClssValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A173FB719F7147E00CA2B09 /* PGMClssValidatorTests.m */; };
+		7A5CEC5919E49A02004995B7 /* PGMClssAssignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC5719E49A02004995B7 /* PGMClssAssignment.h */; };
+		7A5CEC5A19E49A02004995B7 /* PGMClssAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC5819E49A02004995B7 /* PGMClssAssignment.m */; };
+		7A5CEC5D19E49E10004995B7 /* PGMClssAssignmentActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC5B19E49E10004995B7 /* PGMClssAssignmentActivity.h */; };
+		7A5CEC5E19E49E10004995B7 /* PGMClssAssignmentActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC5C19E49E10004995B7 /* PGMClssAssignmentActivity.m */; };
+		7A5CEC6319E4A3FE004995B7 /* PGMClssAssignmentActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC6219E4A3FE004995B7 /* PGMClssAssignmentActivityTests.m */; };
+		7A5CEC6619E58AB9004995B7 /* PGMClssDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC6419E58AB9004995B7 /* PGMClssDateUtil.h */; };
+		7A5CEC6719E58AB9004995B7 /* PGMClssDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC6519E58AB9004995B7 /* PGMClssDateUtil.m */; };
+		7A5CEC6919E59406004995B7 /* PGMClssDateUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC6819E59406004995B7 /* PGMClssDateUtilTests.m */; };
+		7A5CEC6B19E5C667004995B7 /* PGMClssAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC6A19E5C667004995B7 /* PGMClssAssignmentTests.m */; };
+		7A5CEC7019E62828004995B7 /* PGMClssAssignmentResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC6E19E62828004995B7 /* PGMClssAssignmentResponse.h */; };
+		7A5CEC7119E62828004995B7 /* PGMClssAssignmentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC6F19E62828004995B7 /* PGMClssAssignmentResponse.m */; };
+		7A5CEC7419E6EDCD004995B7 /* PGMClssAssignmentSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC7219E6EDCD004995B7 /* PGMClssAssignmentSerializer.h */; };
+		7A5CEC7519E6EDCD004995B7 /* PGMClssAssignmentSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC7319E6EDCD004995B7 /* PGMClssAssignmentSerializer.m */; };
+		7A5CEC7819E6EEC5004995B7 /* PGMClssAssignmentConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5CEC7619E6EEC5004995B7 /* PGMClssAssignmentConnector.h */; };
+		7A5CEC7919E6EEC5004995B7 /* PGMClssAssignmentConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC7719E6EEC5004995B7 /* PGMClssAssignmentConnector.m */; };
+		7A5CEC7B19E83422004995B7 /* PGMClssAssignmentSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CEC7A19E83422004995B7 /* PGMClssAssignmentSerializerTests.m */; };
+		7AE86EBE19EDA6A900A5B56A /* PGMClssAssignmentSorting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE86EBC19EDA6A900A5B56A /* PGMClssAssignmentSorting.h */; };
+		7AE86EBF19EDA6A900A5B56A /* PGMClssAssignmentSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE86EBD19EDA6A900A5B56A /* PGMClssAssignmentSorting.m */; };
+		7AF4B75119EDC45B00072E31 /* PGMClssAssignmentSortingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4B75019EDC45B00072E31 /* PGMClssAssignmentSortingTests.m */; };
+		7AF4B75319F1C66C00072E31 /* PGMClssAssignmentConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4B75219F1C66C00072E31 /* PGMClssAssignmentConnectorTests.m */; };
+		7AF4B75619F57AB400072E31 /* PGMClssValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF4B75419F57AB400072E31 /* PGMClssValidator.h */; };
+		7AF4B75719F57AB400072E31 /* PGMClssValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4B75519F57AB400072E31 /* PGMClssValidator.m */; };
+		7AF4B76019F599F300072E31 /* PGMClssAssignmentsResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4B75F19F599F300072E31 /* PGMClssAssignmentsResponseData.m */; };
+		D692B55E1992BD8500297149 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D692B55C1992BD8500297149 /* InfoPlist.strings */; };
+		D692B5711992BD8500297149 /* classroom-ios.framework in Resources */ = {isa = PBXBuildFile; fileRef = D692B5571992BD8500297149 /* classroom-ios.framework */; };
+		D692B5771992BD8500297149 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D692B5751992BD8500297149 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D692B56F1992BD8500297149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D692B54D1992BD8500297149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D692B5561992BD8500297149;
+			remoteInfo = "classroom-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45BC5E17872F4C7A911F458B /* Pods-classroom-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-classroom-ios.xcconfig"; path = "Pods/Pods-classroom-ios.xcconfig"; sourceTree = "<group>"; };
+		7913FD0D1999E1FA001D057B /* PGMClssCourseListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseListResponse.h; sourceTree = "<group>"; };
+		7913FD0E1999E1FA001D057B /* PGMClssCourseListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListResponse.m; sourceTree = "<group>"; };
+		7913FD11199A64B8001D057B /* PGMClssError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssError.h; sourceTree = "<group>"; };
+		7913FD12199A64B8001D057B /* PGMClssError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssError.m; sourceTree = "<group>"; };
+		7913FD15199AD919001D057B /* PGMClssErrorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssErrorTests.m; sourceTree = "<group>"; };
+		7913FD17199AD97B001D057B /* PGMClssCourseListResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListResponseTests.m; sourceTree = "<group>"; };
+		7913FD19199AE814001D057B /* PGMClssEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssEnvironment.h; sourceTree = "<group>"; };
+		7913FD1A199AE814001D057B /* PGMClssEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssEnvironment.m; sourceTree = "<group>"; };
+		7913FD1D199AEB67001D057B /* PGMClssEnvironmentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssEnvironmentTests.m; sourceTree = "<group>"; };
+		7913FD1F199B02B3001D057B /* PGMClssCustomEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCustomEnvironment.h; sourceTree = "<group>"; };
+		7913FD20199B02B3001D057B /* PGMClssCustomEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCustomEnvironment.m; sourceTree = "<group>"; };
+		79181EF8199BC267008F9831 /* PGMClssCustomEnvironmentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGMClssCustomEnvironmentTests.m; path = "classroom-iosTests/PGMClssCustomEnvironmentTests.m"; sourceTree = "<group>"; };
+		791E58EA19C8BC510028DB57 /* libPods-classroom-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-classroom-ios.a"; path = "Pods/build/Debug-iphoneos/libPods-classroom-ios.a"; sourceTree = "<group>"; };
+		791E58EC19C8BFC60028DB57 /* libPods-classroom-iosTests-OCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-classroom-iosTests-OCMock.a"; path = "Pods/build/Debug-iphoneos/libPods-classroom-iosTests-OCMock.a"; sourceTree = "<group>"; };
+		7986FB3919C8A51700353A27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7986FB3D19C8A7A100353A27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79E20BAB1993D67A00AE6ED3 /* PGMClssRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssRequestManager.h; sourceTree = "<group>"; };
+		79E20BAC1993D67A00AE6ED3 /* PGMClssRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssRequestManager.m; sourceTree = "<group>"; };
+		79E20BAF1993D79B00AE6ED3 /* PGMClssRequestManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssRequestManagerTests.m; sourceTree = "<group>"; };
+		79E20BB11993DDDA00AE6ED3 /* PGMClssCourseListConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseListConnector.h; sourceTree = "<group>"; };
+		79E20BB21993DDDA00AE6ED3 /* PGMClssCourseListConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListConnector.m; sourceTree = "<group>"; };
+		79E20BB51993DDF900AE6ED3 /* PGMClssCourseListConnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListConnectorTests.m; sourceTree = "<group>"; };
+		79E20BB81993DF2300AE6ED3 /* PGMClssCourseListSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseListSerializer.h; sourceTree = "<group>"; };
+		79E20BB91993DF2300AE6ED3 /* PGMClssCourseListSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListSerializer.m; sourceTree = "<group>"; };
+		79E20BBC1993DF4A00AE6ED3 /* PGMClssCourseListSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListSerializerTests.m; sourceTree = "<group>"; };
+		79E20BBE1993DFDA00AE6ED3 /* PGMClssCourseListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseListItem.h; sourceTree = "<group>"; };
+		79E20BBF1993DFDA00AE6ED3 /* PGMClssCourseListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListItem.m; sourceTree = "<group>"; };
+		79E20BC21993DFF500AE6ED3 /* PGMClssCourseListItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseListItemTests.m; sourceTree = "<group>"; };
+		79E876E119AFE3BD00A78018 /* PGMClssCourseStructureItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseStructureItem.h; sourceTree = "<group>"; };
+		79E876E219AFE3BD00A78018 /* PGMClssCourseStructureItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureItem.m; sourceTree = "<group>"; };
+		79E876E519AFE74B00A78018 /* PGMClssCourseStructureItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureItemTests.m; sourceTree = "<group>"; };
+		79E876EB19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseStructureSerializer.h; sourceTree = "<group>"; };
+		79E876EC19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureSerializer.m; sourceTree = "<group>"; };
+		79E876EF19AFEDF500A78018 /* PGMClssCourseStructureSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureSerializerTests.m; sourceTree = "<group>"; };
+		79E876F119B009B300A78018 /* PGMClssCourseStructureConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseStructureConnector.h; sourceTree = "<group>"; };
+		79E876F219B009B300A78018 /* PGMClssCourseStructureConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureConnector.m; sourceTree = "<group>"; };
+		79E876F519B009D600A78018 /* PGMClssCourseStructureResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssCourseStructureResponse.h; sourceTree = "<group>"; };
+		79E876F619B009D600A78018 /* PGMClssCourseStructureResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureResponse.m; sourceTree = "<group>"; };
+		79E876F919B01A1A00A78018 /* PGMClssCourseStructureResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureResponseTests.m; sourceTree = "<group>"; };
+		79E876FB19B041A500A78018 /* PGMClssCourseStructureConnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssCourseStructureConnectorTests.m; sourceTree = "<group>"; };
+		7A173FB719F7147E00CA2B09 /* PGMClssValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssValidatorTests.m; sourceTree = "<group>"; };
+		7A5CEC5719E49A02004995B7 /* PGMClssAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignment.h; sourceTree = "<group>"; };
+		7A5CEC5819E49A02004995B7 /* PGMClssAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignment.m; sourceTree = "<group>"; };
+		7A5CEC5B19E49E10004995B7 /* PGMClssAssignmentActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentActivity.h; sourceTree = "<group>"; };
+		7A5CEC5C19E49E10004995B7 /* PGMClssAssignmentActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentActivity.m; sourceTree = "<group>"; };
+		7A5CEC6219E4A3FE004995B7 /* PGMClssAssignmentActivityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentActivityTests.m; sourceTree = "<group>"; };
+		7A5CEC6419E58AB9004995B7 /* PGMClssDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssDateUtil.h; sourceTree = "<group>"; };
+		7A5CEC6519E58AB9004995B7 /* PGMClssDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssDateUtil.m; sourceTree = "<group>"; };
+		7A5CEC6819E59406004995B7 /* PGMClssDateUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssDateUtilTests.m; sourceTree = "<group>"; };
+		7A5CEC6A19E5C667004995B7 /* PGMClssAssignmentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentTests.m; sourceTree = "<group>"; };
+		7A5CEC6E19E62828004995B7 /* PGMClssAssignmentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentResponse.h; sourceTree = "<group>"; };
+		7A5CEC6F19E62828004995B7 /* PGMClssAssignmentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentResponse.m; sourceTree = "<group>"; };
+		7A5CEC7219E6EDCD004995B7 /* PGMClssAssignmentSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentSerializer.h; sourceTree = "<group>"; };
+		7A5CEC7319E6EDCD004995B7 /* PGMClssAssignmentSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentSerializer.m; sourceTree = "<group>"; };
+		7A5CEC7619E6EEC5004995B7 /* PGMClssAssignmentConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentConnector.h; sourceTree = "<group>"; };
+		7A5CEC7719E6EEC5004995B7 /* PGMClssAssignmentConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentConnector.m; sourceTree = "<group>"; };
+		7A5CEC7A19E83422004995B7 /* PGMClssAssignmentSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentSerializerTests.m; sourceTree = "<group>"; };
+		7AE86EBC19EDA6A900A5B56A /* PGMClssAssignmentSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentSorting.h; sourceTree = "<group>"; };
+		7AE86EBD19EDA6A900A5B56A /* PGMClssAssignmentSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentSorting.m; sourceTree = "<group>"; };
+		7AF4B75019EDC45B00072E31 /* PGMClssAssignmentSortingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentSortingTests.m; sourceTree = "<group>"; };
+		7AF4B75219F1C66C00072E31 /* PGMClssAssignmentConnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentConnectorTests.m; sourceTree = "<group>"; };
+		7AF4B75419F57AB400072E31 /* PGMClssValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssValidator.h; sourceTree = "<group>"; };
+		7AF4B75519F57AB400072E31 /* PGMClssValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssValidator.m; sourceTree = "<group>"; };
+		7AF4B75E19F599F300072E31 /* PGMClssAssignmentsResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMClssAssignmentsResponseData.h; sourceTree = "<group>"; };
+		7AF4B75F19F599F300072E31 /* PGMClssAssignmentsResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMClssAssignmentsResponseData.m; sourceTree = "<group>"; };
+		D692B5571992BD8500297149 /* classroom-ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "classroom-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D692B55B1992BD8500297149 /* classroom-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "classroom-ios-Info.plist"; sourceTree = "<group>"; };
+		D692B55D1992BD8500297149 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D692B55F1992BD8500297149 /* classroom-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "classroom-ios-Prefix.pch"; sourceTree = "<group>"; };
+		D692B5671992BD8500297149 /* classroom-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "classroom-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D692B5741992BD8500297149 /* classroom-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "classroom-iosTests-Info.plist"; sourceTree = "<group>"; };
+		D692B5761992BD8500297149 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFAD9DB4A27E4C5094A30198 /* Pods-classroom-iosTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-classroom-iosTests.xcconfig"; path = "Pods/Pods-classroom-iosTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D692B5521992BD8500297149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791E58EB19C8BC510028DB57 /* libPods-classroom-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D692B5641992BD8500297149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791E58ED19C8BFC60028DB57 /* libPods-classroom-iosTests-OCMock.a in Frameworks */,
+				7986FB3E19C8A7A100353A27 /* SystemConfiguration.framework in Frameworks */,
+				7986FB3A19C8A51700353A27 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E20BA91993CFCA00AE6ED3 /* Connectors */ = {
+			isa = PBXGroup;
+			children = (
+				7A5CEC6C19E627DD004995B7 /* Assignment */,
+				79E876E919AFEB6D00A78018 /* CourseStructure */,
+				D60EB631199BECF7009F44C2 /* CourseList */,
+			);
+			name = Connectors;
+			sourceTree = "<group>";
+		};
+		79E20BAA1993D02200AE6ED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A5CEC5719E49A02004995B7 /* PGMClssAssignment.h */,
+				7A5CEC5819E49A02004995B7 /* PGMClssAssignment.m */,
+				7A5CEC5B19E49E10004995B7 /* PGMClssAssignmentActivity.h */,
+				7A5CEC5C19E49E10004995B7 /* PGMClssAssignmentActivity.m */,
+				7AE86EBC19EDA6A900A5B56A /* PGMClssAssignmentSorting.h */,
+				7AE86EBD19EDA6A900A5B56A /* PGMClssAssignmentSorting.m */,
+				79E20BBE1993DFDA00AE6ED3 /* PGMClssCourseListItem.h */,
+				79E20BBF1993DFDA00AE6ED3 /* PGMClssCourseListItem.m */,
+				79E876E119AFE3BD00A78018 /* PGMClssCourseStructureItem.h */,
+				79E876E219AFE3BD00A78018 /* PGMClssCourseStructureItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79E20BB71993DEF600AE6ED3 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				79E20BB81993DF2300AE6ED3 /* PGMClssCourseListSerializer.h */,
+				79E20BB91993DF2300AE6ED3 /* PGMClssCourseListSerializer.m */,
+			);
+			name = Serializers;
+			sourceTree = "<group>";
+		};
+		79E876E919AFEB6D00A78018 /* CourseStructure */ = {
+			isa = PBXGroup;
+			children = (
+				79E876EA19AFEB8400A78018 /* Serializers */,
+				79E876F119B009B300A78018 /* PGMClssCourseStructureConnector.h */,
+				79E876F219B009B300A78018 /* PGMClssCourseStructureConnector.m */,
+				79E876F519B009D600A78018 /* PGMClssCourseStructureResponse.h */,
+				79E876F619B009D600A78018 /* PGMClssCourseStructureResponse.m */,
+			);
+			name = CourseStructure;
+			sourceTree = "<group>";
+		};
+		79E876EA19AFEB8400A78018 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				79E876EB19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.h */,
+				79E876EC19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.m */,
+			);
+			name = Serializers;
+			sourceTree = "<group>";
+		};
+		7A5CEC6C19E627DD004995B7 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				7A5CEC6D19E627F0004995B7 /* Serializers */,
+				7A5CEC7619E6EEC5004995B7 /* PGMClssAssignmentConnector.h */,
+				7A5CEC7719E6EEC5004995B7 /* PGMClssAssignmentConnector.m */,
+				7A5CEC6E19E62828004995B7 /* PGMClssAssignmentResponse.h */,
+				7A5CEC6F19E62828004995B7 /* PGMClssAssignmentResponse.m */,
+			);
+			name = Assignment;
+			sourceTree = "<group>";
+		};
+		7A5CEC6D19E627F0004995B7 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				7A5CEC7219E6EDCD004995B7 /* PGMClssAssignmentSerializer.h */,
+				7A5CEC7319E6EDCD004995B7 /* PGMClssAssignmentSerializer.m */,
+			);
+			name = Serializers;
+			sourceTree = "<group>";
+		};
+		7AF4B75D19F5991A00072E31 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4B75E19F599F300072E31 /* PGMClssAssignmentsResponseData.h */,
+				7AF4B75F19F599F300072E31 /* PGMClssAssignmentsResponseData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D60EB631199BECF7009F44C2 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				79E20BB71993DEF600AE6ED3 /* Serializers */,
+				79E20BB11993DDDA00AE6ED3 /* PGMClssCourseListConnector.h */,
+				79E20BB21993DDDA00AE6ED3 /* PGMClssCourseListConnector.m */,
+				7913FD0D1999E1FA001D057B /* PGMClssCourseListResponse.h */,
+				7913FD0E1999E1FA001D057B /* PGMClssCourseListResponse.m */,
+			);
+			name = CourseList;
+			sourceTree = "<group>";
+		};
+		D692B54C1992BD8500297149 = {
+			isa = PBXGroup;
+			children = (
+				D692B5591992BD8500297149 /* classroom-ios */,
+				D692B5721992BD8500297149 /* classroom-iosTests */,
+				D692B5681992BD8500297149 /* Frameworks */,
+				D692B5581992BD8500297149 /* Products */,
+				45BC5E17872F4C7A911F458B /* Pods-classroom-ios.xcconfig */,
+				FFAD9DB4A27E4C5094A30198 /* Pods-classroom-iosTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D692B5581992BD8500297149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D692B5571992BD8500297149 /* classroom-ios.framework */,
+				D692B5671992BD8500297149 /* classroom-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D692B5591992BD8500297149 /* classroom-ios */ = {
+			isa = PBXGroup;
+			children = (
+				79E20BAA1993D02200AE6ED3 /* Model */,
+				79E20BA91993CFCA00AE6ED3 /* Connectors */,
+				7913FD1F199B02B3001D057B /* PGMClssCustomEnvironment.h */,
+				7913FD20199B02B3001D057B /* PGMClssCustomEnvironment.m */,
+				7A5CEC6419E58AB9004995B7 /* PGMClssDateUtil.h */,
+				7A5CEC6519E58AB9004995B7 /* PGMClssDateUtil.m */,
+				7913FD19199AE814001D057B /* PGMClssEnvironment.h */,
+				7913FD1A199AE814001D057B /* PGMClssEnvironment.m */,
+				7913FD11199A64B8001D057B /* PGMClssError.h */,
+				7913FD12199A64B8001D057B /* PGMClssError.m */,
+				79E20BAB1993D67A00AE6ED3 /* PGMClssRequestManager.h */,
+				79E20BAC1993D67A00AE6ED3 /* PGMClssRequestManager.m */,
+				7AF4B75419F57AB400072E31 /* PGMClssValidator.h */,
+				7AF4B75519F57AB400072E31 /* PGMClssValidator.m */,
+				D692B55A1992BD8500297149 /* Supporting Files */,
+			);
+			path = "classroom-ios";
+			sourceTree = "<group>";
+		};
+		D692B55A1992BD8500297149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D692B55B1992BD8500297149 /* classroom-ios-Info.plist */,
+				D692B55C1992BD8500297149 /* InfoPlist.strings */,
+				D692B55F1992BD8500297149 /* classroom-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D692B5681992BD8500297149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791E58EC19C8BFC60028DB57 /* libPods-classroom-iosTests-OCMock.a */,
+				79181EF8199BC267008F9831 /* PGMClssCustomEnvironmentTests.m */,
+				791E58EA19C8BC510028DB57 /* libPods-classroom-ios.a */,
+				7986FB3D19C8A7A100353A27 /* SystemConfiguration.framework */,
+				7986FB3919C8A51700353A27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D692B5721992BD8500297149 /* classroom-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4B75D19F5991A00072E31 /* Data */,
+				7A5CEC6219E4A3FE004995B7 /* PGMClssAssignmentActivityTests.m */,
+				7AF4B75219F1C66C00072E31 /* PGMClssAssignmentConnectorTests.m */,
+				7A5CEC7A19E83422004995B7 /* PGMClssAssignmentSerializerTests.m */,
+				7AF4B75019EDC45B00072E31 /* PGMClssAssignmentSortingTests.m */,
+				7A5CEC6A19E5C667004995B7 /* PGMClssAssignmentTests.m */,
+				79E20BAF1993D79B00AE6ED3 /* PGMClssRequestManagerTests.m */,
+				79E20BB51993DDF900AE6ED3 /* PGMClssCourseListConnectorTests.m */,
+				79E20BBC1993DF4A00AE6ED3 /* PGMClssCourseListSerializerTests.m */,
+				79E20BC21993DFF500AE6ED3 /* PGMClssCourseListItemTests.m */,
+				7913FD15199AD919001D057B /* PGMClssErrorTests.m */,
+				7913FD17199AD97B001D057B /* PGMClssCourseListResponseTests.m */,
+				7913FD1D199AEB67001D057B /* PGMClssEnvironmentTests.m */,
+				79E876E519AFE74B00A78018 /* PGMClssCourseStructureItemTests.m */,
+				79E876EF19AFEDF500A78018 /* PGMClssCourseStructureSerializerTests.m */,
+				79E876F919B01A1A00A78018 /* PGMClssCourseStructureResponseTests.m */,
+				79E876FB19B041A500A78018 /* PGMClssCourseStructureConnectorTests.m */,
+				7A5CEC6819E59406004995B7 /* PGMClssDateUtilTests.m */,
+				7A173FB719F7147E00CA2B09 /* PGMClssValidatorTests.m */,
+				D692B5731992BD8500297149 /* Supporting Files */,
+			);
+			path = "classroom-iosTests";
+			sourceTree = "<group>";
+		};
+		D692B5731992BD8500297149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D692B5741992BD8500297149 /* classroom-iosTests-Info.plist */,
+				D692B5751992BD8500297149 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D692B5531992BD8500297149 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913FD1B199AE814001D057B /* PGMClssEnvironment.h in Headers */,
+				7A5CEC5919E49A02004995B7 /* PGMClssAssignment.h in Headers */,
+				7A5CEC7019E62828004995B7 /* PGMClssAssignmentResponse.h in Headers */,
+				79E876ED19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.h in Headers */,
+				79E876F319B009B300A78018 /* PGMClssCourseStructureConnector.h in Headers */,
+				7A5CEC7419E6EDCD004995B7 /* PGMClssAssignmentSerializer.h in Headers */,
+				7913FD21199B02B3001D057B /* PGMClssCustomEnvironment.h in Headers */,
+				79E20BAD1993D67A00AE6ED3 /* PGMClssRequestManager.h in Headers */,
+				79E20BBA1993DF2300AE6ED3 /* PGMClssCourseListSerializer.h in Headers */,
+				7A5CEC7819E6EEC5004995B7 /* PGMClssAssignmentConnector.h in Headers */,
+				79E20BC01993DFDA00AE6ED3 /* PGMClssCourseListItem.h in Headers */,
+				7AE86EBE19EDA6A900A5B56A /* PGMClssAssignmentSorting.h in Headers */,
+				79E20BB31993DDDA00AE6ED3 /* PGMClssCourseListConnector.h in Headers */,
+				79E876F719B009D600A78018 /* PGMClssCourseStructureResponse.h in Headers */,
+				7A5CEC5D19E49E10004995B7 /* PGMClssAssignmentActivity.h in Headers */,
+				7AF4B75619F57AB400072E31 /* PGMClssValidator.h in Headers */,
+				7A5CEC6619E58AB9004995B7 /* PGMClssDateUtil.h in Headers */,
+				79E876E319AFE3BD00A78018 /* PGMClssCourseStructureItem.h in Headers */,
+				7913FD0F1999E1FA001D057B /* PGMClssCourseListResponse.h in Headers */,
+				7913FD13199A64B8001D057B /* PGMClssError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D692B5561992BD8500297149 /* classroom-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D692B57C1992BD8500297149 /* Build configuration list for PBXNativeTarget "classroom-ios" */;
+			buildPhases = (
+				8A3EA53B6AB84C4DB40F8F3D /* Check Pods Manifest.lock */,
+				D692B5511992BD8500297149 /* Sources */,
+				D692B5521992BD8500297149 /* Frameworks */,
+				D692B5531992BD8500297149 /* Headers */,
+				D692B5541992BD8500297149 /* Resources */,
+				174ABE947B474A6CBBB2C93A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "classroom-ios";
+			productName = "classroom-ios";
+			productReference = D692B5571992BD8500297149 /* classroom-ios.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D692B5661992BD8500297149 /* classroom-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D692B57F1992BD8500297149 /* Build configuration list for PBXNativeTarget "classroom-iosTests" */;
+			buildPhases = (
+				0DE03DEBDFFC4F1AA505302B /* Check Pods Manifest.lock */,
+				D692B5631992BD8500297149 /* Sources */,
+				D692B5641992BD8500297149 /* Frameworks */,
+				D692B5651992BD8500297149 /* Resources */,
+				6E64D02759F543F09AEE1641 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D692B5701992BD8500297149 /* PBXTargetDependency */,
+			);
+			name = "classroom-iosTests";
+			productName = "classroom-iosTests";
+			productReference = D692B5671992BD8500297149 /* classroom-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D692B54D1992BD8500297149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Pearson;
+				TargetAttributes = {
+					D692B5661992BD8500297149 = {
+						TestTargetID = D692B5561992BD8500297149;
+					};
+				};
+			};
+			buildConfigurationList = D692B5501992BD8500297149 /* Build configuration list for PBXProject "classroom-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D692B54C1992BD8500297149;
+			productRefGroup = D692B5581992BD8500297149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D692B5561992BD8500297149 /* classroom-ios */,
+				D692B5661992BD8500297149 /* classroom-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D692B5541992BD8500297149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D692B55E1992BD8500297149 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D692B5651992BD8500297149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D692B5711992BD8500297149 /* classroom-ios.framework in Resources */,
+				D692B5771992BD8500297149 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE03DEBDFFC4F1AA505302B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		174ABE947B474A6CBBB2C93A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-classroom-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E64D02759F543F09AEE1641 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-classroom-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3EA53B6AB84C4DB40F8F3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D692B5511992BD8500297149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF4B75719F57AB400072E31 /* PGMClssValidator.m in Sources */,
+				7A5CEC7519E6EDCD004995B7 /* PGMClssAssignmentSerializer.m in Sources */,
+				7913FD14199A64B8001D057B /* PGMClssError.m in Sources */,
+				79E876E419AFE3BD00A78018 /* PGMClssCourseStructureItem.m in Sources */,
+				79E20BB41993DDDA00AE6ED3 /* PGMClssCourseListConnector.m in Sources */,
+				7A5CEC7919E6EEC5004995B7 /* PGMClssAssignmentConnector.m in Sources */,
+				7AE86EBF19EDA6A900A5B56A /* PGMClssAssignmentSorting.m in Sources */,
+				79E20BBB1993DF2300AE6ED3 /* PGMClssCourseListSerializer.m in Sources */,
+				79E20BAE1993D67A00AE6ED3 /* PGMClssRequestManager.m in Sources */,
+				7913FD1C199AE814001D057B /* PGMClssEnvironment.m in Sources */,
+				7A5CEC6719E58AB9004995B7 /* PGMClssDateUtil.m in Sources */,
+				7A5CEC7119E62828004995B7 /* PGMClssAssignmentResponse.m in Sources */,
+				79E876F819B009D600A78018 /* PGMClssCourseStructureResponse.m in Sources */,
+				79E876F419B009B300A78018 /* PGMClssCourseStructureConnector.m in Sources */,
+				79E876EE19AFEBDE00A78018 /* PGMClssCourseStructureSerializer.m in Sources */,
+				7A5CEC5A19E49A02004995B7 /* PGMClssAssignment.m in Sources */,
+				7913FD101999E1FA001D057B /* PGMClssCourseListResponse.m in Sources */,
+				7913FD22199B02B3001D057B /* PGMClssCustomEnvironment.m in Sources */,
+				79E20BC11993DFDA00AE6ED3 /* PGMClssCourseListItem.m in Sources */,
+				7A5CEC5E19E49E10004995B7 /* PGMClssAssignmentActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D692B5631992BD8500297149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E876F019AFEDF500A78018 /* PGMClssCourseStructureSerializerTests.m in Sources */,
+				7913FD18199AD97B001D057B /* PGMClssCourseListResponseTests.m in Sources */,
+				7AF4B76019F599F300072E31 /* PGMClssAssignmentsResponseData.m in Sources */,
+				79E20BBD1993DF4A00AE6ED3 /* PGMClssCourseListSerializerTests.m in Sources */,
+				7A173FB819F7147E00CA2B09 /* PGMClssValidatorTests.m in Sources */,
+				7913FD1E199AEB67001D057B /* PGMClssEnvironmentTests.m in Sources */,
+				7913FD16199AD919001D057B /* PGMClssErrorTests.m in Sources */,
+				7AF4B75119EDC45B00072E31 /* PGMClssAssignmentSortingTests.m in Sources */,
+				7A5CEC6919E59406004995B7 /* PGMClssDateUtilTests.m in Sources */,
+				79E876E619AFE74B00A78018 /* PGMClssCourseStructureItemTests.m in Sources */,
+				7AF4B75319F1C66C00072E31 /* PGMClssAssignmentConnectorTests.m in Sources */,
+				7A5CEC6319E4A3FE004995B7 /* PGMClssAssignmentActivityTests.m in Sources */,
+				79E876FC19B041A500A78018 /* PGMClssCourseStructureConnectorTests.m in Sources */,
+				7A5CEC6B19E5C667004995B7 /* PGMClssAssignmentTests.m in Sources */,
+				79E20BB61993DDF900AE6ED3 /* PGMClssCourseListConnectorTests.m in Sources */,
+				79E876FA19B01A1A00A78018 /* PGMClssCourseStructureResponseTests.m in Sources */,
+				7A5CEC7B19E83422004995B7 /* PGMClssAssignmentSerializerTests.m in Sources */,
+				79E20BB01993D79B00AE6ED3 /* PGMClssRequestManagerTests.m in Sources */,
+				79181EF9199BC267008F9831 /* PGMClssCustomEnvironmentTests.m in Sources */,
+				79E20BC31993DFF500AE6ED3 /* PGMClssCourseListItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D692B5701992BD8500297149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D692B5561992BD8500297149 /* classroom-ios */;
+			targetProxy = D692B56F1992BD8500297149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D692B55C1992BD8500297149 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D692B55D1992BD8500297149 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D692B5751992BD8500297149 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D692B5761992BD8500297149 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D692B57A1992BD8500297149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		D692B57B1992BD8500297149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		D692B57D1992BD8500297149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BC5E17872F4C7A911F458B /* Pods-classroom-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "classroom-ios/classroom-ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				INFOPLIST_FILE = "classroom-ios/classroom-ios-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D692B57E1992BD8500297149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BC5E17872F4C7A911F458B /* Pods-classroom-ios.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "classroom-ios/classroom-ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				INFOPLIST_FILE = "classroom-ios/classroom-ios-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		D692B5801992BD8500297149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAD9DB4A27E4C5094A30198 /* Pods-classroom-iosTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/classroom-ios.framework/Versions/A/classroom-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "classroom-ios/classroom-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				INFOPLIST_FILE = "classroom-iosTests/classroom-iosTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				UFW_FAKE_FRAMEWORK_NAME = "classroom-ios";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D692B5811992BD8500297149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAD9DB4A27E4C5094A30198 /* Pods-classroom-iosTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/classroom-ios.framework/Versions/A/classroom-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "classroom-ios/classroom-ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Headers",
+					"${PODS_ROOT}/Headers/core-ios-sdk",
+					"${PODS_ROOT}/Headers/core-ios-sdk/Core-ios-sdk",
+				);
+				INFOPLIST_FILE = "classroom-iosTests/classroom-iosTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				UFW_FAKE_FRAMEWORK_NAME = "classroom-ios";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D692B5501992BD8500297149 /* Build configuration list for PBXProject "classroom-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D692B57A1992BD8500297149 /* Debug */,
+				D692B57B1992BD8500297149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D692B57C1992BD8500297149 /* Build configuration list for PBXNativeTarget "classroom-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D692B57D1992BD8500297149 /* Debug */,
+				D692B57E1992BD8500297149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D692B57F1992BD8500297149 /* Build configuration list for PBXNativeTarget "classroom-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D692B5801992BD8500297149 /* Debug */,
+				D692B5811992BD8500297149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D692B54D1992BD8500297149 /* Project object */;
+}

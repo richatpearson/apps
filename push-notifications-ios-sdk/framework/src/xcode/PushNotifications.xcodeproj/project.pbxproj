@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6014A9518D36B9F003F38DB /* PearsonAddUserToGroupOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6C73A6F18D248DB00348CF4 /* PearsonAddUserToGroupOperation.h */; };
+		D6014A9818D36E99003F38DB /* PearsonGetGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9718D36E99003F38DB /* PearsonGetGroupOperation.m */; };
+		D6014AA218D36F20003F38DB /* PearsonDeviceRegistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9B18D36F20003F38DB /* PearsonDeviceRegistrationOperation.m */; };
+		D6014AA418D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9D18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m */; };
+		D6014AA618D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9F18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m */; };
+		D6014AA818D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AA118D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m */; };
+		D6014AAE18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AAB18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m */; };
+		D6014AB018D36F33003F38DB /* PearsonUserRegistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AAD18D36F33003F38DB /* PearsonUserRegistrationOperation.m */; };
+		D6014AB218D36F5F003F38DB /* PearsonGetGroupOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014A9618D36E99003F38DB /* PearsonGetGroupOperation.h */; };
+		D6014AB318D36F62003F38DB /* PearsonDeviceRegistrationOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014A9A18D36F20003F38DB /* PearsonDeviceRegistrationOperation.h */; };
+		D6014AB418D36F64003F38DB /* PearsonDeviceUnregistrationOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014A9C18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.h */; };
+		D6014AB518D36F69003F38DB /* PearsonDeviceUserConnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014A9E18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.h */; };
+		D6014AB618D36F78003F38DB /* PearsonUpdateDeviceEntityOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014AAA18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.h */; };
+		D6014AB718D36F7F003F38DB /* PearsonUserRegistrationOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014AAC18D36F33003F38DB /* PearsonUserRegistrationOperation.h */; };
+		D6014AB818D36F95003F38DB /* PearsonDeviceUserDisconnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6014AA018D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.h */; };
+		D60EF0551982DA1C00099D75 /* PearsonOperationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D60EF0541982DA1C00099D75 /* PearsonOperationHeader.m */; };
+		D63EAF1E18D755B600020804 /* PearsonCreateGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D63EAF1D18D755B600020804 /* PearsonCreateGroupOperation.m */; };
+		D63EAF1F18D7662D00020804 /* PearsonCreateGroupOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D63EAF1C18D755B600020804 /* PearsonCreateGroupOperation.h */; };
+		D63EAF2818D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D63EAF2718D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m */; };
+		D63EAF2918D790B900020804 /* PearsonRemoveUserFromGroupOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D63EAF2618D78DD100020804 /* PearsonRemoveUserFromGroupOperation.h */; };
+		D64260F118F5D1AD003042C5 /* PearsonNotificationsValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64260F018F5D1AD003042C5 /* PearsonNotificationsValidatorTests.m */; };
+		D64260F318F5D492003042C5 /* PearsonNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64260F218F5D492003042C5 /* PearsonNotificationTests.m */; };
+		D64260F518F5D8CD003042C5 /* PearsonNotificationPreferencesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64260F418F5D8CD003042C5 /* PearsonNotificationPreferencesTests.m */; };
+		D64260F718F5F29A003042C5 /* PearsonPushNotificationTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64260F618F5F29A003042C5 /* PearsonPushNotificationTypeTests.m */; };
+		D652BBC61989964400C386E5 /* PearsonOperationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D60EF0541982DA1C00099D75 /* PearsonOperationHeader.m */; };
+		D6655AA218CF7970002B03C4 /* PearsonNotification.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6EF0B7E18C92A5D002214E7 /* PearsonNotification.h */; };
+		D6655AA318CF7970002B03C4 /* PearsonNotificationPreferences.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6EF0B8018C92A5D002214E7 /* PearsonNotificationPreferences.h */; };
+		D6655AA418CF7970002B03C4 /* PearsonPushNotifications.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6EF0B8218C92A5D002214E7 /* PearsonPushNotifications.h */; };
+		D6655AA518CF7970002B03C4 /* PearsonPushNotificationType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6EF0B8418C92A5D002214E7 /* PearsonPushNotificationType.h */; };
+		D6655AAE18CFA376002B03C4 /* PearsonNotificationPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8118C92A5D002214E7 /* PearsonNotificationPreferences.m */; };
+		D6655AAF18CFA376002B03C4 /* PearsonPushNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8318C92A5D002214E7 /* PearsonPushNotifications.m */; };
+		D6655AB018CFA376002B03C4 /* PearsonPushNotificationType.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8518C92A5D002214E7 /* PearsonPushNotificationType.m */; };
+		D6655AB718CFA3D4002B03C4 /* PearsonNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B7F18C92A5D002214E7 /* PearsonNotification.m */; };
+		D6655AB818CFA400002B03C4 /* PearsonAppServicesiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6655A7918CF6985002B03C4 /* PearsonAppServicesiOSSDK.framework */; };
+		D68B167018DB4B6500A23173 /* PearsonNotificationsValidator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6C3C0A818DA424400D49145 /* PearsonNotificationsValidator.h */; };
+		D6C3C0AA18DA424400D49145 /* PearsonNotificationsValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3C0A918DA424400D49145 /* PearsonNotificationsValidator.m */; };
+		D6C3C0AB18DA424400D49145 /* PearsonNotificationsValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3C0A918DA424400D49145 /* PearsonNotificationsValidator.m */; };
+		D6C3C0AE18DA54FF00D49145 /* PearsonNotificationErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3C0AD18DA54FF00D49145 /* PearsonNotificationErrors.m */; };
+		D6C3C0AF18DA54FF00D49145 /* PearsonNotificationErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3C0AD18DA54FF00D49145 /* PearsonNotificationErrors.m */; };
+		D6C73A7118D248DB00348CF4 /* PearsonAddUserToGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C73A7018D248DB00348CF4 /* PearsonAddUserToGroupOperation.m */; };
+		D6F861DE18D90D1D00A09665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0B6018C9290A002214E7 /* XCTest.framework */; };
+		D6F861DF18D90D1D00A09665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0B9F18C92BF4002214E7 /* Foundation.framework */; };
+		D6F861E018D90D1D00A09665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0BA318C92BF4002214E7 /* UIKit.framework */; };
+		D6F861F018D90D2A00A09665 /* PearsonPushNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F861D718D908C700A09665 /* PearsonPushNotificationsTests.m */; };
+		D6F861F118D90D8500A09665 /* PearsonAppServicesiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6655A7918CF6985002B03C4 /* PearsonAppServicesiOSSDK.framework */; };
+		D6F861F218D90DB800A09665 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0B9D18C92BF4002214E7 /* CoreLocation.framework */; };
+		D6F861F318D90DBA00A09665 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0B9E18C92BF4002214E7 /* CoreTelephony.framework */; };
+		D6F861F418D90DC000A09665 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0BA018C92BF4002214E7 /* QuartzCore.framework */; };
+		D6F861F518D90DC300A09665 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0BA118C92BF4002214E7 /* Security.framework */; };
+		D6F861F618D90DC700A09665 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EF0BA218C92BF4002214E7 /* SystemConfiguration.framework */; };
+		D6F861F818D90F7B00A09665 /* PearsonPushNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8318C92A5D002214E7 /* PearsonPushNotifications.m */; };
+		D6F861F918D90F8500A09665 /* PearsonPushNotificationType.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8518C92A5D002214E7 /* PearsonPushNotificationType.m */; };
+		D6F861FA18D90F8800A09665 /* PearsonNotificationPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B8118C92A5D002214E7 /* PearsonNotificationPreferences.m */; };
+		D6F861FB18D90F8B00A09665 /* PearsonNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EF0B7F18C92A5D002214E7 /* PearsonNotification.m */; };
+		D6F861FC18D90F8F00A09665 /* PearsonAddUserToGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C73A7018D248DB00348CF4 /* PearsonAddUserToGroupOperation.m */; };
+		D6F861FD18D90F9100A09665 /* PearsonCreateGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D63EAF1D18D755B600020804 /* PearsonCreateGroupOperation.m */; };
+		D6F861FE18D90F9400A09665 /* PearsonDeviceRegistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9B18D36F20003F38DB /* PearsonDeviceRegistrationOperation.m */; };
+		D6F861FF18D90F9700A09665 /* PearsonDeviceUnregistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9D18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m */; };
+		D6F8620018D90F9A00A09665 /* PearsonDeviceUserConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9F18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m */; };
+		D6F8620118D90F9C00A09665 /* PearsonDeviceUserDisconnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AA118D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m */; };
+		D6F8620218D90FA000A09665 /* PearsonGetGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014A9718D36E99003F38DB /* PearsonGetGroupOperation.m */; };
+		D6F8620318D90FA200A09665 /* PearsonRemoveUserFromGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D63EAF2718D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m */; };
+		D6F8620418D90FA500A09665 /* PearsonUpdateDeviceEntityOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AAB18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m */; };
+		D6F8620518D90FA800A09665 /* PearsonUserRegistrationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6014AAD18D36F33003F38DB /* PearsonUserRegistrationOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F861EA18D90D1D00A09665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6EF0B4418C9290A002214E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6655A7F18CF754E002B03C4;
+			remoteInfo = PushNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6655A7E18CF754E002B03C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D6655AA218CF7970002B03C4 /* PearsonNotification.h in CopyFiles */,
+				D6655AA318CF7970002B03C4 /* PearsonNotificationPreferences.h in CopyFiles */,
+				D6655AA418CF7970002B03C4 /* PearsonPushNotifications.h in CopyFiles */,
+				D68B167018DB4B6500A23173 /* PearsonNotificationsValidator.h in CopyFiles */,
+				D6655AA518CF7970002B03C4 /* PearsonPushNotificationType.h in CopyFiles */,
+				D6014A9518D36B9F003F38DB /* PearsonAddUserToGroupOperation.h in CopyFiles */,
+				D63EAF1F18D7662D00020804 /* PearsonCreateGroupOperation.h in CopyFiles */,
+				D6014AB218D36F5F003F38DB /* PearsonGetGroupOperation.h in CopyFiles */,
+				D6014AB318D36F62003F38DB /* PearsonDeviceRegistrationOperation.h in CopyFiles */,
+				D6014AB418D36F64003F38DB /* PearsonDeviceUnregistrationOperation.h in CopyFiles */,
+				D6014AB518D36F69003F38DB /* PearsonDeviceUserConnectionOperation.h in CopyFiles */,
+				D6014AB818D36F95003F38DB /* PearsonDeviceUserDisconnectionOperation.h in CopyFiles */,
+				D63EAF2918D790B900020804 /* PearsonRemoveUserFromGroupOperation.h in CopyFiles */,
+				D6014AB618D36F78003F38DB /* PearsonUpdateDeviceEntityOperation.h in CopyFiles */,
+				D6014AB718D36F7F003F38DB /* PearsonUserRegistrationOperation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6014A9618D36E99003F38DB /* PearsonGetGroupOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonGetGroupOperation.h; path = Operations/PearsonGetGroupOperation.h; sourceTree = "<group>"; };
+		D6014A9718D36E99003F38DB /* PearsonGetGroupOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonGetGroupOperation.m; path = Operations/PearsonGetGroupOperation.m; sourceTree = "<group>"; };
+		D6014A9A18D36F20003F38DB /* PearsonDeviceRegistrationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonDeviceRegistrationOperation.h; path = Operations/PearsonDeviceRegistrationOperation.h; sourceTree = "<group>"; };
+		D6014A9B18D36F20003F38DB /* PearsonDeviceRegistrationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonDeviceRegistrationOperation.m; path = Operations/PearsonDeviceRegistrationOperation.m; sourceTree = "<group>"; };
+		D6014A9C18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonDeviceUnregistrationOperation.h; path = Operations/PearsonDeviceUnregistrationOperation.h; sourceTree = "<group>"; };
+		D6014A9D18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonDeviceUnregistrationOperation.m; path = Operations/PearsonDeviceUnregistrationOperation.m; sourceTree = "<group>"; };
+		D6014A9E18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonDeviceUserConnectionOperation.h; path = Operations/PearsonDeviceUserConnectionOperation.h; sourceTree = "<group>"; };
+		D6014A9F18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonDeviceUserConnectionOperation.m; path = Operations/PearsonDeviceUserConnectionOperation.m; sourceTree = "<group>"; };
+		D6014AA018D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonDeviceUserDisconnectionOperation.h; path = Operations/PearsonDeviceUserDisconnectionOperation.h; sourceTree = "<group>"; };
+		D6014AA118D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonDeviceUserDisconnectionOperation.m; path = Operations/PearsonDeviceUserDisconnectionOperation.m; sourceTree = "<group>"; };
+		D6014AAA18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonUpdateDeviceEntityOperation.h; path = Operations/PearsonUpdateDeviceEntityOperation.h; sourceTree = "<group>"; };
+		D6014AAB18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonUpdateDeviceEntityOperation.m; path = Operations/PearsonUpdateDeviceEntityOperation.m; sourceTree = "<group>"; };
+		D6014AAC18D36F33003F38DB /* PearsonUserRegistrationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonUserRegistrationOperation.h; path = Operations/PearsonUserRegistrationOperation.h; sourceTree = "<group>"; };
+		D6014AAD18D36F33003F38DB /* PearsonUserRegistrationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonUserRegistrationOperation.m; path = Operations/PearsonUserRegistrationOperation.m; sourceTree = "<group>"; };
+		D60EF0531982DA1C00099D75 /* PearsonOperationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonOperationHeader.h; path = Operations/PearsonOperationHeader.h; sourceTree = "<group>"; };
+		D60EF0541982DA1C00099D75 /* PearsonOperationHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonOperationHeader.m; path = Operations/PearsonOperationHeader.m; sourceTree = "<group>"; };
+		D63EAF1C18D755B600020804 /* PearsonCreateGroupOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonCreateGroupOperation.h; path = Operations/PearsonCreateGroupOperation.h; sourceTree = "<group>"; };
+		D63EAF1D18D755B600020804 /* PearsonCreateGroupOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonCreateGroupOperation.m; path = Operations/PearsonCreateGroupOperation.m; sourceTree = "<group>"; };
+		D63EAF2618D78DD100020804 /* PearsonRemoveUserFromGroupOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonRemoveUserFromGroupOperation.h; path = Operations/PearsonRemoveUserFromGroupOperation.h; sourceTree = "<group>"; };
+		D63EAF2718D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonRemoveUserFromGroupOperation.m; path = Operations/PearsonRemoveUserFromGroupOperation.m; sourceTree = "<group>"; };
+		D64260F018F5D1AD003042C5 /* PearsonNotificationsValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationsValidatorTests.m; sourceTree = "<group>"; };
+		D64260F218F5D492003042C5 /* PearsonNotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationTests.m; sourceTree = "<group>"; };
+		D64260F418F5D8CD003042C5 /* PearsonNotificationPreferencesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationPreferencesTests.m; sourceTree = "<group>"; };
+		D64260F618F5F29A003042C5 /* PearsonPushNotificationTypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonPushNotificationTypeTests.m; path = ../PushNotifications/PearsonPushNotificationTypeTests.m; sourceTree = "<group>"; };
+		D6655A7918CF6985002B03C4 /* PearsonAppServicesiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PearsonAppServicesiOSSDK.framework; path = "../../../../pearson-appservices-ios-sdk/framework/src/xcode/build/framework/PearsonAppServicesiOSSDK.framework"; sourceTree = "<group>"; };
+		D6655A8018CF754E002B03C4 /* libPushNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPushNotifications.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3C0A818DA424400D49145 /* PearsonNotificationsValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonNotificationsValidator.h; sourceTree = "<group>"; };
+		D6C3C0A918DA424400D49145 /* PearsonNotificationsValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationsValidator.m; sourceTree = "<group>"; };
+		D6C3C0AC18DA54FF00D49145 /* PearsonNotificationErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonNotificationErrors.h; sourceTree = "<group>"; };
+		D6C3C0AD18DA54FF00D49145 /* PearsonNotificationErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationErrors.m; sourceTree = "<group>"; };
+		D6C73A6F18D248DB00348CF4 /* PearsonAddUserToGroupOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PearsonAddUserToGroupOperation.h; path = Operations/PearsonAddUserToGroupOperation.h; sourceTree = "<group>"; };
+		D6C73A7018D248DB00348CF4 /* PearsonAddUserToGroupOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PearsonAddUserToGroupOperation.m; path = Operations/PearsonAddUserToGroupOperation.m; sourceTree = "<group>"; };
+		D6EF0B5218C9290A002214E7 /* PushNotifications-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushNotifications-Info.plist"; sourceTree = "<group>"; };
+		D6EF0B5418C9290A002214E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6EF0B5618C9290A002214E7 /* PushNotifications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotifications-Prefix.pch"; sourceTree = "<group>"; };
+		D6EF0B6018C9290A002214E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6EF0B6B18C9290A002214E7 /* PushNotificationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushNotificationsTests-Info.plist"; sourceTree = "<group>"; };
+		D6EF0B6D18C9290A002214E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6EF0B7E18C92A5D002214E7 /* PearsonNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonNotification.h; sourceTree = "<group>"; };
+		D6EF0B7F18C92A5D002214E7 /* PearsonNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotification.m; sourceTree = "<group>"; };
+		D6EF0B8018C92A5D002214E7 /* PearsonNotificationPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonNotificationPreferences.h; sourceTree = "<group>"; };
+		D6EF0B8118C92A5D002214E7 /* PearsonNotificationPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonNotificationPreferences.m; sourceTree = "<group>"; };
+		D6EF0B8218C92A5D002214E7 /* PearsonPushNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonPushNotifications.h; sourceTree = "<group>"; };
+		D6EF0B8318C92A5D002214E7 /* PearsonPushNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonPushNotifications.m; sourceTree = "<group>"; };
+		D6EF0B8418C92A5D002214E7 /* PearsonPushNotificationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PearsonPushNotificationType.h; sourceTree = "<group>"; };
+		D6EF0B8518C92A5D002214E7 /* PearsonPushNotificationType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonPushNotificationType.m; sourceTree = "<group>"; };
+		D6EF0B9D18C92BF4002214E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D6EF0B9E18C92BF4002214E7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D6EF0B9F18C92BF4002214E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6EF0BA018C92BF4002214E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D6EF0BA118C92BF4002214E7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D6EF0BA218C92BF4002214E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D6EF0BA318C92BF4002214E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6F861D718D908C700A09665 /* PearsonPushNotificationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PearsonPushNotificationsTests.m; sourceTree = "<group>"; };
+		D6F861DD18D90D1D00A09665 /* PushNotifications Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PushNotifications Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F861F718D90F5D00A09665 /* PushNotificationsTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PushNotificationsTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6655A7D18CF754E002B03C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6655AB818CFA400002B03C4 /* PearsonAppServicesiOSSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F861DA18D90D1D00A09665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F861F118D90D8500A09665 /* PearsonAppServicesiOSSDK.framework in Frameworks */,
+				D6F861F618D90DC700A09665 /* SystemConfiguration.framework in Frameworks */,
+				D6F861F218D90DB800A09665 /* CoreLocation.framework in Frameworks */,
+				D6F861F418D90DC000A09665 /* QuartzCore.framework in Frameworks */,
+				D6F861DE18D90D1D00A09665 /* XCTest.framework in Frameworks */,
+				D6F861E018D90D1D00A09665 /* UIKit.framework in Frameworks */,
+				D6F861F318D90DBA00A09665 /* CoreTelephony.framework in Frameworks */,
+				D6F861F518D90DC300A09665 /* Security.framework in Frameworks */,
+				D6F861DF18D90D1D00A09665 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6EF0B4318C9290A002214E7 = {
+			isa = PBXGroup;
+			children = (
+				D6EF0B5018C9290A002214E7 /* PushNotifications */,
+				D6EF0B6918C9290A002214E7 /* PushNotificationsTests */,
+				D6EF0B5F18C9290A002214E7 /* Frameworks */,
+				D6EF0B4F18C9290A002214E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6EF0B4F18C9290A002214E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6655A8018CF754E002B03C4 /* libPushNotifications.a */,
+				D6F861DD18D90D1D00A09665 /* PushNotifications Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6EF0B5018C9290A002214E7 /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF0B7E18C92A5D002214E7 /* PearsonNotification.h */,
+				D6EF0B7F18C92A5D002214E7 /* PearsonNotification.m */,
+				D6C3C0AC18DA54FF00D49145 /* PearsonNotificationErrors.h */,
+				D6C3C0AD18DA54FF00D49145 /* PearsonNotificationErrors.m */,
+				D6EF0B8018C92A5D002214E7 /* PearsonNotificationPreferences.h */,
+				D6EF0B8118C92A5D002214E7 /* PearsonNotificationPreferences.m */,
+				D6EF0B8218C92A5D002214E7 /* PearsonPushNotifications.h */,
+				D6EF0B8318C92A5D002214E7 /* PearsonPushNotifications.m */,
+				D6EF0B8418C92A5D002214E7 /* PearsonPushNotificationType.h */,
+				D6EF0B8518C92A5D002214E7 /* PearsonPushNotificationType.m */,
+				D6C3C0A818DA424400D49145 /* PearsonNotificationsValidator.h */,
+				D6C3C0A918DA424400D49145 /* PearsonNotificationsValidator.m */,
+				D6EF0BB618C92C73002214E7 /* Operations */,
+				D6EF0B5118C9290A002214E7 /* Supporting Files */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		D6EF0B5118C9290A002214E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF0B5218C9290A002214E7 /* PushNotifications-Info.plist */,
+				D6EF0B5318C9290A002214E7 /* InfoPlist.strings */,
+				D6EF0B5618C9290A002214E7 /* PushNotifications-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6EF0B5F18C9290A002214E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6655A7918CF6985002B03C4 /* PearsonAppServicesiOSSDK.framework */,
+				D6EF0B9D18C92BF4002214E7 /* CoreLocation.framework */,
+				D6EF0B9E18C92BF4002214E7 /* CoreTelephony.framework */,
+				D6EF0B9F18C92BF4002214E7 /* Foundation.framework */,
+				D6EF0BA018C92BF4002214E7 /* QuartzCore.framework */,
+				D6EF0BA118C92BF4002214E7 /* Security.framework */,
+				D6EF0BA218C92BF4002214E7 /* SystemConfiguration.framework */,
+				D6EF0BA318C92BF4002214E7 /* UIKit.framework */,
+				D6EF0B6018C9290A002214E7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6EF0B6918C9290A002214E7 /* PushNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64260F218F5D492003042C5 /* PearsonNotificationTests.m */,
+				D64260F418F5D8CD003042C5 /* PearsonNotificationPreferencesTests.m */,
+				D6F861D718D908C700A09665 /* PearsonPushNotificationsTests.m */,
+				D64260F618F5F29A003042C5 /* PearsonPushNotificationTypeTests.m */,
+				D64260F018F5D1AD003042C5 /* PearsonNotificationsValidatorTests.m */,
+				D6EF0B6A18C9290A002214E7 /* Supporting Files */,
+			);
+			path = PushNotificationsTests;
+			sourceTree = "<group>";
+		};
+		D6EF0B6A18C9290A002214E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F861F718D90F5D00A09665 /* PushNotificationsTests-Prefix.pch */,
+				D6EF0B6B18C9290A002214E7 /* PushNotificationsTests-Info.plist */,
+				D6EF0B6C18C9290A002214E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6EF0BB618C92C73002214E7 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				D6C73A6F18D248DB00348CF4 /* PearsonAddUserToGroupOperation.h */,
+				D6C73A7018D248DB00348CF4 /* PearsonAddUserToGroupOperation.m */,
+				D63EAF1C18D755B600020804 /* PearsonCreateGroupOperation.h */,
+				D63EAF1D18D755B600020804 /* PearsonCreateGroupOperation.m */,
+				D6014A9A18D36F20003F38DB /* PearsonDeviceRegistrationOperation.h */,
+				D6014A9B18D36F20003F38DB /* PearsonDeviceRegistrationOperation.m */,
+				D6014A9C18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.h */,
+				D6014A9D18D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m */,
+				D6014A9E18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.h */,
+				D6014A9F18D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m */,
+				D6014AA018D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.h */,
+				D6014AA118D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m */,
+				D6014A9618D36E99003F38DB /* PearsonGetGroupOperation.h */,
+				D6014A9718D36E99003F38DB /* PearsonGetGroupOperation.m */,
+				D63EAF2618D78DD100020804 /* PearsonRemoveUserFromGroupOperation.h */,
+				D63EAF2718D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m */,
+				D6014AAA18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.h */,
+				D6014AAB18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m */,
+				D6014AAC18D36F33003F38DB /* PearsonUserRegistrationOperation.h */,
+				D6014AAD18D36F33003F38DB /* PearsonUserRegistrationOperation.m */,
+				D60EF0531982DA1C00099D75 /* PearsonOperationHeader.h */,
+				D60EF0541982DA1C00099D75 /* PearsonOperationHeader.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6655A7F18CF754E002B03C4 /* PushNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6655A9C18CF754E002B03C4 /* Build configuration list for PBXNativeTarget "PushNotifications" */;
+			buildPhases = (
+				D6655A7C18CF754E002B03C4 /* Sources */,
+				D6655A7D18CF754E002B03C4 /* Frameworks */,
+				D6655A7E18CF754E002B03C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotifications;
+			productName = PushNotifications;
+			productReference = D6655A8018CF754E002B03C4 /* libPushNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6F861DC18D90D1D00A09665 /* PushNotifications Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F861EC18D90D1D00A09665 /* Build configuration list for PBXNativeTarget "PushNotifications Tests" */;
+			buildPhases = (
+				D6F861D918D90D1D00A09665 /* Sources */,
+				D6F861DA18D90D1D00A09665 /* Frameworks */,
+				D6F861DB18D90D1D00A09665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F861EB18D90D1D00A09665 /* PBXTargetDependency */,
+			);
+			name = "PushNotifications Tests";
+			productName = "PushNotifications Tests";
+			productReference = D6F861DD18D90D1D00A09665 /* PushNotifications Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6EF0B4418C9290A002214E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Pearson;
+				TargetAttributes = {
+					D6F861DC18D90D1D00A09665 = {
+						TestTargetID = D6655A7F18CF754E002B03C4;
+					};
+				};
+			};
+			buildConfigurationList = D6EF0B4718C9290A002214E7 /* Build configuration list for PBXProject "PushNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6EF0B4318C9290A002214E7;
+			productRefGroup = D6EF0B4F18C9290A002214E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6655A7F18CF754E002B03C4 /* PushNotifications */,
+				D6F861DC18D90D1D00A09665 /* PushNotifications Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F861DB18D90D1D00A09665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6655A7C18CF754E002B03C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6014AB018D36F33003F38DB /* PearsonUserRegistrationOperation.m in Sources */,
+				D6014AA618D36F20003F38DB /* PearsonDeviceUserConnectionOperation.m in Sources */,
+				D6C3C0AE18DA54FF00D49145 /* PearsonNotificationErrors.m in Sources */,
+				D6655AB718CFA3D4002B03C4 /* PearsonNotification.m in Sources */,
+				D6655AAE18CFA376002B03C4 /* PearsonNotificationPreferences.m in Sources */,
+				D60EF0551982DA1C00099D75 /* PearsonOperationHeader.m in Sources */,
+				D6C3C0AA18DA424400D49145 /* PearsonNotificationsValidator.m in Sources */,
+				D6655AAF18CFA376002B03C4 /* PearsonPushNotifications.m in Sources */,
+				D6014A9818D36E99003F38DB /* PearsonGetGroupOperation.m in Sources */,
+				D6014AA418D36F20003F38DB /* PearsonDeviceUnregistrationOperation.m in Sources */,
+				D6014AAE18D36F33003F38DB /* PearsonUpdateDeviceEntityOperation.m in Sources */,
+				D6014AA218D36F20003F38DB /* PearsonDeviceRegistrationOperation.m in Sources */,
+				D6655AB018CFA376002B03C4 /* PearsonPushNotificationType.m in Sources */,
+				D63EAF1E18D755B600020804 /* PearsonCreateGroupOperation.m in Sources */,
+				D6014AA818D36F20003F38DB /* PearsonDeviceUserDisconnectionOperation.m in Sources */,
+				D6C73A7118D248DB00348CF4 /* PearsonAddUserToGroupOperation.m in Sources */,
+				D63EAF2818D78DD100020804 /* PearsonRemoveUserFromGroupOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F861D918D90D1D00A09665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F8620518D90FA800A09665 /* PearsonUserRegistrationOperation.m in Sources */,
+				D6F8620018D90F9A00A09665 /* PearsonDeviceUserConnectionOperation.m in Sources */,
+				D6F8620218D90FA000A09665 /* PearsonGetGroupOperation.m in Sources */,
+				D6F861F918D90F8500A09665 /* PearsonPushNotificationType.m in Sources */,
+				D6F861FD18D90F9100A09665 /* PearsonCreateGroupOperation.m in Sources */,
+				D6F861F818D90F7B00A09665 /* PearsonPushNotifications.m in Sources */,
+				D6F861FF18D90F9700A09665 /* PearsonDeviceUnregistrationOperation.m in Sources */,
+				D6C3C0AF18DA54FF00D49145 /* PearsonNotificationErrors.m in Sources */,
+				D64260F518F5D8CD003042C5 /* PearsonNotificationPreferencesTests.m in Sources */,
+				D6F861FE18D90F9400A09665 /* PearsonDeviceRegistrationOperation.m in Sources */,
+				D64260F718F5F29A003042C5 /* PearsonPushNotificationTypeTests.m in Sources */,
+				D6F861FB18D90F8B00A09665 /* PearsonNotification.m in Sources */,
+				D6C3C0AB18DA424400D49145 /* PearsonNotificationsValidator.m in Sources */,
+				D652BBC61989964400C386E5 /* PearsonOperationHeader.m in Sources */,
+				D6F8620118D90F9C00A09665 /* PearsonDeviceUserDisconnectionOperation.m in Sources */,
+				D6F861FA18D90F8800A09665 /* PearsonNotificationPreferences.m in Sources */,
+				D6F8620418D90FA500A09665 /* PearsonUpdateDeviceEntityOperation.m in Sources */,
+				D64260F118F5D1AD003042C5 /* PearsonNotificationsValidatorTests.m in Sources */,
+				D6F861F018D90D2A00A09665 /* PearsonPushNotificationsTests.m in Sources */,
+				D64260F318F5D492003042C5 /* PearsonNotificationTests.m in Sources */,
+				D6F861FC18D90F8F00A09665 /* PearsonAddUserToGroupOperation.m in Sources */,
+				D6F8620318D90FA200A09665 /* PearsonRemoveUserFromGroupOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F861EB18D90D1D00A09665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6655A7F18CF754E002B03C4 /* PushNotifications */;
+			targetProxy = D6F861EA18D90D1D00A09665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6EF0B5318C9290A002214E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EF0B5418C9290A002214E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6EF0B6C18C9290A002214E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EF0B6D18C9290A002214E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6655A9D18CF754E002B03C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				DSTROOT = /tmp/PushNotifications.dst;
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../../../pearson-appservices-ios-sdk/framework/src/xcode/build/framework",
+					frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotifications/PushNotifications-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6655A9E18CF754E002B03C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				DSTROOT = /tmp/PushNotifications.dst;
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../../../pearson-appservices-ios-sdk/framework/src/xcode/build/framework",
+					frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotifications/PushNotifications-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D6EF0B7118C9290A002214E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		D6EF0B7218C9290A002214E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+		D6F861ED18D90D1D00A09665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"../../../../pearson-appservices-ios-sdk/framework/src/xcode/build/framework",
+					frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotificationsTests/PushNotificationsTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PushNotificationsTests/PushNotificationsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6F861EE18D90D1D00A09665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"../../../../pearson-appservices-ios-sdk/framework/src/xcode/build/framework",
+					frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushNotificationsTests/PushNotificationsTests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PushNotificationsTests/PushNotificationsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6655A9C18CF754E002B03C4 /* Build configuration list for PBXNativeTarget "PushNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6655A9D18CF754E002B03C4 /* Debug */,
+				D6655A9E18CF754E002B03C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EF0B4718C9290A002214E7 /* Build configuration list for PBXProject "PushNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EF0B7118C9290A002214E7 /* Debug */,
+				D6EF0B7218C9290A002214E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F861EC18D90D1D00A09665 /* Build configuration list for PBXNativeTarget "PushNotifications Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F861ED18D90D1D00A09665 /* Debug */,
+				D6F861EE18D90D1D00A09665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6EF0B4418C9290A002214E7 /* Project object */;
+}

@@ -1,0 +1,17 @@
+Pi-ios-client.xccheckout
+Breakpoints_v2.xcbkptlist
+UserInterfaceState.xcuserstate
+richard.xcuserdatad/
+target/
+DS_Store
+.DS_Store
+build/
+framework/src/xcode/build/
+*.pbxuser
+!default.pbxuser
+samples/PiClient/builds
+!default.xcworkspace
+xcuserdata
+*.xcuserstate
+profile
+umill46.xcuserdatad/

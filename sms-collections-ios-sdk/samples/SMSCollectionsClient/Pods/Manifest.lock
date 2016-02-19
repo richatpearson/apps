@@ -1,0 +1,10 @@
+PODS:
+  - sms-collections-ios-sdk (0.1.0-SNAPSHOT)
+
+DEPENDENCIES:
+  - sms-collections-ios-sdk (= 0.1.0-SNAPSHOT)
+
+SPEC CHECKSUMS:
+  sms-collections-ios-sdk: abb76763637287f636df071445aad0f3a446e022
+
+COCOAPODS: 0.35.0

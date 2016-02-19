@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+source 'ssh://git@devops-tools.pearson.com/mp/gridmobile-cocoapods.git'
+
+target 'SMSCollectionsClient' do
+  pod 'sms-collections-ios-sdk', '0.1.0-SNAPSHOT'
+end

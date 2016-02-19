@@ -1,0 +1,6 @@
+#include "Pods-CourseListClient-core-ios-sdk.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/core-ios-sdk" "${PODS_ROOT}/Headers/Build/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/classroom-ios-library" "${PODS_ROOT}/Headers/Public/classroom-ios-library/classroom-ios" "${PODS_ROOT}/Headers/Public/core-ios-sdk" "${PODS_ROOT}/Headers/Public/core-ios-sdk/Core-ios-sdk" "${PODS_ROOT}/Headers/Public/pi-ios-sdk" "${PODS_ROOT}/Headers/Public/pi-ios-sdk/Pi-ios-client"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
+VALID_ARCHITECTURES = ${PODS_COURSELISTCLIENT_CORE_IOS_SDK_VALID_ARCHITECTURES}

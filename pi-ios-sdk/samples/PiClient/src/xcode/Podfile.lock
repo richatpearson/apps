@@ -1,0 +1,10 @@
+PODS:
+  - pi-ios-sdk (1.2.0-SNAPSHOT)
+
+DEPENDENCIES:
+  - pi-ios-sdk (= 1.3.0-SNAPSHOT)
+
+SPEC CHECKSUMS:
+  pi-ios-sdk: 23b6960bfb2a2ab61748b3a2c48a4f7cfa3cb1e3
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,10 @@
+platform :ios, "7.1"
+
+target "PiClientStaging" do
+    pod 'pi-ios-sdk', '1.3.0-SNAPSHOT'
+end
+
+target "PiClientProduction" do
+    pod 'pi-ios-sdk', '1.3.0-SNAPSHOT'
+end
+

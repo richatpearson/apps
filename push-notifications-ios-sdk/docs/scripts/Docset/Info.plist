@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Pearson PushNotfications iOS SDK Library</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pearson.documentation.ios_sdk.docset</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>com.Pearson.documentation</string>
+	<key>DocSetPublisherName</key>
+	<string>Pearson</string>
+</dict>
+</plist>

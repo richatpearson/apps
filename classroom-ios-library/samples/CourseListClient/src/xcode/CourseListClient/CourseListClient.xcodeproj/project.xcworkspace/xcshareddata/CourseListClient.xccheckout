@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>785D5044-9158-4126-877D-4029DC930EB0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CourseListClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>14C686CB-1FDE-4105-85DF-9CDCD7F60ACC</key>
+		<string>ssh://devops-tools.pearson.com/mp/classroom-ios-library.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samples/CourseListClient/src/xcode/CourseListClient/CourseListClient.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>14C686CB-1FDE-4105-85DF-9CDCD7F60ACC</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://devops-tools.pearson.com/mp/classroom-ios-library.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>14C686CB-1FDE-4105-85DF-9CDCD7F60ACC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14C686CB-1FDE-4105-85DF-9CDCD7F60ACC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>classroom-ios-library</string>
+		</dict>
+	</array>
+</dict>
+</plist>
